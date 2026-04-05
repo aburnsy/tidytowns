@@ -7,3 +7,6 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
+
+# Large PDFs (results booklets ~50MB)
+research/results-booklets/
