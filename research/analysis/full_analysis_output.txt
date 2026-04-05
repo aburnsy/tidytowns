@@ -1,0 +1,116 @@
+2019: Extracted 94 total entries (41 Category B)
+2021: Extracted 771 total entries (297 Category B)
+2022: Extracted 807 total entries (317 Category B)
+2023: Extracted 789 total entries (313 Category B)
+2024: Extracted 739 total entries (324 Category B)
+2025: Extracted 848 total entries (330 Category B)
+
+Total entries: 4048 (Category B: 1622)
+
+=== BIGGEST YEAR-ON-YEAR SCORE JUMPS (Category B) ===
+ Jump | Village                        | County               |            From |              To
+-----------------------------------------------------------------------------------------------
++  83 | Knock                          | CLARE                | 2019: 260 | 2025: 343
++  61 | Culdaff                        | KERRY                | 2019: 301 | 2025: 362
++  56 | Malin                          | KERRY                | 2019: 330 | 2025: 386
++  45 | Béal Átha an Ghaorthaidh       | CORK WEST            | 2022: 335 | 2025: 380
++  42 | Rathmullan                     | KERRY                | 2019: 271 | 2023: 313
++  33 | Castlefinn                     | KERRY                | 2019: 318 | 2023: 351
++  33 | Broadford                      | KILDARE              | 2022: 339 | 2024: 372
++  32 | Carraig Airt                   | KERRY                | 2019: 331 | 2023: 363
++  31 | Dore – Dobhar                  | KERRY                | 2021: 282 | 2024: 313
++  31 | Spancilhill Clooney            | CLARE                | 2022: 245 | 2025: 276
++  31 | Durrow                         | LAOIS                | 2023: 361 | 2025: 392
++  30 | Annagry                        | KERRY                | 2019: 276 | 2023: 306
++  30 | Dore                           | KERRY                | 2019: 270 | 2023: 300
++  30 | Meadowbrook Corbally           | LIMERICK             | 2023: 253 | 2025: 283
++  30 | Ballinspittle                  | CORK WEST            | 2023: 300 | 2025: 330
++  29 | Glenties                       | KERRY                | 2019: 332 | 2023: 361
++  29 | Carrigans                      | KERRY                | 2019: 244 | 2023: 273
++  29 | Glaslough – Glasloch           | MONAGHAN             | 2021: 352 | 2024: 381
++  29 | Sneem                          | KERRY                | 2022: 351 | 2024: 380
++  27 | Doonbeg                        | CLARE                | 2019: 314 | 2022: 341
++  26 | Tulla                          | CLARE                | 2019: 283 | 2022: 309
++  26 | Ballyliffin -Baile Lifín       | KERRY                | 2019: 314 | 2023: 340
++  26 | Dore                           | KERRY                | 2023: 300 | 2025: 326
++  25 | Castletownroche                | CORK NORTH           | 2023: 361 | 2025: 386
++  25 | Kinvara                        | GALWAY               | 2024: 332 | 2025: 357
++  25 | Glenbeigh                      | KERRY                | 2022: 330 | 2024: 355
++  25 | Patrickswell                   | LIMERICK             | 2023: 296 | 2024: 321
++  25 | Ballindaggin                   | WEXFORD              | 2024: 231 | 2025: 256
++  25 | Johnstownbridge                | KILDARE              | 2024: 230 | 2025: 255
++  24 | Corofin                        | CLARE                | 2019: 305 | 2022: 329
+
+=== TIPPERARY NORTH CAT B - ALL YEARS ===
+2021 | Silvermines – Béal Átha Gabhann     | 342
+2021 | Portroe – Port Rua                  | 327
+2021 | Holycross – Mainistir Na Croiche    | 324
+2021 | Puckane – Puckaun                   | 307
+2021 | Templetuohy – Teampall Tuaithe      | 280
+2021 | Riverstown-Killeen – Baile Uí Lachnáin-An Cillín | 270
+2022 | Silvermines                         | 351 [County 3rd & Bronze]
+2022 | Portroe                             | 334
+2022 | Holycross                           | 331
+2022 | Cloughjordan                        | 325
+2022 | Puckane                             | 314
+2022 | Templetuohy                         | 289
+2022 | Riverstown-Killeen/Baile Uí Lachnáin-An Cillín | 283
+2022 | Horse and Jockey                    | 250
+2022 | Rathcabbin                          | 242
+2022 | Littleton                           | 240
+2023 | Silvermines                         | 361 [County 3rd & Bronze]
+2023 | Portroe                             | 347
+2023 | Holycross                           | 336
+2023 | Cloughjordan                        | 333
+2023 | Puckane                             | 323
+2023 | Riverstown                          | 300
+2023 | Castleiney                          | 280
+2023 | Horse and Jockey                    | 273
+2023 | Rathcabbin                          | 261
+2024 | Silvermines                         | 371 [County 3rd & Bronze]
+2024 | Killoscully                         | 362
+2024 | Portroe                             | 358
+2024 | Cloughjordan                        | 343
+2024 | Holycross                           | 343
+2024 | Puckane                             | 334
+2024 | Upperchurch                         | 320
+2024 | Two Mile Borris                     | 307
+2024 | Castleiney                          | 295
+2024 | Horse and Jockey                    | 289
+2024 | Rathcabbin                          | 282 [Endeavour]
+2024 | Littleton                           | 258
+2025 | Silvermines                         | 383 [County 2nd & Bronze]
+2025 | Portroe                             | 368
+2025 | Cloughjordan                        | 351
+2025 | Holycross                           | 350
+2025 | Puckane                             | 342
+2025 | Kilcommon                           | 334
+2025 | Upperchurch                         | 326
+2025 | Riverstown/Killeen                  | 321
+2025 | Two Mile Borris                     | 318
+2025 | Castleiney                          | 301
+2025 | Horse and Jockey                    | 299
+2025 | Rathcabbin                          | 296
+2025 | Littleton                           | 265
+
+=== TOP 20 CATEGORY B SCORES NATIONALLY - 2025 ===
+399 | Rosscarbery                    | CORK WEST [County 1st & Gold]
+398 | Timoleague                     | CORK WEST [County 2nd & Gold]
+398 | Riverstown                     | SLIGO [County 1st & Gold]
+397 | Milltown                       | GALWAY [County 2nd & Gold]
+396 | Quin                           | CLARE [County 3rd & Gold]
+396 | Geashill                       | OFFALY [County 1st & Gold]
+395 | Mulranny                       | MAYO [County 2nd & Gold]
+395 | Emly                           | TIPPERARY SOUTH [County 1st & Gold]
+394 | Inistioge                      | KILKENNY [County 1st & Gold]
+394 | Blackwater                     | WEXFORD [County 1st & Gold]
+393 | Sneem                          | KERRY [Gold]
+393 | Glaslough                      | MONAGHAN [County 1st & Gold]
+393 | Ardmore                        | WATERFORD [County 1st & Gold]
+392 | Carraig Airt                   | KERRY [County 3rd & Gold]
+392 | Durrow                         | LAOIS [County 2nd & Gold]
+392 | Stradbally                     | WATERFORD [County 2nd & Gold]
+391 | Moynalty                       | MEATH [County 2nd & Gold]
+390 | Ballydehob                     | CORK WEST [Gold]
+390 | Tyrrellspass                   | MEATH [County 3rd & Gold]
+388 | Glenties                       | KERRY [Silver]

@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Two Mile Borris",
+    "total": 318,
+    "categories": {
+      "Community": {
+        "max": 80,
+        "prev_year": 43,
+        "curr_year": 45
+      },
+      "Streetscape": {
+        "max": 80,
+        "prev_year": 39,
+        "curr_year": 41
+      },
+      "Green Spaces": {
+        "max": 80,
+        "prev_year": 42,
+        "curr_year": 43
+      },
+      "Nature & Biodiversity": {
+        "max": 55,
+        "prev_year": 28,
+        "curr_year": 29
+      },
+      "Sustainability": {
+        "max": 55,
+        "prev_year": 16,
+        "curr_year": 17
+      },
+      "Tidiness & Litter": {
+        "max": 90,
+        "prev_year": 62,
+        "curr_year": 64
+      },
+      "Residential": {
+        "max": 55,
+        "prev_year": 37,
+        "curr_year": 38
+      },
+      "Approach Roads": {
+        "max": 55,
+        "prev_year": 40,
+        "curr_year": 41
+      }
+    }
+  },
+  {
+    "name": "Silvermines (383)",
+    "total": 0,
+    "categories": {
+      "Community": {
+        "max": 48,
+        "prev_year": 52,
+        "curr_year": 55
+      },
+      "Streetscape": {
+        "max": 51,
+        "prev_year": 73,
+        "curr_year": 27
+      },
+      "Green Spaces": {
+        "max": 38,
+        "prev_year": 39,
+        "curr_year": 80
+      },
+      "Nature & Biodiversity": {
+        "max": 80,
+        "prev_year": 80,
+        "curr_year": 55
+      },
+      "Sustainability": {
+        "max": 55,
+        "prev_year": 90,
+        "curr_year": 55
+      },
+      "Tidiness & Litter": {
+        "max": 55,
+        "prev_year": 47,
+        "curr_year": 50
+      },
+      "Residential": {
+        "max": 53,
+        "prev_year": 49,
+        "curr_year": 25
+      },
+      "Approach Roads": {
+        "max": 72,
+        "prev_year": 37,
+        "curr_year": 38
+      }
+    }
+  },
+  {
+    "name": "Durrow (392)",
+    "total": 0,
+    "categories": {}
+  },
+  {
+    "name": "Emly (395)",
+    "total": 0,
+    "categories": {
+      "Community": {
+        "max": 59,
+        "prev_year": 50,
+        "curr_year": 51
+      },
+      "Streetscape": {
+        "max": 47,
+        "prev_year": 74,
+        "curr_year": 29
+      },
+      "Green Spaces": {
+        "max": 40,
+        "prev_year": 45,
+        "curr_year": 80
+      },
+      "Nature & Biodiversity": {
+        "max": 80,
+        "prev_year": 80,
+        "curr_year": 55
+      },
+      "Sustainability": {
+        "max": 55,
+        "prev_year": 90,
+        "curr_year": 55
+      },
+      "Tidiness & Litter": {
+        "max": 55,
+        "prev_year": 58,
+        "curr_year": 49
+      },
+      "Residential": {
+        "max": 49,
+        "prev_year": 45,
+        "curr_year": 27
+      },
+      "Approach Roads": {
+        "max": 73,
+        "prev_year": 39,
+        "curr_year": 44
+      }
+    }
+  },
+  {
+    "name": "Rosscarbery (399)",
+    "total": 0,
+    "categories": {}
+  }
+]
