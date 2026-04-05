@@ -1,0 +1,9 @@
+site/site/
+__pycache__/
+*.pyc
+.venv/
+.superpowers/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
