@@ -1,5 +1,6 @@
 ---
 title: "Wildflower area at church grounds"
+delivery_year: 2026
 tags:
   - green-spaces
   - nature-biodiversity
@@ -13,8 +14,6 @@ references:
   - title: "All-Ireland Pollinator Plan - Managing Grassland"
     url: "https://pollinators.ie/grasslands/"
 ---
-
-# Wildflower area at church grounds
 
 ## Description
 
@@ -32,11 +31,3 @@ The [All-Ireland Pollinator Plan - Managing Grassland](https://pollinators.ie/gr
 - Remove dock leaves and thistles monthly (April to September)
 - Install "managed for wildlife" signage so visitors understand the intent
 - Cut and remove in autumn to keep soil nutrients low and favour wildflowers over coarse grasses
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

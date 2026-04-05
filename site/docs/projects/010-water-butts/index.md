@@ -1,5 +1,6 @@
 ---
 title: "Install water butts for watering containers and baskets"
+delivery_year: 2026
 tags:
   - sustainability
 status: "Planned 2026"
@@ -11,8 +12,6 @@ inspired_by: "2025 adjudication recommendation"
 special_award: "Sustainability & Circular Economy"
 ---
 
-# Install water butts for watering containers and baskets
-
 ## Description
 
 Installing water butts at key locations around the village reduces reliance on mains water for watering flower containers and hanging baskets. This conserves water, lowers costs, and demonstrates a practical commitment to sustainability. Collected rainwater is often better for plants than treated tap water.
@@ -20,11 +19,3 @@ Installing water butts at key locations around the village reduces reliance on m
 ## What the adjudicator said
 
 The 2025 adjudicator asked whether we had considered installing water butts to make watering containers and baskets more convenient and more environmentally responsible.
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

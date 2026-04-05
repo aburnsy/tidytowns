@@ -1,5 +1,6 @@
 ---
 title: "Start a seed saving program with the school"
+delivery_year: 2026
 tags:
   - nature-biodiversity
   - sustainability
@@ -12,16 +13,6 @@ inspired_by: "Emly saves 90% of seed for future planting"
 special_award: "Sustainability & Circular Economy"
 ---
 
-# Start a seed saving program with the school
-
 ## Description
 
 A seed saving program in partnership with the local school would teach children about plant life cycles and sustainable growing while reducing the cost of annual replanting. The exemplar village of Emly saves approximately 90% of their seed from year to year, dramatically reducing costs and waste. Involving the school adds an educational dimension and connects the biodiversity work to the next generation.
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

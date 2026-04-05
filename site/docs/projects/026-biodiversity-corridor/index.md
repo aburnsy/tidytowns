@@ -1,5 +1,6 @@
 ---
 title: "Biodiversity corridor and native tree planting scheme"
+delivery_year: 2028
 tags:
   - nature-biodiversity
 status: "Planned 2028"
@@ -12,8 +13,6 @@ references:
   - title: "All-Ireland Pollinator Plan - Trees & Hedgerows"
     url: "https://pollinators.ie/trees-hedgerows/"
 ---
-
-# Biodiversity corridor and native tree planting scheme
 
 ## Description
 
@@ -31,11 +30,3 @@ The [All-Ireland Pollinator Plan - Trees & Hedgerows](https://pollinators.ie/tre
 - Hawthorn, blackthorn, rowan, willow, and wild cherry are among the most valuable for pollinators
 - Avoid clipped formal hedges where possible — allow flowering to support bees
 - Connect planted areas to form corridors rather than isolated islands of habitat
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

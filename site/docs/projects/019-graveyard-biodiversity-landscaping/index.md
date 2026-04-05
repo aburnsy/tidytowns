@@ -1,5 +1,6 @@
 ---
 title: "Biodiversity-rich landscaping for graveyard extension"
+delivery_year: 2027
 tags:
   - nature-biodiversity
 status: "Planned 2027"
@@ -12,8 +13,6 @@ references:
   - title: "All-Ireland Pollinator Plan - Churchyards & Graveyards"
     url: "https://pollinators.ie/churchyards/"
 ---
-
-# Biodiversity-rich landscaping for graveyard extension
 
 ## Description
 
@@ -31,11 +30,3 @@ The [All-Ireland Pollinator Plan - Churchyards & Graveyards](https://pollinators
 - Use native wildflower species appropriate to the soil type and conditions
 - Manage grass cutting to protect ground-nesting bees and allow plants to set seed
 - Install interpretation signage to explain the biodiversity management approach to visitors
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

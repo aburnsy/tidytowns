@@ -1,5 +1,6 @@
 ---
 title: "Community food waste awareness workshop"
+delivery_year: 2026
 tags:
   - sustainability
 status: "Planned 2026"
@@ -11,16 +12,6 @@ inspired_by: "Emly held food waste workshop in December"
 special_award: "Sustainability & Circular Economy"
 ---
 
-# Community food waste awareness workshop
-
 ## Description
 
 A community workshop on food waste reduction would educate residents about practical ways to reduce household food waste, from better meal planning to composting. The exemplar village of Emly held a food waste workshop and included it as part of their sustainability programme. This type of event demonstrates active community engagement with circular economy principles.
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

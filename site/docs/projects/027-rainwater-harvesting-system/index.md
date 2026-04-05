@@ -1,5 +1,6 @@
 ---
 title: "Village-scale rainwater harvesting system"
+delivery_year: 2028
 tags:
   - sustainability
 status: "Planned 2028"
@@ -11,16 +12,6 @@ inspired_by: "Scales up sensory garden demo to village level"
 special_award: "Sustainability & Circular Economy"
 ---
 
-# Village-scale rainwater harvesting system
-
 ## Description
 
 Building on the rainwater collection demonstration at the sensory garden, this project would scale up rainwater harvesting to serve multiple village green spaces. A village-scale system would meaningfully reduce mains water consumption for community planting and demonstrate a serious commitment to sustainable water management. This is a larger capital investment suited to a longer planning horizon.
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

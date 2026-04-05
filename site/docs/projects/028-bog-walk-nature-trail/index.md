@@ -1,5 +1,6 @@
 ---
 title: "Transform the Bog Walk into a Biodiversity Nature Trail"
+delivery_year: 2027
 tags:
   - nature-biodiversity
   - green-spaces
@@ -18,8 +19,6 @@ references:
     url: "https://www.leavenotraceireland.org/"
 ---
 
-# Transform the Bog Walk into a Biodiversity Nature Trail
-
 ## Description
 
 Transform existing Bog Walk from a walking path into a biodiversity nature trail with interpretation panels, species ID boards, and open-air learning area. Inspired by Silvermines whose Nature Trail helped them score 93% in Nature & Biodiversity vs TMB's 53%.
@@ -34,11 +33,3 @@ Phased delivery:
 
 - [All-Ireland Pollinator Plan](https://pollinators.ie/) - guidance on habitat management and species-friendly planting alongside the trail
 - [Leave No Trace Ireland](https://www.leavenotraceireland.org/) - principles for managing a nature trail that protects the very habitat it showcases
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

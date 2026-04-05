@@ -1,5 +1,6 @@
 ---
 title: "Replace planter species with All-Ireland Pollinator Plan natives"
+delivery_year: 2026
 tags:
   - green-spaces
   - nature-biodiversity
@@ -13,8 +14,6 @@ references:
   - title: "All-Ireland Pollinator Plan - Pollinator-friendly Plants"
     url: "https://pollinators.ie/plants/"
 ---
-
-# Replace planter species with All-Ireland Pollinator Plan natives
 
 ## Description
 
@@ -32,11 +31,3 @@ The [All-Ireland Pollinator Plan - Pollinator-friendly Plants](https://pollinato
 - Choose plants with simple, open flowers accessible to short-tongued bees
 - Aim for continuous flowering from March to October
 - Avoid double-flowered or highly bred cultivars which have little or no nectar and pollen
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

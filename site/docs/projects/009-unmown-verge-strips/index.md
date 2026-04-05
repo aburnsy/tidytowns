@@ -1,5 +1,6 @@
 ---
 title: "Leave unmown strips on approach road verges for wildlife"
+delivery_year: 2026
 tags:
   - nature-biodiversity
   - approach-roads
@@ -13,8 +14,6 @@ references:
   - title: "All-Ireland Pollinator Plan - Managing Grassland"
     url: "https://pollinators.ie/grasslands/"
 ---
-
-# Leave unmown strips on approach road verges for wildlife
 
 ## Description
 
@@ -32,11 +31,3 @@ The [All-Ireland Pollinator Plan - Managing Grassland](https://pollinators.ie/gr
 - Remove dock leaves and thistles monthly (April to September)
 - Install "managed for wildlife" signage so the community understands the intent
 - Cut and remove in autumn to keep soil nutrients low and favour wildflowers over grasses
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)
