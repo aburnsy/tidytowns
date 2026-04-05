@@ -8,5 +8,11 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Large PDFs (results booklets ~50MB)
+# Binary files (PDFs, docx)
 research/results-booklets/
+research/reports/
+research/analysis/*.json
+applications/
+
+# Private strategy files (marks, adjudicator tracker - DO NOT publish)
+private/
