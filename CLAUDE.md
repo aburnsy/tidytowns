@@ -15,12 +15,12 @@ This is the project management and strategy platform for Two Mile Borris (TMB) T
 
 ### Build & preview the site
 ```bash
-cd site && uv run --with mkdocs-material mkdocs serve
+cd site && uv run --with mkdocs-material --with mkdocs-macros-plugin mkdocs serve
 ```
 
 ### Build the site (production)
 ```bash
-cd site && uv run --with mkdocs-material mkdocs build
+cd site && uv run --with mkdocs-material --with mkdocs-macros-plugin mkdocs build
 ```
 
 ### Add a new project (interactive)
@@ -38,16 +38,6 @@ bash scripts/new-task.sh
 bash scripts/generate-recurring.sh
 ```
 
-### Rebuild homepage project index
-```bash
-bash scripts/generate-index.sh
-```
-
-### Rebuild volunteer task view
-```bash
-bash scripts/generate-my-tasks.sh
-```
-
 ### Run research scripts
 ```bash
 uv run --with pymupdf python research/extract_scores.py
@@ -56,8 +46,8 @@ uv run --with pymupdf python research/extract_scores.py
 ## Architecture
 
 - `site/docs/projects/NNN-slug/index.md` - Project pages with frontmatter (status, owner, cost, benefit, tags)
-- `site/docs/projects/NNN-slug/task-*.md` - Task files within each project (assignees, due dates, status)
-- `site/docs/projects/NNN-slug/task-*-template.md` - Recurring task templates
+- `site/docs/projects/NNN-slug/task-*.md` - Task files within each project (assignee, due date, status, evidence/photos)
+- `site/main.py` - mkdocs-macros hook that auto-renders project metadata, task tables, and listing pages
 - `private/` - Application strategy, marks analysis, adjudicator tracker. NEVER publish these.
 - `research/` - Results booklets, reports, analysis scripts. Not published.
 
@@ -67,7 +57,7 @@ uv run --with pymupdf python research/extract_scores.py
 - **Public site language** - never mention marks, points, or scoring on the public site. Use "benefit: High/Medium/Low" instead.
 - **Volunteer names** - shortnames only (first name + last initial). No PII.
 - **Biodiversity projects** - follow pollinators.ie All-Ireland Pollinator Plan guidelines (no-mow first, native seed only)
-- **After modifying project/task files** - run `scripts/generate-index.sh` and `scripts/generate-my-tasks.sh` to update derived pages
+- **After modifying project/task files** - no need to run generation scripts; macros render everything at build time
 - **Marks analysis stays private** - `private/marks-analysis.md` maps projects to estimated marks. The public site only shows benefit level.
 
 ## Competition Context

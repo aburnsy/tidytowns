@@ -84,9 +84,17 @@ fi
 # 4. Status
 # ──────────────────────────────────────────────
 echo ""
-echo "Status options:  Planned 2026 | Planned 2027 | Active | Completed | On Hold"
-read -rp "Status [Planned 2026]: " status
-status="${status:-Planned 2026}"
+echo "Delivery year:"
+echo "  1) 2026"
+echo "  2) 2027"
+echo "  3) 2028"
+read -rp "Year [1]: " year_num
+case "${year_num:-1}" in
+  2) delivery_year="2027" ;;
+  3) delivery_year="2028" ;;
+  *) delivery_year="2026" ;;
+esac
+status="Planned $delivery_year"
 
 # ──────────────────────────────────────────────
 # 5. Owner (shortname or blank)
@@ -184,6 +192,7 @@ owner_val="${owner:-}"
 cat > "$project_dir/index.md" <<MDEOF
 ---
 title: "$title"
+delivery_year: $delivery_year
 tags:
 ${tags_yaml}status: "$status"
 owner: "$owner_val"
@@ -192,19 +201,7 @@ benefit: "$benefit"
 volunteer_hours: "$volunteer_hours"
 ${inspired_by_line}${special_award_line}---
 
-# $title
-
-## Description
-
 ${description:-*No description provided yet.*}
-
-## Tasks
-
-*Tasks will be added when the project is approved and assigned.*
-
-## Have your say
-
-[Comment on this project](../../submit-idea.md) | [Propose a new project](../../propose-project.md)
 MDEOF
 
 echo ""

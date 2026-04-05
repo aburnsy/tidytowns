@@ -118,22 +118,10 @@ else
 fi
 
 # ──────────────────────────────────────────────
-# 4. Assignees
+# 4. Assignee
 # ──────────────────────────────────────────────
 echo ""
-read -rp "Assignees (comma-separated shortnames or blank): " assignees_raw
-
-assignees_yaml=""
-if [ -n "$assignees_raw" ]; then
-  IFS=',' read -ra assignee_arr <<< "$assignees_raw"
-  for a in "${assignee_arr[@]}"; do
-    a=$(echo "$a" | sed 's/^ *//;s/ *$//')
-    [ -n "$a" ] && assignees_yaml="${assignees_yaml}  - $a"$'\n'
-  done
-fi
-if [ -z "$assignees_yaml" ]; then
-  assignees_yaml="  []"$'\n'
-fi
+read -rp "Assignee shortname (or blank): " assignee
 
 # ──────────────────────────────────────────────
 # 5. Description
@@ -187,14 +175,10 @@ cat > "$task_file" <<MDEOF
 ---
 title: "$task_title"
 status: "$task_status"
-assignees:
-${assignees_yaml}${due_date_line}${recurring_line}
+assignee: "$assignee"
+${due_date_line}${recurring_line}
 ${active_months_line}${tags_block}
 ---
-
-# $task_title
-
-## Description
 
 ${description:-*No description provided yet.*}
 MDEOF
