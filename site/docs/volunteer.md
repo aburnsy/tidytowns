@@ -15,4 +15,4 @@ Tell us which project interests you and when you're available - we'll be in touc
 - What you can help with
 - When you're available
 
-[Email us to volunteer :material-hand-heart:](mailto:andrewburns89@gmail.com){ .md-button .md-button--primary }
+[Email us to volunteer :material-hand-heart:](mailto:andrewburns89@gmail.com?subject=TMB%20Tidy%20Towns%20-%20Volunteer){ .md-button .md-button--primary }
