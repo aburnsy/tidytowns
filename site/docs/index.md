@@ -17,6 +17,44 @@ Welcome to the Two Mile Borris Tidy Towns project tracker. Here you'll find all 
 - [**Segregate collected litter into recyclables**](projects/001-segregate-litter/index.md) — Planned 2026 | Cost: €0 | Benefit: **High** | Award: Sustainability & Circular Economy
 - [**Start composting organic waste for reuse in beds**](projects/002-composting/index.md) — Planned 2026 | Cost: €50-80 | Benefit: **High** | Award: Sustainability & Circular Economy
 - [**Feature the Bog Walk Loop in our application**](projects/003-feature-bog-walk/index.md) — Planned 2026 | Cost: €0 | Benefit: **High**
+- [**Elaborate on Green Schools program connection**](projects/004-green-schools-elaboration/index.md) — Planned 2026 | Cost: €0 | Benefit: **Low**
+- [**Keep mutt mitt dispenser stocked at monument**](projects/005-mutt-mitt-dispenser/index.md) — Planned 2026 | Cost: €20/yr | Benefit: **Low**
+- [**Improve application writing across all categories**](projects/006-better-application-writing/index.md) — Planned 2026 | Cost: €0 | Benefit: **High**
+- [**Contact Heritage Officer about forge window restoration**](projects/007-contact-heritage-officer/index.md) — Planned 2026 | Cost: €0 | Benefit: **Medium**
+- [**Contact Biodiversity Officer about graveyard landscaping**](projects/008-contact-biodiversity-officer/index.md) — Planned 2026 | Cost: €0 | Benefit: **Medium**
 - [**Leave unmown strips on approach road verges for wildlife**](projects/009-unmown-verge-strips/index.md) — Planned 2026 | Cost: €0-30 (signage) | Benefit: **Medium**
+- [**Install water butts for watering containers and baskets**](projects/010-water-butts/index.md) — Planned 2026 | Cost: €100-150 | Benefit: **Medium** | Award: Sustainability & Circular Economy
+- [**Wildflower area at church grounds**](projects/011-wildflower-church/index.md) — Planned 2026 | Cost: €0-50 (signage only) | Benefit: **Medium**
+- [**Replace planter species with All-Ireland Pollinator Plan natives**](projects/012-pollinator-plan-species/index.md) — Planned 2026 | Cost: €100-200 | Benefit: **High**
+- [**Repaint bollards at monument area**](projects/013-repaint-bollards/index.md) — Planned 2026 | Cost: €30-50 | Benefit: **Low**
+- [**Improve appearance of derelict properties**](projects/014-derelict-property-improvements/index.md) — Planned 2026 | Cost: €100-200 | Benefit: **Medium**
+- [**Garden competition across housing estates**](projects/015-garden-competition/index.md) — Planned 2026 | Cost: €100 (prizes) | Benefit: **Medium**
+- [**Wildflower area at Glen Carraig entrance**](projects/016-glen-carraig-wildflower/index.md) — Planned 2026 | Cost: €0-50 (signage only) | Benefit: **Medium**
+- [**Bedding and climbers at Noel Hayes Park**](projects/017-noel-hayes-park-bedding/index.md) — Planned 2026 | Cost: €150-300 | Benefit: **Medium**
+- [**Sensory garden timber maintenance blitz**](projects/018-sensory-garden-maintenance/index.md) — Planned 2026 | Cost: €100-200 | Benefit: **Medium**
+- [**Biodiversity-rich landscaping for graveyard extension**](projects/019-graveyard-biodiversity-landscaping/index.md) — Planned 2027 | Cost: €500-1500 | Benefit: **High**
+- [**Heritage interpretation panels at key village sites**](projects/020-heritage-interpretation-panels/index.md) — Planned 2027 | Cost: €500-1000 | Benefit: **High**
+- [**Create and submit formal 3/5-year TidyTowns plan**](projects/021-formal-3-5-year-plan/index.md) — Planned 2027 | Cost: €0 (time only) | Benefit: **High**
+- [**Install replica window in the old forge**](projects/022-forge-replica-window/index.md) — Planned 2027 | Cost: €500-2000 | Benefit: **Medium**
+- [**Biodiversity signage and species ID boards for bog walk**](projects/023-bog-walk-biodiversity-signage/index.md) — Planned 2027 | Cost: €500-1000 | Benefit: **High**
+- [**Community food and herb garden**](projects/024-community-food-garden/index.md) — Planned 2028 | Cost: €2000-5000 | Benefit: **High** | Award: Sustainability & Circular Economy
+- [**Heritage trail linking castle, forge, church, and bog walk**](projects/025-heritage-trail/index.md) — Planned 2028 | Cost: €3000-8000 | Benefit: **High**
+- [**Biodiversity corridor and native tree planting scheme**](projects/026-biodiversity-corridor/index.md) — Planned 2028 | Cost: €1000-3000 | Benefit: **High**
+- [**Village-scale rainwater harvesting system**](projects/027-rainwater-harvesting-system/index.md) — Planned 2028 | Cost: €2000-5000 | Benefit: **Medium** | Award: Sustainability & Circular Economy
 - [**Transform the Bog Walk into a Biodiversity Nature Trail**](projects/028-bog-walk-nature-trail/index.md) — Planned 2027 | Cost: €1,000-3,000 (on top of existing restoration budget) | Benefit: **High** | Award: Leave No Trace
+- [**Start a seed saving program with the school**](projects/029-seed-saving-program/index.md) — Planned 2026 | Cost: €20-50 | Benefit: **Medium** | Award: Sustainability & Circular Economy
+- [**Install wildlife information panels at 3-4 key spots**](projects/030-wildlife-info-panels/index.md) — Planned 2027 | Cost: €300-600 | Benefit: **High**
+- [**Expand school area into sustainability showcase**](projects/031-school-sustainability-showcase/index.md) — Planned 2028 | Cost: €500-1500 | Benefit: **High**
+- [**Community inclusivity event or festival**](projects/032-community-inclusivity-event/index.md) — Planned 2026 | Cost: €200-500 | Benefit: **High** | Award: Inclusion Award
+- [**Paint vacant/derelict buildings in vibrant colours**](projects/034-paint-vacant-buildings/index.md) — Planned 2026 | Cost: €200-500 | Benefit: **High**
+- [**Seasonal photography program across all 4 seasons**](projects/035-seasonal-photography/index.md) — Planned 2026 | Cost: €0 | Benefit: **High**
+- [**Apply for SEAI community energy master plan grant**](projects/036-seai-energy-grant/index.md) — Planned 2027 | Cost: €0 | Benefit: **High** | Award: Sustainability & Circular Economy
+- [**Conduct wildlife surveys (birds, pollinators, species)**](projects/037-wildlife-surveys/index.md) — Planned 2027 | Cost: €0-200 | Benefit: **High**
+- [**Integrate UN Sustainable Development Goals into our work**](projects/038-sdg-integration/index.md) — Planned 2026 | Cost: €0 | Benefit: **Medium**
+- [**Add Slan Abhaile to back of village welcome signs**](projects/039-slan-abhaile-signs/index.md) — Planned 2026 | Cost: €50-100 | Benefit: **Low**
+- [**Develop eco-friendly weed management approach**](projects/040-eco-friendly-weed-management/index.md) — Planned 2026 | Cost: €50-100 | Benefit: **Medium** | Award: Sustainability & Circular Economy
+- [**Knowledge sharing with other TidyTowns groups**](projects/041-knowledge-sharing-other-tt/index.md) — Planned 2027 | Cost: €0-100 | Benefit: **Medium**
+- [**Community food waste awareness workshop**](projects/042-food-waste-workshop/index.md) — Planned 2026 | Cost: €50-200 | Benefit: **Medium** | Award: Sustainability & Circular Economy
+- [**Create a Tidy Towns Instagram account**](projects/043-tidy-towns-instagram/index.md) — Planned 2026 | Cost: €0 | Benefit: **Medium**
+- [**Year-round photo and video documentation**](projects/044-seasonal-photo-program/index.md) — Planned 2026 | Cost: €0 | Benefit: **High**
 <!-- PROJECT_LIST_END -->
