@@ -1,0 +1,50 @@
+site_name: TMB Tidy Towns
+site_description: Two Mile Borris Tidy Towns - Community Projects
+site_url: ""
+
+theme:
+  name: material
+  palette:
+    primary: green
+    accent: light green
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - navigation.indexes
+  icon:
+    logo: material/leaf
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Projects: projects/
+  - My Tasks: my-tasks.md
+  - Progress: progress.md
+  - Propose a Project: propose-project.md
+  - Comment on a Project: submit-idea.md
+  - Tags: tags.md
+  - About: about.md

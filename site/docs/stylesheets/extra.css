@@ -1,0 +1,35 @@
+.status-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: 600;
+  color: white;
+}
+.status-planned { background-color: #1976d2; }
+.status-will-do { background-color: #388e3c; }
+.status-wont-do { background-color: #757575; }
+.status-discussion { background-color: #f57c00; }
+.status-pending { background-color: #90a4ae; }
+.status-in-progress { background-color: #1976d2; }
+.status-done { background-color: #388e3c; }
+.benefit-high { color: #388e3c; font-weight: bold; }
+.benefit-medium { color: #f57c00; font-weight: bold; }
+.benefit-low { color: #757575; }
+.project-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+.project-card:hover {
+  border-color: var(--md-accent-fg-color);
+}
+.project-meta {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 0.85em;
+  color: var(--md-default-fg-color--light);
+  margin-top: 8px;
+}
