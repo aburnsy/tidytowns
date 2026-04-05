@@ -6,13 +6,6 @@ title: Comment on a Project
 
 Have thoughts on one of our projects? We'd love to hear from you!
 
-Use the form below to share ideas, suggest improvements, or volunteer for a specific project.
+Use the button below to send us your feedback. Let us know which project you're commenting on and what you think.
 
-!!! info "Google Form Setup Required"
-    To set up the comment form:
-
-    1. Create a Google Form with fields: Your name (optional), Which project? (dropdown), Your idea/comment, Location in village (optional)
-    2. Get the embed URL from Google Forms (Send > Embed)
-    3. Replace this notice with: `<iframe src="YOUR_FORM_URL" width="100%" height="800" frameborder="0">Loading...</iframe>`
-
-Your responses are reviewed by our committee and help shape our village improvement work.
+[Comment on a Project :material-email-outline:](mailto:andrewburns89@gmail.com?subject=TMB%20Tidy%20Towns%20-%20Project%20Comment&body=Which%20project%3A%20%0A%0AMy%20comment%20or%20idea%3A%20){ .md-button .md-button--primary }

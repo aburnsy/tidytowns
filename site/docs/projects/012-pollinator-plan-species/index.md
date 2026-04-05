@@ -39,4 +39,4 @@ The [All-Ireland Pollinator Plan - Pollinator-friendly Plants](https://pollinato
 
 ## Have your say
 
-[Comment on this project](../../submit-idea.md) | [Propose a new project](../../propose-project.md)
+[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

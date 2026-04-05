@@ -26,4 +26,4 @@ The 2025 adjudicator recommended installing a replica window in the old forge an
 
 ## Have your say
 
-[Comment on this project](../../submit-idea.md) | [Propose a new project](../../propose-project.md)
+[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

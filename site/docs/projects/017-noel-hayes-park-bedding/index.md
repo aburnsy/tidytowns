@@ -26,4 +26,4 @@ The 2025 adjudicator recommended enhancing Noel Hayes Park with additional beddi
 
 ## Have your say
 
-[Comment on this project](../../submit-idea.md) | [Propose a new project](../../propose-project.md)
+[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

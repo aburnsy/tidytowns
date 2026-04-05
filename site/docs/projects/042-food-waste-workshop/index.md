@@ -23,4 +23,4 @@ A community workshop on food waste reduction would educate residents about pract
 
 ## Have your say
 
-[Comment on this project](../../submit-idea.md) | [Propose a new project](../../propose-project.md)
+[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

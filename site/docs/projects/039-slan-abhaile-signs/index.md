@@ -22,4 +22,4 @@ Adding "Slán Abhaile" (Safe Home) to the reverse side of the village welcome si
 
 ## Have your say
 
-[Comment on this project](../../submit-idea.md) | [Propose a new project](../../propose-project.md)
+[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)

@@ -26,4 +26,4 @@ Both the 2024 and 2025 adjudicators noted that the bollards at the monument area
 
 ## Have your say
 
-[Comment on this project](../../submit-idea.md) | [Propose a new project](../../propose-project.md)
+[Comment on this project](../../submit-idea.md) | [Volunteer](../../volunteer.md) | [Propose a new project](../../propose-project.md)
