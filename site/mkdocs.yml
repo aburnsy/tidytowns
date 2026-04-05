@@ -20,6 +20,7 @@ theme:
 
 plugins:
   - search
+  - macros
   - tags
 
 extra_css:
