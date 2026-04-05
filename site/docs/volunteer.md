@@ -15,6 +15,6 @@ Tell us which project interests you and when you're available - we'll be in touc
 - What you can help with
 - When you're available
 
-[Email us to volunteer :material-hand-heart:](mailto:andrewburns89@gmail.com?subject=TMB%20Tidy%20Towns%20-%20Volunteer){ .md-button .md-button--primary }
+[Email us to volunteer :material-hand-heart:](https://mail.google.com/mail/?view=cm&to=andrewburns89@gmail.com&su=TMB+Tidy+Towns+-+Volunteer){ .md-button .md-button--primary target=_blank }
 
-If the button above doesn't open your email, send a message to **andrewburns89@gmail.com** with the subject "TMB Tidy Towns - Volunteer".
+*Not using Gmail? Send your message to **andrewburns89@gmail.com** with the subject "TMB Tidy Towns - Volunteer".*

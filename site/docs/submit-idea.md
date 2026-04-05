@@ -13,6 +13,6 @@ Let us know which project you're commenting on and what you think.
 - Which project you're commenting on
 - Your comment or idea
 
-[Email your comment :material-email-outline:](mailto:andrewburns89@gmail.com?subject=TMB%20Tidy%20Towns%20-%20Project%20Comment){ .md-button .md-button--primary }
+[Email your comment :material-email-outline:](https://mail.google.com/mail/?view=cm&to=andrewburns89@gmail.com&su=TMB+Tidy+Towns+-+Project+Comment){ .md-button .md-button--primary target=_blank }
 
-If the button above doesn't open your email, send a message to **andrewburns89@gmail.com** with the subject "TMB Tidy Towns - Project Comment".
+*Not using Gmail? Send your message to **andrewburns89@gmail.com** with the subject "TMB Tidy Towns - Project Comment".*
