@@ -121,7 +121,7 @@
         .legend-row { cursor: pointer; padding: 2px 4px; border-radius: 4px; transition: opacity 0.2s, background 0.2s; }
         .legend-row:hover { background: rgba(0,0,0,0.05); }
         .legend-row.dimmed { opacity: 0.4; }
-        .legend-featured { background: rgba(27,94,32,0.08); }
+        .legend-featured { background: rgba(230,81,0,0.08); }
     </style>
 </head>
 <body>
@@ -137,7 +137,7 @@
         <div class="legend-row" data-category="Village Features"><span class="legend-dot" style="background:#2196F3"></span> Village Features</div>
         <div class="legend-row" data-category="Businesses"><span class="legend-dot" style="background:#FF9800"></span> Businesses</div>
         <div class="legend-row" data-category="Green Spaces &amp; Nature"><span class="legend-dot" style="background:#4CAF50"></span> Green Spaces &amp; Nature</div>
-        <div class="legend-row legend-featured" data-category="Bog Walk"><span class="legend-line" style="border-color:#2E7D32"></span> <strong>Bog Walk Loop</strong></div>
+        <div class="legend-row legend-featured" data-category="Bog Walk"><span class="legend-line" style="border-color:#E65100"></span> <strong>Bog Walk Loop</strong></div>
         <div class="legend-row" data-category="School"><span class="legend-dot" style="background:#9C27B0"></span> School</div>
         <div class="legend-row" data-category="Housing Estates"><span class="legend-dot" style="background:#00838F"></span> Housing Estates</div>
         <div class="legend-row" data-category="Other"><span class="legend-dot" style="background:#37474F"></span> Other</div>
@@ -192,21 +192,21 @@
         var bogWalk = MAP_DATA.bogWalk;
         if (bogWalk && bogWalk.path && bogWalk.path.length > 1) {
             bogGlow = L.polyline(bogWalk.path, {
-                color: bogWalk.color, weight: 12, opacity: 0.3,
+                color: '#E65100', weight: 10, opacity: 0.2,
                 interactive: false
             }).addTo(map);
 
             bogPath = L.polyline(bogWalk.path, {
-                color: '#2E7D32', weight: 5, opacity: 0.9,
-                lineCap: 'round', lineJoin: 'round'
+                color: '#E65100', weight: 4, opacity: 0.85,
+                dashArray: '10 6', lineCap: 'round', lineJoin: 'round'
             }).addTo(map);
 
             bogPath.on('mouseover', function() {
-                this.setStyle({ weight: 7 });
+                this.setStyle({ weight: 6 });
                 this.getElement().style.cursor = 'pointer';
             });
             bogPath.on('mouseout', function() {
-                this.setStyle({ weight: 5 });
+                this.setStyle({ weight: 4 });
             });
 
             var midIdx = Math.floor(bogWalk.path.length / 2);
@@ -217,10 +217,9 @@
             var bogMarkerData = {
                 name: bogWalk.name,
                 category: bogWalk.category,
-                color: bogWalk.color,
+                color: '#E65100',
                 desc: bogWalk.description,
                 distance: bogWalk.distance,
-                coords: bogMidpoint,
                 photos: bogWalk.photos || []
             };
             bogPath.bindPopup(buildPopup(bogMarkerData), { maxWidth: 320, minWidth: 280 });
@@ -258,15 +257,15 @@
                     heroCaption +
                     '<h3>' + m.name + '</h3>' +
                     '<span class="popup-cat" style="background:' + m.color + '">' + m.category + '</span>' +
-                    (m.distance ? '<p style="margin:0 0 8px 0;font-size:13px;color:#1B5E20;font-weight:600;">' + m.distance + '</p>' : '') +
+                    (m.distance ? '<p style="margin:0 0 8px 0;font-size:13px;color:#E65100;font-weight:600;">' + m.distance + '</p>' : '') +
                     '<p>' + m.desc + '</p>' +
                     gallery +
-                    '<div class="popup-links">' +
+                    (m.coords ? '<div class="popup-links">' +
                         '<a class="gmaps-link" href="' + gmapsUrl(m.coords[0], m.coords[1]) + '" target="_blank">' +
                             '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>' +
                             'View on Google Maps' +
                         '</a>' +
-                    '</div>' +
+                    '</div>' : '') +
                 '</div>' +
             '</div>';
         }
@@ -341,13 +340,15 @@
                 var cat = this.getAttribute('data-category');
 
                 if (cat === 'Bog Walk') {
-                    if (bogPath) {
-                        map.fitBounds(bogPath.getBounds(), { padding: [50, 50] });
-                        if (bogGlow) {
-                            bogGlow.setStyle({ opacity: 0.6 });
-                            setTimeout(function() { bogGlow.setStyle({ opacity: 0.3 }); }, 600);
-                        }
-                        bogPath.openPopup(L.latLng(bogMidpoint[0], bogMidpoint[1]));
+                    if (!bogPath) return;
+                    if (map.hasLayer(bogPath)) {
+                        map.removeLayer(bogPath);
+                        if (bogGlow) map.removeLayer(bogGlow);
+                        this.classList.add('dimmed');
+                    } else {
+                        bogGlow.addTo(map);
+                        bogPath.addTo(map);
+                        this.classList.remove('dimmed');
                     }
                     return;
                 }
