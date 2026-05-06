@@ -118,6 +118,10 @@
         .legend-row { display: flex; align-items: center; gap: 6px; }
         .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
         .legend-line { width: 20px; height: 0; border-top: 3px dashed; flex-shrink: 0; }
+        .legend-row { cursor: pointer; padding: 2px 4px; border-radius: 4px; transition: opacity 0.2s, background 0.2s; }
+        .legend-row:hover { background: rgba(0,0,0,0.05); }
+        .legend-row.dimmed { opacity: 0.4; }
+        .legend-featured { background: rgba(27,94,32,0.08); }
     </style>
 </head>
 <body>
@@ -130,16 +134,14 @@
 
     <div id="legend">
         <b>Legend</b>
-        <div class="legend-row"><span class="legend-dot" style="background:#2196F3"></span> Village Features</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#FF9800"></span> Businesses</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#4CAF50"></span> Green Spaces &amp; Nature</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#1B5E20"></span> Bog Walk</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#9C27B0"></span> School</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#00838F"></span> Housing Estates</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#E91E63"></span> Points of Interest</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#37474F"></span> Other</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#F44336"></span> Approach Roads</div>
-        <div class="legend-row"><span class="legend-line" style="border-color:#1B5E20"></span> Bog Walk Trail</div>
+        <div class="legend-row" data-category="Village Features"><span class="legend-dot" style="background:#2196F3"></span> Village Features</div>
+        <div class="legend-row" data-category="Businesses"><span class="legend-dot" style="background:#FF9800"></span> Businesses</div>
+        <div class="legend-row" data-category="Green Spaces &amp; Nature"><span class="legend-dot" style="background:#4CAF50"></span> Green Spaces &amp; Nature</div>
+        <div class="legend-row legend-featured" data-category="Bog Walk"><span class="legend-line" style="border-color:#2E7D32"></span> <strong>Bog Walk Loop</strong></div>
+        <div class="legend-row" data-category="School"><span class="legend-dot" style="background:#9C27B0"></span> School</div>
+        <div class="legend-row" data-category="Housing Estates"><span class="legend-dot" style="background:#00838F"></span> Housing Estates</div>
+        <div class="legend-row" data-category="Other"><span class="legend-dot" style="background:#37474F"></span> Other</div>
+        <div class="legend-row" data-category="Approach Roads"><span class="legend-dot" style="background:#F44336"></span> Approach Roads</div>
     </div>
 
     <div id="lightbox">
@@ -279,12 +281,19 @@
             });
         }
 
+        var categoryLayers = {};
+
         MAP_DATA.markers.forEach(function(m) {
             photosByName[m.name] = m.photos || [];
             var popup = buildPopup(m);
-            var marker = L.marker(m.coords, { icon: createIcon(m.color) }).addTo(map);
+            var marker = L.marker(m.coords, { icon: createIcon(m.color) });
             marker.bindPopup(popup, { maxWidth: 320, minWidth: 280 });
             marker.bindTooltip(m.name, { permanent: false, direction: 'top', offset: [0, -42] });
+
+            if (!categoryLayers[m.category]) {
+                categoryLayers[m.category] = L.layerGroup().addTo(map);
+            }
+            categoryLayers[m.category].addLayer(marker);
         });
 
         // Carousel
@@ -324,6 +333,36 @@
             if (e.key === 'Escape') closeLightbox();
             if (e.key === 'ArrowRight') { carouselIndex = (carouselIndex + 1) % carouselPhotos.length; updateCarousel(); }
             if (e.key === 'ArrowLeft') { carouselIndex = (carouselIndex - 1 + carouselPhotos.length) % carouselPhotos.length; updateCarousel(); }
+        });
+
+        // Legend interactivity
+        document.querySelectorAll('.legend-row[data-category]').forEach(function(row) {
+            row.addEventListener('click', function() {
+                var cat = this.getAttribute('data-category');
+
+                if (cat === 'Bog Walk') {
+                    if (bogPath) {
+                        map.fitBounds(bogPath.getBounds(), { padding: [50, 50] });
+                        if (bogGlow) {
+                            bogGlow.setStyle({ opacity: 0.6 });
+                            setTimeout(function() { bogGlow.setStyle({ opacity: 0.3 }); }, 600);
+                        }
+                        bogPath.openPopup(L.latLng(bogMidpoint[0], bogMidpoint[1]));
+                    }
+                    return;
+                }
+
+                var layer = categoryLayers[cat];
+                if (!layer) return;
+
+                if (map.hasLayer(layer)) {
+                    map.removeLayer(layer);
+                    this.classList.add('dimmed');
+                } else {
+                    layer.addTo(map);
+                    this.classList.remove('dimmed');
+                }
+            });
         });
     </script>
 </body>
