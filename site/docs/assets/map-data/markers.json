@@ -220,7 +220,7 @@
   "bogWalk": {
     "name": "Bog Walk Loop",
     "description": "A looped walk through bogland starting from the Clover entrance, heading north through open bog, and returning via Clover Lane off the Ballyduff Road.",
-    "distance": "~6 km loop",
+    "distance": "~6.5 km loop",
     "category": "Bog Walk",
     "color": "#1B5E20",
     "path": [
