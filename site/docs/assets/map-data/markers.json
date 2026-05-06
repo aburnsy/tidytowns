@@ -1,0 +1,239 @@
+{
+  "markers": [
+    {
+      "id": "monument",
+      "name": "Monument Area",
+      "category": "Village Features",
+      "color": "#2196F3",
+      "coords": [52.67263, -7.710828],
+      "desc": "Central village feature with flower beds, sensory garden signpost, and Christmas tree site. Bollards to be repainted (adjudicator recommendation, repeated from 2024)."
+    },
+    {
+      "id": "forge",
+      "name": "The Old Forge",
+      "category": "Village Features",
+      "color": "#2196F3",
+      "coords": [52.672723, -7.711571],
+      "desc": "Restored forge beside Corcoran's Bar parking. Heritage feature on the main street."
+    },
+    {
+      "id": "blackcastle",
+      "name": "Blackcastle (Norman Castle)",
+      "category": "Village Features",
+      "color": "#2196F3",
+      "coords": [52.672048, -7.715111],
+      "desc": "Historic Norman castle remains on the western approach to the village."
+    },
+    {
+      "id": "bannons",
+      "name": "Bannon's Bar Lounge",
+      "category": "Businesses",
+      "color": "#FF9800",
+      "coords": [52.67279, -7.712638],
+      "desc": "Pub on the main street (L4202)."
+    },
+    {
+      "id": "tullys",
+      "name": "Tully's Nearby",
+      "category": "Businesses",
+      "color": "#FF9800",
+      "coords": [52.672533, -7.711742],
+      "desc": "Pub and shop on the main street."
+    },
+    {
+      "id": "corcorans",
+      "name": "Corcoran's Bar & Shop",
+      "category": "Businesses",
+      "color": "#FF9800",
+      "coords": [52.672635, -7.711244],
+      "desc": "Bar with separate shop entrance on the right-hand side."
+    },
+    {
+      "id": "sensory_garden",
+      "name": "Sensory Garden",
+      "category": "Green Spaces & Nature",
+      "color": "#4CAF50",
+      "coords": [52.673274, -7.71068],
+      "desc": "Located beside Scoil Mochaomhóg Naofa NS (left side). Timber pathways and sensory planting. Maintenance of paths recommended by adjudicator."
+    },
+    {
+      "id": "church",
+      "name": "St James Church & Grounds",
+      "category": "Green Spaces & Nature",
+      "color": "#4CAF50",
+      "coords": [52.672921, -7.711968],
+      "desc": "Church across from Tully's on the main street. Potential site for wildflower bed to increase species diversity (adjudicator recommendation)."
+    },
+    {
+      "id": "cemetery",
+      "name": "Two-Mile-Borris Cemetery",
+      "category": "Green Spaces & Nature",
+      "color": "#4CAF50",
+      "coords": [52.671526, -7.713888],
+      "desc": "Including graveyard extension — opportunity for biodiversity-rich landscaping scheme. Consult local biodiversity officer at Tipperary County Council (adjudicator recommendation)."
+    },
+    {
+      "id": "new_cemetery_entrance",
+      "name": "New Cemetery Entrance",
+      "category": "Green Spaces & Nature",
+      "color": "#4CAF50",
+      "coords": [52.6726, -7.7133],
+      "desc": "New entrance to the enlarged cemetery on the L4202."
+    },
+    {
+      "id": "school",
+      "name": "Scoil Mochaomhóg Naofa NS",
+      "category": "School",
+      "color": "#9C27B0",
+      "coords": [52.67297, -7.710477],
+      "desc": "National school. Green Schools programme — elaborate on connection in application (adjudicator recommendation)."
+    },
+    {
+      "id": "castle_park",
+      "name": "Castle Park",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.674313, -7.711089],
+      "desc": "Housing estate north of the main street."
+    },
+    {
+      "id": "ned_hayes",
+      "name": "Ned Hayes Park",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.673562, -7.710847],
+      "desc": "Develop bedding in green strips, add climbers on boundary walls (adjudicator recommendation)."
+    },
+    {
+      "id": "glen_carraig",
+      "name": "Glen Carraig",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.672014, -7.705495],
+      "desc": "Eastern estate. Develop wildflower garden at extensive entrance green area (adjudicator recommendation)."
+    },
+    {
+      "id": "cluain_na_seimre",
+      "name": "Cluain Na Seimre",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.675029, -7.710804],
+      "desc": "Northern estate off the Ballyduff Road."
+    },
+    {
+      "id": "fanning_park",
+      "name": "Fanning Park",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.672414, -7.7106],
+      "desc": "Estate south of the main street, near the cemetery."
+    },
+    {
+      "id": "dun_na_ri",
+      "name": "Dún Na Rí",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.672137, -7.718705],
+      "desc": "Western estate."
+    },
+    {
+      "id": "ardleigh",
+      "name": "Ardleigh",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.672163, -7.707854],
+      "desc": "Estate off the L4202 east of the village centre."
+    },
+    {
+      "id": "leighton_manor",
+      "name": "Leighton Manor Estate",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.671971, -7.704223],
+      "desc": "Eastern estate."
+    },
+    {
+      "id": "meadow_brook",
+      "name": "Meadow Brook",
+      "category": "Housing Estates",
+      "color": "#00838F",
+      "coords": [52.6722, -7.7100],
+      "desc": "Estate south of the main street."
+    },
+    {
+      "id": "transport_museum",
+      "name": "Two-Mile-Borris Transport Museum",
+      "category": "Other",
+      "color": "#37474F",
+      "coords": [52.671869, -7.706848],
+      "desc": "Car and transport museum (temporarily closed)."
+    },
+    {
+      "id": "approach_west",
+      "name": "Approach: West (Thurles)",
+      "category": "Approach Roads",
+      "color": "#F44336",
+      "coords": [52.671584, -7.719249],
+      "desc": "Western approach on the L4202 from Thurles direction."
+    },
+    {
+      "id": "approach_east",
+      "name": "Approach: East (Horse & Jockey)",
+      "category": "Approach Roads",
+      "color": "#F44336",
+      "coords": [52.672175, -7.695391],
+      "desc": "Eastern approach on the L4202 from Horse & Jockey direction."
+    },
+    {
+      "id": "approach_north",
+      "name": "Approach: North (Ballyduff)",
+      "category": "Approach Roads",
+      "color": "#F44336",
+      "coords": [52.676037, -7.711001],
+      "desc": "Northern approach via Ballyduff Road."
+    },
+    {
+      "id": "approach_south",
+      "name": "Approach: South (N75)",
+      "category": "Approach Roads",
+      "color": "#F44336",
+      "coords": [52.670436, -7.714858],
+      "desc": "Southern approach from the N75."
+    },
+    {
+      "id": "seating_area",
+      "name": "Village Seating Area",
+      "category": "Village Features",
+      "color": "#2196F3",
+      "coords": [52.6722, -7.7169],
+      "desc": "Bench seating area on the western end of the village with box topiary planters, gravel path, and pollinator-friendly wildflower planting."
+    },
+    {
+      "id": "black_river",
+      "name": "Black River Crossing",
+      "category": "Village Features",
+      "color": "#2196F3",
+      "coords": [52.6724, -7.7162],
+      "desc": "The Black River (tributary of the River Drish) flows alongside Blackcastle and under the road. Wildlife includes coots and ducks."
+    }
+  ],
+  "bogWalk": {
+    "name": "Bog Walk Loop",
+    "description": "A looped walk through bogland starting from the Clover entrance, heading north through open bog, and returning via Clover Lane off the Ballyduff Road.",
+    "distance": "~2.5 km loop",
+    "category": "Bog Walk",
+    "color": "#1B5E20",
+    "path": [
+      [52.672271, -7.696315],
+      [52.6730, -7.6958],
+      [52.6742, -7.6950],
+      [52.6758, -7.6948],
+      [52.6775, -7.6955],
+      [52.6790, -7.6975],
+      [52.6800, -7.7005],
+      [52.6810, -7.7040],
+      [52.6818, -7.7065],
+      [52.682152, -7.709246]
+    ]
+  }
+}
