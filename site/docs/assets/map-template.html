@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two Mile Borris — Village Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; }
+        #map { height: 100vh; width: 100%; }
+
+        .leaflet-popup-content-wrapper {
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+            padding: 0;
+        }
+        .leaflet-popup-content {
+            margin: 0;
+            min-width: 280px;
+            max-width: 320px;
+        }
+        .popup-card { font-family: 'Segoe UI', Arial, sans-serif; }
+        .popup-card .popup-img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px 10px 0 0;
+            display: block;
+            cursor: pointer;
+        }
+        .popup-card .popup-body { padding: 12px 14px; }
+        .popup-card h3 { margin: 0 0 6px 0; font-size: 16px; color: #1a1a1a; }
+        .popup-card .popup-cat {
+            display: inline-block; font-size: 11px; padding: 2px 8px;
+            border-radius: 10px; color: white; margin-bottom: 8px;
+        }
+        .popup-card p { margin: 0 0 10px 0; font-size: 13px; color: #444; line-height: 1.5; }
+        .popup-card .popup-caption {
+            font-size: 11px; color: #666; font-style: italic;
+            margin: -6px 0 8px 0; text-align: center;
+        }
+        .popup-card .popup-links { display: flex; gap: 8px; flex-wrap: wrap; }
+        .popup-card .popup-links a {
+            display: inline-flex; align-items: center; gap: 4px;
+            font-size: 12px; padding: 5px 10px; border-radius: 6px;
+            text-decoration: none; font-weight: 500;
+        }
+        .popup-card .popup-links .gmaps-link { background: #e8f0fe; color: #1a73e8; }
+        .popup-card .popup-links .gmaps-link:hover { background: #d2e3fc; }
+
+        .popup-gallery { display: flex; gap: 4px; margin-top: 8px; }
+        .popup-gallery img {
+            width: 60px; height: 45px; object-fit: cover; border-radius: 4px;
+            cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;
+        }
+        .popup-gallery img:hover { border-color: #1a73e8; }
+
+        #lightbox {
+            display: none; position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.9); z-index: 2000;
+            flex-direction: column; justify-content: center; align-items: center;
+        }
+        #lightbox.active { display: flex; }
+        #lightbox .lb-container {
+            position: relative; display: flex; align-items: center;
+            justify-content: center; width: 100%; max-width: 90vw;
+        }
+        #lightbox .lb-img-wrap {
+            display: flex; flex-direction: column; align-items: center;
+        }
+        #lightbox img.lb-main {
+            max-width: 80vw; max-height: 70vh;
+            border-radius: 8px; box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+        #lightbox .lb-caption {
+            color: white; font-size: 15px; margin-top: 12px;
+            text-align: center; max-width: 600px; line-height: 1.4;
+        }
+        #lightbox .lb-subcaption { color: #aaa; font-size: 12px; margin-top: 4px; }
+        #lightbox .lb-counter { color: #888; font-size: 12px; margin-top: 8px; }
+        .lb-nav {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            width: 48px; height: 48px; border-radius: 50%;
+            background: rgba(255,255,255,0.15); border: none;
+            color: white; font-size: 24px; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+            transition: background 0.2s; z-index: 2001;
+        }
+        .lb-nav:hover { background: rgba(255,255,255,0.3); }
+        .lb-prev { left: 20px; }
+        .lb-next { right: 20px; }
+        .lb-close {
+            position: fixed; top: 16px; right: 20px; z-index: 2001;
+            width: 40px; height: 40px; border-radius: 50%;
+            background: rgba(255,255,255,0.15); border: none;
+            color: white; font-size: 22px; cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .lb-close:hover { background: rgba(255,255,255,0.3); }
+
+        #title-bar {
+            position: fixed; top: 10px; left: 60px; z-index: 1000;
+            background: white; padding: 10px 20px; border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+        }
+        #title-bar h2 { margin: 0 0 2px 0; font-size: 16px; color: #2c3e50; }
+        #title-bar p { margin: 0; color: #666; font-size: 12px; }
+
+        #legend {
+            position: fixed; bottom: 30px; left: 10px; z-index: 1000;
+            background: white; padding: 12px 16px; border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+            font-size: 12px; line-height: 2;
+        }
+        #legend b { font-size: 13px; }
+        .legend-row { display: flex; align-items: center; gap: 6px; }
+        .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+        .legend-line { width: 20px; height: 0; border-top: 3px dashed; flex-shrink: 0; }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <div id="title-bar">
+        <h2>Two Mile Borris (Buirios L&eacute;ith)</h2>
+        <p>SuperValu TidyTowns 2026 &mdash; Village Map</p>
+    </div>
+
+    <div id="legend">
+        <b>Legend</b>
+        <div class="legend-row"><span class="legend-dot" style="background:#2196F3"></span> Village Features</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#FF9800"></span> Businesses</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#4CAF50"></span> Green Spaces &amp; Nature</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#1B5E20"></span> Bog Walk</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#9C27B0"></span> School</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#00838F"></span> Housing Estates</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#E91E63"></span> Points of Interest</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#37474F"></span> Other</div>
+        <div class="legend-row"><span class="legend-dot" style="background:#F44336"></span> Approach Roads</div>
+        <div class="legend-row"><span class="legend-line" style="border-color:#1B5E20"></span> Bog Walk Trail</div>
+    </div>
+
+    <div id="lightbox">
+        <button class="lb-close" onclick="closeLightbox()">&times;</button>
+        <div class="lb-container">
+            <button class="lb-nav lb-prev" onclick="carouselPrev(event)">&#8249;</button>
+            <div class="lb-img-wrap">
+                <img class="lb-main" id="lb-img" src="" />
+                <div class="lb-caption" id="lb-caption"></div>
+                <div class="lb-subcaption" id="lb-subcaption"></div>
+                <div class="lb-counter" id="lb-counter"></div>
+            </div>
+            <button class="lb-nav lb-next" onclick="carouselNext(event)">&#8250;</button>
+        </div>
+    </div>
+
+    <script>
+        // Injected by build_map.py — do not edit below this line
+        /*{{MARKER_DATA}}*/
+
+        var map = L.map('map').setView([52.6726, -7.7080], 16);
+
+        var satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Imagery &copy; Esri', maxZoom: 19
+        });
+        var labels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}', {
+            maxZoom: 19
+        });
+        var streets = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors', maxZoom: 19
+        });
+
+        satellite.addTo(map);
+        labels.addTo(map);
+        L.control.layers({
+            "Satellite": L.layerGroup([satellite, labels]),
+            "Street Map": streets
+        }, null, { position: 'topleft' }).addTo(map);
+
+        // Rendering
+        var photosByName = {};
+        var carouselPhotos = [];
+        var carouselIndex = 0;
+        var carouselTitle = '';
+
+        // Bog walk trail — dual polyline (glow + main) with popup
+        var bogGlow, bogPath, bogMidpoint;
+        var bogWalk = MAP_DATA.bogWalk;
+        if (bogWalk && bogWalk.path && bogWalk.path.length > 1) {
+            bogGlow = L.polyline(bogWalk.path, {
+                color: bogWalk.color, weight: 12, opacity: 0.3,
+                interactive: false
+            }).addTo(map);
+
+            bogPath = L.polyline(bogWalk.path, {
+                color: '#2E7D32', weight: 5, opacity: 0.9,
+                lineCap: 'round', lineJoin: 'round'
+            }).addTo(map);
+
+            bogPath.on('mouseover', function() {
+                this.setStyle({ weight: 7 });
+                this.getElement().style.cursor = 'pointer';
+            });
+            bogPath.on('mouseout', function() {
+                this.setStyle({ weight: 5 });
+            });
+
+            var midIdx = Math.floor(bogWalk.path.length / 2);
+            bogMidpoint = bogWalk.path[midIdx];
+
+            photosByName[bogWalk.name] = bogWalk.photos || [];
+
+            var bogMarkerData = {
+                name: bogWalk.name,
+                category: bogWalk.category,
+                color: bogWalk.color,
+                desc: bogWalk.description,
+                distance: bogWalk.distance,
+                coords: bogMidpoint,
+                photos: bogWalk.photos || []
+            };
+            bogPath.bindPopup(buildPopup(bogMarkerData), { maxWidth: 320, minWidth: 280 });
+        }
+
+        function gmapsUrl(lat, lng) {
+            return "https://www.google.com/maps/@" + lat + "," + lng + ",18z/data=!3m1!1e3";
+        }
+
+        function esc(str) {
+            return str.replace(/'/g, "\\'").replace(/&/g, "&amp;");
+        }
+
+        function buildPopup(m) {
+            var p = m.photos || [];
+            var heroImg = '';
+            var heroCaption = '';
+            if (p.length > 0) {
+                heroImg = '<img class="popup-img" src="' + p[0].src + '" alt="' + esc(m.name) + '" onclick="openCarousel(\'' + esc(m.name) + '\', 0)" />';
+                heroCaption = '<div class="popup-caption">' + p[0].caption + '</div>';
+            }
+
+            var gallery = '';
+            if (p.length > 1) {
+                gallery = '<div class="popup-gallery">';
+                p.forEach(function(photo, i) {
+                    gallery += '<img src="' + photo.src + '" alt="' + photo.caption + '" title="' + photo.caption + '" onclick="openCarousel(\'' + esc(m.name) + '\', ' + i + ')" />';
+                });
+                gallery += '</div>';
+            }
+
+            return '<div class="popup-card">' +
+                heroImg +
+                '<div class="popup-body">' +
+                    heroCaption +
+                    '<h3>' + m.name + '</h3>' +
+                    '<span class="popup-cat" style="background:' + m.color + '">' + m.category + '</span>' +
+                    (m.distance ? '<p style="margin:0 0 8px 0;font-size:13px;color:#1B5E20;font-weight:600;">' + m.distance + '</p>' : '') +
+                    '<p>' + m.desc + '</p>' +
+                    gallery +
+                    '<div class="popup-links">' +
+                        '<a class="gmaps-link" href="' + gmapsUrl(m.coords[0], m.coords[1]) + '" target="_blank">' +
+                            '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>' +
+                            'View on Google Maps' +
+                        '</a>' +
+                    '</div>' +
+                '</div>' +
+            '</div>';
+        }
+
+        function createIcon(color) {
+            return L.divIcon({
+                className: 'custom-marker',
+                html: '<svg width="28" height="42" viewBox="0 0 24 36"><path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24C24 5.4 18.6 0 12 0z" fill="' + color + '" stroke="white" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="white"/></svg>',
+                iconSize: [28, 42],
+                iconAnchor: [14, 42],
+                popupAnchor: [0, -42]
+            });
+        }
+
+        MAP_DATA.markers.forEach(function(m) {
+            photosByName[m.name] = m.photos || [];
+            var popup = buildPopup(m);
+            var marker = L.marker(m.coords, { icon: createIcon(m.color) }).addTo(map);
+            marker.bindPopup(popup, { maxWidth: 320, minWidth: 280 });
+            marker.bindTooltip(m.name, { permanent: false, direction: 'top', offset: [0, -42] });
+        });
+
+        // Carousel
+        function openCarousel(name, index) {
+            if (event) event.stopPropagation();
+            carouselPhotos = photosByName[name] || [];
+            carouselIndex = index || 0;
+            carouselTitle = name;
+            if (carouselPhotos.length === 0) return;
+            updateCarousel();
+            document.getElementById('lightbox').classList.add('active');
+            map.dragging.disable();
+            map.keyboard.disable();
+        }
+
+        function updateCarousel() {
+            var photo = carouselPhotos[carouselIndex];
+            document.getElementById('lb-img').src = photo.src;
+            document.getElementById('lb-caption').textContent = photo.caption;
+            document.getElementById('lb-subcaption').textContent = carouselTitle;
+            document.getElementById('lb-counter').textContent = (carouselIndex + 1) + ' of ' + carouselPhotos.length;
+            document.querySelector('.lb-prev').style.visibility = carouselPhotos.length > 1 ? 'visible' : 'hidden';
+            document.querySelector('.lb-next').style.visibility = carouselPhotos.length > 1 ? 'visible' : 'hidden';
+        }
+
+        function carouselNext(e) { e.stopPropagation(); carouselIndex = (carouselIndex + 1) % carouselPhotos.length; updateCarousel(); }
+        function carouselPrev(e) { e.stopPropagation(); carouselIndex = (carouselIndex - 1 + carouselPhotos.length) % carouselPhotos.length; updateCarousel(); }
+
+        function closeLightbox() {
+            document.getElementById('lightbox').classList.remove('active');
+            map.dragging.enable();
+            map.keyboard.enable();
+        }
+
+        document.addEventListener('keydown', function(e) {
+            if (!document.getElementById('lightbox').classList.contains('active')) return;
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowRight') { carouselIndex = (carouselIndex + 1) % carouselPhotos.length; updateCarousel(); }
+            if (e.key === 'ArrowLeft') { carouselIndex = (carouselIndex - 1 + carouselPhotos.length) % carouselPhotos.length; updateCarousel(); }
+        });
+    </script>
+</body>
+</html>
