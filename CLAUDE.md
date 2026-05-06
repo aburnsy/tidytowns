@@ -38,6 +38,13 @@ bash scripts/new-task.sh
 bash scripts/generate-recurring.sh
 ```
 
+### Build the village map
+```bash
+uv run python scripts/build_map.py
+```
+Data lives in `site/docs/assets/map-data/markers.json` and `site/docs/assets/map-data/photos/`.
+To add photos: drop images into `photos/{marker_id}/`, create `_captions.json`, run build.
+
 ### Run research scripts
 ```bash
 uv run --with pymupdf python research/extract_scores.py

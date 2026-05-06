@@ -118,6 +118,10 @@
         .legend-row { display: flex; align-items: center; gap: 6px; }
         .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
         .legend-line { width: 20px; height: 0; border-top: 3px dashed; flex-shrink: 0; }
+        .legend-row { cursor: pointer; padding: 2px 4px; border-radius: 4px; transition: opacity 0.2s, background 0.2s; }
+        .legend-row:hover { background: rgba(0,0,0,0.05); }
+        .legend-row.dimmed { opacity: 0.4; }
+        .legend-featured { background: rgba(230,81,0,0.08); }
     </style>
 </head>
 <body>
@@ -130,16 +134,14 @@
 
     <div id="legend">
         <b>Legend</b>
-        <div class="legend-row"><span class="legend-dot" style="background:#2196F3"></span> Village Features</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#FF9800"></span> Businesses</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#4CAF50"></span> Green Spaces &amp; Nature</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#1B5E20"></span> Bog Walk</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#9C27B0"></span> School</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#00838F"></span> Housing Estates</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#E91E63"></span> Points of Interest</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#37474F"></span> Other</div>
-        <div class="legend-row"><span class="legend-dot" style="background:#F44336"></span> Approach Roads</div>
-        <div class="legend-row"><span class="legend-line" style="border-color:#1B5E20"></span> Bog Walk Trail</div>
+        <div class="legend-row" data-category="Village Features"><span class="legend-dot" style="background:#2196F3"></span> Village Features</div>
+        <div class="legend-row" data-category="Businesses"><span class="legend-dot" style="background:#FF9800"></span> Businesses</div>
+        <div class="legend-row" data-category="Green Spaces &amp; Nature"><span class="legend-dot" style="background:#4CAF50"></span> Green Spaces &amp; Nature</div>
+        <div class="legend-row legend-featured" data-category="Bog Walk"><span class="legend-line" style="border-color:#E65100"></span> <strong>Bog Walk Loop</strong></div>
+        <div class="legend-row" data-category="School"><span class="legend-dot" style="background:#9C27B0"></span> School</div>
+        <div class="legend-row" data-category="Housing Estates"><span class="legend-dot" style="background:#00838F"></span> Housing Estates</div>
+        <div class="legend-row" data-category="Other"><span class="legend-dot" style="background:#37474F"></span> Other</div>
+        <div class="legend-row" data-category="Approach Roads"><span class="legend-dot" style="background:#F44336"></span> Approach Roads</div>
     </div>
 
     <div id="lightbox">
@@ -158,7 +160,7 @@
 
     <script>
         // Injected by build_map.py — do not edit below this line
-        var MAP_DATA = {"markers": [{"id": "monument", "name": "Monument Area", "category": "Village Features", "color": "#2196F3", "coords": [52.67263, -7.710828], "desc": "Central village feature with flower beds, sensory garden signpost, and Christmas tree site. Bollards to be repainted (adjudicator recommendation, repeated from 2024).", "photos": [{"src": "map-data/photos/monument/community-garden-sign-summer-2025.jpg", "caption": "Hebes, Foxgloves, Anemone and Catmint planting at the Monk"}, {"src": "map-data/photos/monument/community-garden-gaeilge-summer-2025.jpg", "caption": "Foxgloves, Heuchera and Vinca planting at the Monk"}, {"src": "map-data/photos/monument/flower-bed-wide-may-2026.jpg", "caption": "Poppies, Lamb's Ear, Salvia, Wallflowers, Phlox and Hebe in the main flower bed"}, {"src": "map-data/photos/monument/community-garden-sign-may-2026.jpg", "caption": "Arabis, Heuchera and Hebe at the Community Garden sign"}, {"src": "map-data/photos/monument/monument-wall-flowers-may-2026.jpg", "caption": "The All-Ireland Victory Centennial monument with Poppies, Salvia, Lamb's Ear and Hebe"}]}, {"id": "forge", "name": "The Old Forge", "category": "Village Features", "color": "#2196F3", "coords": [52.672723, -7.711571], "desc": "Restored forge beside Corcoran's Bar parking. Heritage feature on the main street.", "photos": []}, {"id": "blackcastle", "name": "Blackcastle (Norman Castle)", "category": "Village Features", "color": "#2196F3", "coords": [52.672048, -7.715111], "desc": "Historic Norman castle remains on the western approach to the village.", "photos": []}, {"id": "bannons", "name": "Bannon's Bar Lounge", "category": "Businesses", "color": "#FF9800", "coords": [52.67279, -7.712638], "desc": "Pub on the main street (L4202).", "photos": []}, {"id": "tullys", "name": "Tully's Nearby", "category": "Businesses", "color": "#FF9800", "coords": [52.672533, -7.711742], "desc": "Pub and shop on the main street.", "photos": []}, {"id": "corcorans", "name": "Corcoran's Bar & Shop", "category": "Businesses", "color": "#FF9800", "coords": [52.672635, -7.711244], "desc": "Bar with separate shop entrance on the right-hand side.", "photos": []}, {"id": "sensory_garden", "name": "Sensory Garden", "category": "Green Spaces & Nature", "color": "#4CAF50", "coords": [52.673274, -7.71068], "desc": "Located beside Scoil Mochaomhóg Naofa NS (left side). Timber pathways and sensory planting. Maintenance of paths recommended by adjudicator.", "photos": []}, {"id": "church", "name": "St James Church & Grounds", "category": "Green Spaces & Nature", "color": "#4CAF50", "coords": [52.672921, -7.711968], "desc": "Church across from Tully's on the main street. Potential site for wildflower bed to increase species diversity (adjudicator recommendation).", "photos": []}, {"id": "cemetery", "name": "Two-Mile-Borris Cemetery", "category": "Green Spaces & Nature", "color": "#4CAF50", "coords": [52.671526, -7.713888], "desc": "Including graveyard extension — opportunity for biodiversity-rich landscaping scheme. Consult local biodiversity officer at Tipperary County Council (adjudicator recommendation).", "photos": []}, {"id": "new_cemetery_entrance", "name": "New Cemetery Entrance", "category": "Green Spaces & Nature", "color": "#4CAF50", "coords": [52.6726, -7.7133], "desc": "New entrance to the enlarged cemetery on the L4202.", "photos": []}, {"id": "school", "name": "Scoil Mochaomhóg Naofa NS", "category": "School", "color": "#9C27B0", "coords": [52.67297, -7.710477], "desc": "National school. Green Schools programme — elaborate on connection in application (adjudicator recommendation).", "photos": []}, {"id": "castle_park", "name": "Castle Park", "category": "Housing Estates", "color": "#00838F", "coords": [52.674313, -7.711089], "desc": "Housing estate north of the main street.", "photos": []}, {"id": "ned_hayes", "name": "Ned Hayes Park", "category": "Housing Estates", "color": "#00838F", "coords": [52.673562, -7.710847], "desc": "Develop bedding in green strips, add climbers on boundary walls (adjudicator recommendation).", "photos": []}, {"id": "glen_carraig", "name": "Glen Carraig", "category": "Housing Estates", "color": "#00838F", "coords": [52.672014, -7.705495], "desc": "Eastern estate. Develop wildflower garden at extensive entrance green area (adjudicator recommendation).", "photos": [{"src": "map-data/photos/glen_carraig/crocuses-roadside-spring-2026.jpg", "caption": "Crocus tommasinianus and Daffodils in bloom outside Glen Carraig"}, {"src": "map-data/photos/glen_carraig/crocus-honeybee-closeup-spring-2026.jpg", "caption": "Honeybee foraging on Crocus tommasinianus outside Glen Carraig"}, {"src": "map-data/photos/glen_carraig/daffodils-stone-wall-spring-2026.jpg", "caption": "Daffodils planted along the limestone wall at Glen Carraig"}, {"src": "map-data/photos/glen_carraig/alliums-stone-wall-may-2026.jpg", "caption": "Allium Purple Sensation in bloom along Glen Carraig's limestone wall"}]}, {"id": "cluain_na_seimre", "name": "Cluain Na Seimre", "category": "Housing Estates", "color": "#00838F", "coords": [52.675029, -7.710804], "desc": "Northern estate off the Ballyduff Road.", "photos": [{"src": "map-data/photos/cluain_na_seimre/crocuses-spring-2026.jpg", "caption": "Crocus tommasinianus planted along the entrance kerb at Cluain Na Seimre"}]}, {"id": "fanning_park", "name": "Fanning Park", "category": "Housing Estates", "color": "#00838F", "coords": [52.672414, -7.7106], "desc": "Estate south of the main street, near the cemetery.", "photos": []}, {"id": "dun_na_ri", "name": "Dún Na Rí", "category": "Housing Estates", "color": "#00838F", "coords": [52.672137, -7.718705], "desc": "Western estate.", "photos": []}, {"id": "ardleigh", "name": "Ardleigh", "category": "Housing Estates", "color": "#00838F", "coords": [52.672163, -7.707854], "desc": "Estate off the L4202 east of the village centre.", "photos": []}, {"id": "leighton_manor", "name": "Leighton Manor Estate", "category": "Housing Estates", "color": "#00838F", "coords": [52.671971, -7.704223], "desc": "Eastern estate.", "photos": [{"src": "map-data/photos/leighton_manor/alliums-wildflowers-may-2026.jpg", "caption": "Allium Purple Sensation, Allium Nigrum and Daffodil foliage outside Leighton Manor"}, {"src": "map-data/photos/leighton_manor/wildflower-strip-may-2026.jpg", "caption": "Alliums and Chamomile in the roadside wildflower strip at Leighton Manor"}]}, {"id": "meadow_brook", "name": "Meadow Brook", "category": "Housing Estates", "color": "#00838F", "coords": [52.6722, -7.71], "desc": "Estate south of the main street.", "photos": [{"src": "map-data/photos/meadow_brook/planter-newly-planted-summer-2025.jpg", "caption": "Wooden planters outside Meadow Brook, with Valerian, Achillea, Salvia, Geum and Deschampsia"}, {"src": "map-data/photos/meadow_brook/planter-in-flower-summer-2025.jpg", "caption": "Geum, Achillea, Salvia and Deschampsia in full flower at Meadow Brook"}]}, {"id": "transport_museum", "name": "Two-Mile-Borris Transport Museum", "category": "Other", "color": "#37474F", "coords": [52.671869, -7.706848], "desc": "Car and transport museum (temporarily closed).", "photos": []}, {"id": "approach_west", "name": "Approach: West (Thurles)", "category": "Approach Roads", "color": "#F44336", "coords": [52.671584, -7.719249], "desc": "Western approach on the L4202 from Thurles direction.", "photos": []}, {"id": "approach_east", "name": "Approach: East (Horse & Jockey)", "category": "Approach Roads", "color": "#F44336", "coords": [52.672175, -7.695391], "desc": "Eastern approach on the L4202 from Horse & Jockey direction.", "photos": []}, {"id": "approach_north", "name": "Approach: North (Ballyduff)", "category": "Approach Roads", "color": "#F44336", "coords": [52.676037, -7.711001], "desc": "Northern approach via Ballyduff Road.", "photos": []}, {"id": "approach_south", "name": "Approach: South (N75)", "category": "Approach Roads", "color": "#F44336", "coords": [52.670436, -7.714858], "desc": "Southern approach from the N75.", "photos": [{"src": "map-data/photos/approach_south/n75-daffodils-spring-2026.jpg", "caption": "Daffodil Dutch Master planted at approach from Thurles"}, {"src": "map-data/photos/approach_south/n75-daffodils-closeup-spring-2026.jpg", "caption": "Close-up on Daffodil Dutch Master planted at approach from Thurles"}]}, {"id": "seating_area", "name": "Village Seating Area", "category": "Village Features", "color": "#2196F3", "coords": [52.6722, -7.7169], "desc": "Bench seating area on the western end of the village with box topiary planters, gravel path, and pollinator-friendly wildflower planting.", "photos": [{"src": "map-data/photos/seating_area/alliums-roadside-may-2026.jpg", "caption": "Allium Purple Sensation and Dandelion seed heads at the village seating area"}, {"src": "map-data/photos/seating_area/bench-seating-may-2026.jpg", "caption": "Bench with Box topiary and Laurel hedge at the village seating area"}, {"src": "map-data/photos/seating_area/wildflowers-gravel-may-2026.jpg", "caption": "Dandelion clocks and Allium Purple Sensation alongside the seating area"}, {"src": "map-data/photos/seating_area/roses-approach-summer-2025.jpg", "caption": "Red roses at the road approach opposite the village seating area"}]}, {"id": "black_river", "name": "Black River Crossing", "category": "Village Features", "color": "#2196F3", "coords": [52.6724, -7.7162], "desc": "The Black River (tributary of the River Drish) flows alongside Blackcastle and under the road. Wildlife includes coots and ducks.", "photos": [{"src": "map-data/photos/black_river/black-river-canopy-may-2026.jpg", "caption": "The Black River flowing under Sycamore canopy alongside Blackcastle"}]}], "bogWalk": {"name": "Bog Walk Loop", "description": "A looped walk through bogland starting from the Clover entrance, heading north through open bog, and returning via Clover Lane off the Ballyduff Road.", "distance": "~2.5 km loop", "category": "Bog Walk", "color": "#1B5E20", "path": [[52.672271, -7.696315], [52.673, -7.6958], [52.6742, -7.695], [52.6758, -7.6948], [52.6775, -7.6955], [52.679, -7.6975], [52.68, -7.7005], [52.681, -7.704], [52.6818, -7.7065], [52.682152, -7.709246]], "photos": [{"src": "map-data/photos/bog_walk/knapweed-butterfly-summer-2025.jpg", "caption": "Small Tortoiseshell butterfly on Knapweed, with Yarrow in the background"}, {"src": "map-data/photos/bog_walk/tortoiseshell-closeup-summer-2025.jpg", "caption": "Small Tortoiseshell butterfly resting on Knapweed along The Bog Walk"}, {"src": "map-data/photos/bog_walk/bog-walk-wildflowers-summer-2025.jpg", "caption": "Knapweed, Hogweed and native meadow grasses along The Bog Walk"}]}};
+        var MAP_DATA = {"markers": [{"id": "monument", "name": "Monument Area", "category": "Village Features", "color": "#2196F3", "coords": [52.67263, -7.710828], "desc": "Central village feature with flower beds, sensory garden signpost, and Christmas tree site. Bollards to be repainted (adjudicator recommendation, repeated from 2024).", "photos": [{"src": "map-data/photos/monument/community-garden-sign-summer-2025.jpg", "caption": "Hebes, Foxgloves, Anemone and Catmint planting at the Monk"}, {"src": "map-data/photos/monument/community-garden-gaeilge-summer-2025.jpg", "caption": "Foxgloves, Heuchera and Vinca planting at the Monk"}, {"src": "map-data/photos/monument/flower-bed-wide-may-2026.jpg", "caption": "Poppies, Lamb's Ear, Salvia, Wallflowers, Phlox and Hebe in the main flower bed"}, {"src": "map-data/photos/monument/community-garden-sign-may-2026.jpg", "caption": "Arabis, Heuchera and Hebe at the Community Garden sign"}, {"src": "map-data/photos/monument/monument-wall-flowers-may-2026.jpg", "caption": "The All-Ireland Victory Centennial monument with Poppies, Salvia, Lamb's Ear and Hebe"}]}, {"id": "forge", "name": "The Old Forge", "category": "Village Features", "color": "#2196F3", "coords": [52.672723, -7.711571], "desc": "Restored forge beside Corcoran's Bar parking. Heritage feature on the main street.", "photos": []}, {"id": "blackcastle", "name": "Blackcastle (Norman Castle)", "category": "Village Features", "color": "#2196F3", "coords": [52.672048, -7.715111], "desc": "Historic Norman castle remains on the western approach to the village.", "photos": []}, {"id": "bannons", "name": "Bannon's Bar Lounge", "category": "Businesses", "color": "#FF9800", "coords": [52.67279, -7.712638], "desc": "Pub on the main street (L4202).", "photos": []}, {"id": "tullys", "name": "Tully's Nearby", "category": "Businesses", "color": "#FF9800", "coords": [52.672533, -7.711742], "desc": "Pub and shop on the main street.", "photos": []}, {"id": "corcorans", "name": "Corcoran's Bar & Shop", "category": "Businesses", "color": "#FF9800", "coords": [52.672635, -7.711244], "desc": "Bar with separate shop entrance on the right-hand side.", "photos": []}, {"id": "sensory_garden", "name": "Sensory Garden", "category": "Green Spaces & Nature", "color": "#4CAF50", "coords": [52.673274, -7.71068], "desc": "Located beside Scoil Mochaomhóg Naofa NS (left side). Timber pathways and sensory planting. Maintenance of paths recommended by adjudicator.", "photos": []}, {"id": "church", "name": "St James Church & Grounds", "category": "Green Spaces & Nature", "color": "#4CAF50", "coords": [52.672921, -7.711968], "desc": "Church across from Tully's on the main street. Potential site for wildflower bed to increase species diversity (adjudicator recommendation).", "photos": []}, {"id": "cemetery", "name": "Two-Mile-Borris Cemetery", "category": "Green Spaces & Nature", "color": "#4CAF50", "coords": [52.671526, -7.713888], "desc": "Including graveyard extension — opportunity for biodiversity-rich landscaping scheme. Consult local biodiversity officer at Tipperary County Council (adjudicator recommendation).", "photos": []}, {"id": "new_cemetery_entrance", "name": "New Cemetery Entrance", "category": "Green Spaces & Nature", "color": "#4CAF50", "coords": [52.6726, -7.7133], "desc": "New entrance to the enlarged cemetery on the L4202.", "photos": []}, {"id": "school", "name": "Scoil Mochaomhóg Naofa NS", "category": "School", "color": "#9C27B0", "coords": [52.67297, -7.710477], "desc": "National school. Green Schools programme — elaborate on connection in application (adjudicator recommendation).", "photos": []}, {"id": "castle_park", "name": "Castle Park", "category": "Housing Estates", "color": "#00838F", "coords": [52.674313, -7.711089], "desc": "Housing estate north of the main street.", "photos": []}, {"id": "ned_hayes", "name": "Ned Hayes Park", "category": "Housing Estates", "color": "#00838F", "coords": [52.673562, -7.710847], "desc": "Develop bedding in green strips, add climbers on boundary walls (adjudicator recommendation).", "photos": []}, {"id": "glen_carraig", "name": "Glen Carraig", "category": "Housing Estates", "color": "#00838F", "coords": [52.672014, -7.705495], "desc": "Eastern estate. Develop wildflower garden at extensive entrance green area (adjudicator recommendation).", "photos": [{"src": "map-data/photos/glen_carraig/crocuses-roadside-spring-2026.jpg", "caption": "Crocus tommasinianus and Daffodils in bloom outside Glen Carraig"}, {"src": "map-data/photos/glen_carraig/crocus-honeybee-closeup-spring-2026.jpg", "caption": "Honeybee foraging on Crocus tommasinianus outside Glen Carraig"}, {"src": "map-data/photos/glen_carraig/daffodils-stone-wall-spring-2026.jpg", "caption": "Daffodils planted along the limestone wall at Glen Carraig"}, {"src": "map-data/photos/glen_carraig/alliums-stone-wall-may-2026.jpg", "caption": "Allium Purple Sensation in bloom along Glen Carraig's limestone wall"}]}, {"id": "cluain_na_seimre", "name": "Cluain Na Seimre", "category": "Housing Estates", "color": "#00838F", "coords": [52.675029, -7.710804], "desc": "Northern estate off the Ballyduff Road.", "photos": [{"src": "map-data/photos/cluain_na_seimre/crocuses-spring-2026.jpg", "caption": "Crocus tommasinianus planted along the entrance kerb at Cluain Na Seimre"}]}, {"id": "fanning_park", "name": "Fanning Park", "category": "Housing Estates", "color": "#00838F", "coords": [52.672414, -7.7106], "desc": "Estate south of the main street, near the cemetery.", "photos": []}, {"id": "dun_na_ri", "name": "Dún Na Rí", "category": "Housing Estates", "color": "#00838F", "coords": [52.672137, -7.718705], "desc": "Western estate.", "photos": []}, {"id": "ardleigh", "name": "Ardleigh", "category": "Housing Estates", "color": "#00838F", "coords": [52.672163, -7.707854], "desc": "Estate off the L4202 east of the village centre.", "photos": []}, {"id": "leighton_manor", "name": "Leighton Manor Estate", "category": "Housing Estates", "color": "#00838F", "coords": [52.671971, -7.704223], "desc": "Eastern estate.", "photos": [{"src": "map-data/photos/leighton_manor/alliums-wildflowers-may-2026.jpg", "caption": "Allium Purple Sensation, Allium Nigrum and Daffodil foliage outside Leighton Manor"}, {"src": "map-data/photos/leighton_manor/wildflower-strip-may-2026.jpg", "caption": "Alliums and Chamomile in the roadside wildflower strip at Leighton Manor"}]}, {"id": "meadow_brook", "name": "Meadow Brook", "category": "Housing Estates", "color": "#00838F", "coords": [52.6722, -7.71], "desc": "Estate south of the main street.", "photos": [{"src": "map-data/photos/meadow_brook/planter-newly-planted-summer-2025.jpg", "caption": "Wooden planters outside Meadow Brook, with Valerian, Achillea, Salvia, Geum and Deschampsia"}, {"src": "map-data/photos/meadow_brook/planter-in-flower-summer-2025.jpg", "caption": "Geum, Achillea, Salvia and Deschampsia in full flower at Meadow Brook"}]}, {"id": "transport_museum", "name": "Two-Mile-Borris Transport Museum", "category": "Other", "color": "#37474F", "coords": [52.671869, -7.706848], "desc": "Car and transport museum (temporarily closed).", "photos": []}, {"id": "approach_west", "name": "Approach: West (Thurles)", "category": "Approach Roads", "color": "#F44336", "coords": [52.671584, -7.719249], "desc": "Western approach on the L4202 from Thurles direction.", "photos": []}, {"id": "approach_east", "name": "Approach: East (Horse & Jockey)", "category": "Approach Roads", "color": "#F44336", "coords": [52.672175, -7.695391], "desc": "Eastern approach on the L4202 from Horse & Jockey direction.", "photos": []}, {"id": "approach_north", "name": "Approach: North (Ballyduff)", "category": "Approach Roads", "color": "#F44336", "coords": [52.676037, -7.711001], "desc": "Northern approach via Ballyduff Road.", "photos": []}, {"id": "approach_south", "name": "Approach: South (N75)", "category": "Approach Roads", "color": "#F44336", "coords": [52.670436, -7.714858], "desc": "Southern approach from the N75.", "photos": [{"src": "map-data/photos/approach_south/n75-daffodils-spring-2026.jpg", "caption": "Daffodil Dutch Master planted at approach from Thurles"}, {"src": "map-data/photos/approach_south/n75-daffodils-closeup-spring-2026.jpg", "caption": "Close-up on Daffodil Dutch Master planted at approach from Thurles"}]}, {"id": "seating_area", "name": "Village Seating Area", "category": "Village Features", "color": "#2196F3", "coords": [52.6722, -7.7169], "desc": "Bench seating area on the western end of the village with box topiary planters, gravel path, and pollinator-friendly wildflower planting.", "photos": [{"src": "map-data/photos/seating_area/alliums-roadside-may-2026.jpg", "caption": "Allium Purple Sensation and Dandelion seed heads at the village seating area"}, {"src": "map-data/photos/seating_area/bench-seating-may-2026.jpg", "caption": "Bench with Box topiary and Laurel hedge at the village seating area"}, {"src": "map-data/photos/seating_area/wildflowers-gravel-may-2026.jpg", "caption": "Dandelion clocks and Allium Purple Sensation alongside the seating area"}, {"src": "map-data/photos/seating_area/roses-approach-summer-2025.jpg", "caption": "Red roses at the road approach opposite the village seating area"}]}, {"id": "black_river", "name": "Black River Crossing", "category": "Village Features", "color": "#2196F3", "coords": [52.6724, -7.7162], "desc": "The Black River (tributary of the River Drish) flows alongside Blackcastle and under the road. Wildlife includes coots and ducks.", "photos": [{"src": "map-data/photos/black_river/black-river-canopy-may-2026.jpg", "caption": "The Black River flowing under Sycamore canopy alongside Blackcastle"}]}], "bogWalk": {"name": "Bog Walk Loop", "description": "A looped walk through bogland starting from the Clover entrance, heading north through open bog, and returning via Clover Lane off the Ballyduff Road.", "distance": "~6.5 km loop", "category": "Bog Walk", "color": "#1B5E20", "path": [[52.672531, -7.710937], [52.671988, -7.707418], [52.671877, -7.7053], [52.671923, -7.701282], [52.672141, -7.696268], [52.672479, -7.6963], [52.672739, -7.696509], [52.673221, -7.696675], [52.673917, -7.696724], [52.673975, -7.696622], [52.674138, -7.69446], [52.6743, -7.694138], [52.674346, -7.69379], [52.67433, -7.691244], [52.674382, -7.690941], [52.67466, -7.690273], [52.675382, -7.689254], [52.675639, -7.689209], [52.675886, -7.688286], [52.675943, -7.686098], [52.676018, -7.685889], [52.678654, -7.682789], [52.681305, -7.679817], [52.681849, -7.679906], [52.681966, -7.680026], [52.68196, -7.681609], [52.684391, -7.682638], [52.684656, -7.68289], [52.686087, -7.683582], [52.6872, -7.683955], [52.688057, -7.684392], [52.687966, -7.686739], [52.687327, -7.690021], [52.686791, -7.690621], [52.68663, -7.690953], [52.686654, -7.691372], [52.687117, -7.691902], [52.685786, -7.697134], [52.685628, -7.69722], [52.684636, -7.697424], [52.684358, -7.697365], [52.683275, -7.696893], [52.683181, -7.696968], [52.680888, -7.702112], [52.680849, -7.702388], [52.68094, -7.703195], [52.681109, -7.703922], [52.681496, -7.704646], [52.681625, -7.705584], [52.681872, -7.706078], [52.68221, -7.708674], [52.682158, -7.709339], [52.680168, -7.709596], [52.67836, -7.71024], [52.675732, -7.711033], [52.6747, -7.710917], [52.673503, -7.710981], [52.672541, -7.710949]], "photos": [{"src": "map-data/photos/bog_walk/knapweed-butterfly-summer-2025.jpg", "caption": "Small Tortoiseshell butterfly on Knapweed, with Yarrow in the background"}, {"src": "map-data/photos/bog_walk/tortoiseshell-closeup-summer-2025.jpg", "caption": "Small Tortoiseshell butterfly resting on Knapweed along The Bog Walk"}, {"src": "map-data/photos/bog_walk/bog-walk-wildflowers-summer-2025.jpg", "caption": "Knapweed, Hogweed and native meadow grasses along The Bog Walk"}]}};
 
         var map = L.map('map').setView([52.6726, -7.7080], 16);
 
@@ -190,21 +192,21 @@
         var bogWalk = MAP_DATA.bogWalk;
         if (bogWalk && bogWalk.path && bogWalk.path.length > 1) {
             bogGlow = L.polyline(bogWalk.path, {
-                color: bogWalk.color, weight: 12, opacity: 0.3,
+                color: '#E65100', weight: 10, opacity: 0.2,
                 interactive: false
             }).addTo(map);
 
             bogPath = L.polyline(bogWalk.path, {
-                color: '#2E7D32', weight: 5, opacity: 0.9,
-                lineCap: 'round', lineJoin: 'round'
+                color: '#E65100', weight: 4, opacity: 0.85,
+                dashArray: '10 6', lineCap: 'round', lineJoin: 'round'
             }).addTo(map);
 
             bogPath.on('mouseover', function() {
-                this.setStyle({ weight: 7 });
+                this.setStyle({ weight: 6 });
                 this.getElement().style.cursor = 'pointer';
             });
             bogPath.on('mouseout', function() {
-                this.setStyle({ weight: 5 });
+                this.setStyle({ weight: 4 });
             });
 
             var midIdx = Math.floor(bogWalk.path.length / 2);
@@ -215,10 +217,9 @@
             var bogMarkerData = {
                 name: bogWalk.name,
                 category: bogWalk.category,
-                color: bogWalk.color,
+                color: '#E65100',
                 desc: bogWalk.description,
                 distance: bogWalk.distance,
-                coords: bogMidpoint,
                 photos: bogWalk.photos || []
             };
             bogPath.bindPopup(buildPopup(bogMarkerData), { maxWidth: 320, minWidth: 280 });
@@ -256,15 +257,15 @@
                     heroCaption +
                     '<h3>' + m.name + '</h3>' +
                     '<span class="popup-cat" style="background:' + m.color + '">' + m.category + '</span>' +
-                    (m.distance ? '<p style="margin:0 0 8px 0;font-size:13px;color:#1B5E20;font-weight:600;">' + m.distance + '</p>' : '') +
+                    (m.distance ? '<p style="margin:0 0 8px 0;font-size:13px;color:#E65100;font-weight:600;">' + m.distance + '</p>' : '') +
                     '<p>' + m.desc + '</p>' +
                     gallery +
-                    '<div class="popup-links">' +
+                    (m.coords ? '<div class="popup-links">' +
                         '<a class="gmaps-link" href="' + gmapsUrl(m.coords[0], m.coords[1]) + '" target="_blank">' +
                             '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>' +
                             'View on Google Maps' +
                         '</a>' +
-                    '</div>' +
+                    '</div>' : '') +
                 '</div>' +
             '</div>';
         }
@@ -279,12 +280,19 @@
             });
         }
 
+        var categoryLayers = {};
+
         MAP_DATA.markers.forEach(function(m) {
             photosByName[m.name] = m.photos || [];
             var popup = buildPopup(m);
-            var marker = L.marker(m.coords, { icon: createIcon(m.color) }).addTo(map);
+            var marker = L.marker(m.coords, { icon: createIcon(m.color) });
             marker.bindPopup(popup, { maxWidth: 320, minWidth: 280 });
             marker.bindTooltip(m.name, { permanent: false, direction: 'top', offset: [0, -42] });
+
+            if (!categoryLayers[m.category]) {
+                categoryLayers[m.category] = L.layerGroup().addTo(map);
+            }
+            categoryLayers[m.category].addLayer(marker);
         });
 
         // Carousel
@@ -324,6 +332,38 @@
             if (e.key === 'Escape') closeLightbox();
             if (e.key === 'ArrowRight') { carouselIndex = (carouselIndex + 1) % carouselPhotos.length; updateCarousel(); }
             if (e.key === 'ArrowLeft') { carouselIndex = (carouselIndex - 1 + carouselPhotos.length) % carouselPhotos.length; updateCarousel(); }
+        });
+
+        // Legend interactivity
+        document.querySelectorAll('.legend-row[data-category]').forEach(function(row) {
+            row.addEventListener('click', function() {
+                var cat = this.getAttribute('data-category');
+
+                if (cat === 'Bog Walk') {
+                    if (!bogPath) return;
+                    if (map.hasLayer(bogPath)) {
+                        map.removeLayer(bogPath);
+                        if (bogGlow) map.removeLayer(bogGlow);
+                        this.classList.add('dimmed');
+                    } else {
+                        bogGlow.addTo(map);
+                        bogPath.addTo(map);
+                        this.classList.remove('dimmed');
+                    }
+                    return;
+                }
+
+                var layer = categoryLayers[cat];
+                if (!layer) return;
+
+                if (map.hasLayer(layer)) {
+                    map.removeLayer(layer);
+                    this.classList.add('dimmed');
+                } else {
+                    layer.addTo(map);
+                    this.classList.remove('dimmed');
+                }
+            });
         });
     </script>
 </body>
