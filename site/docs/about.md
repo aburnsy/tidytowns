@@ -6,7 +6,16 @@ title: About
 
 Two Mile Borris (Buirios Leith) is situated in the northeast of County Tipperary, approximately 7km east of Thurles and easily accessible from the M8.
 
-Our Tidy Towns committee of 27 members, supported by volunteers, works year-round to make Two Mile Borris a better place to live, work and visit.
+Our Tidy Towns committee of 27 members, supported by volunteers, works year-round to make Two Mile Borris a better place to live, work and visit. We're focused on cutting waste, bringing back biodiversity, lifting the streetscape and shared spaces, and getting more residents involved.
+
+## Recent Scores
+
+We competed from 2013 to 2019, then re-entered the competition in 2024.
+
+| Year | Score | Change |
+|------|-------|--------|
+| 2024 | 307   |        |
+| 2025 | 318   | +11    |
 
 ## Our Committees
 

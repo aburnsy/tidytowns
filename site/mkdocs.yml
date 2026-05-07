@@ -40,10 +40,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Projects: projects/index.md
-  - Completed: completed/index.md
+  - Projects:
+    - Current Projects: projects/index.md
+    - Completed: completed/index.md
   - Future: future/index.md
   - Village Map: map.md
-  - Progress: progress.md
   - Volunteer: volunteer.md
   - About: about.md
