@@ -28,4 +28,4 @@ This is a directly favourable response to the 2025 adjudicator recommendation, a
 
 In parallel, Two-Mile-Borris Tidy Towns is actively following up with Tipperary County Council on the derelict property opposite the cemetery on the L4202, where overgrowth is encroaching on the public footpath. Draft letter and reporting routes at `private/derelict-property-cemetery.md`.
 
-The former Dempsey & Harold Motors site at the western end of the village is also under active redevelopment by a new local business, who are establishing offices and a yard on the site. A second positive Streetscape change in the pipeline.
+The former Dempsey & Harold Motors site at the western end of the village is also under active redevelopment by Roadvacs (Irl) Limited, who are establishing offices and a yard on the site as their new Tipperary base. A second positive Streetscape change in the pipeline.
