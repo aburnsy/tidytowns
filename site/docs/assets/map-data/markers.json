@@ -174,7 +174,7 @@
       "category": "Approach Roads",
       "color": "#F44336",
       "coords": [52.671584, -7.719249],
-      "desc": "Western approach on the L4202 from Thurles direction."
+      "desc": "Western approach on the L4202, the main road through the village, from Thurles direction."
     },
     {
       "id": "approach_east",
@@ -198,7 +198,7 @@
       "category": "Approach Roads",
       "color": "#F44336",
       "coords": [52.670436, -7.714858],
-      "desc": "Southern approach from the N75."
+      "desc": "Southern approach via the N75, the link road from Thurles to Junction 5 of the M8 motorway. Spring 2026 Dutch Master daffodil planting along this stretch."
     },
     {
       "id": "seating_area",

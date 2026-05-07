@@ -158,6 +158,24 @@ def on_post_page_macros(env):
 
     meta_bar = " | ".join(parts)
 
+    tags = meta.get("tags", [])
+    if isinstance(tags, str):
+        tags = [tags]
+    tags_block = ""
+    if tags:
+        chips = []
+        for t in tags:
+            slug = str(t).strip().lower().replace("_", "-")
+            label = slug.replace("-", " ").title()
+            chips.append(
+                f'<span class="project-tag tag-{slug}">{label}</span>'
+            )
+        tags_block = (
+            '\n\n<div class="project-tags" markdown="0">'
+            + "".join(chips)
+            + "</div>"
+        )
+
     inspired = meta.get("inspired_by", "")
     inspired_line = ""
     if inspired:
@@ -166,5 +184,5 @@ def on_post_page_macros(env):
     # Navigation footer
     nav = "\n\n---\n\n*Questions or feedback? [Email us](mailto:info@tmbvillage.ie) at info@tmbvillage.ie.*\n"
 
-    suffix = f"\n\n{meta_bar}{inspired_line}{nav}"
+    suffix = f"\n\n{meta_bar}{tags_block}{inspired_line}{nav}"
     env.markdown += suffix

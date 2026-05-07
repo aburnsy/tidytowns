@@ -33,3 +33,45 @@
   color: var(--md-default-fg-color--light);
   margin-top: 8px;
 }
+
+/* Tag chips on individual project pages */
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 18px 0 6px 0;
+}
+.project-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: white;
+  background: #607d8b;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.12);
+  white-space: nowrap;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+.project-tag::before {
+  content: "#";
+  opacity: 0.7;
+  font-weight: 700;
+}
+.project-tag:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.18);
+}
+
+/* Per-category colours (match village map palette where sensible) */
+.project-tag.tag-nature-biodiversity { background: #2e7d32; }
+.project-tag.tag-green-spaces        { background: #558b2f; }
+.project-tag.tag-streetscape         { background: #ef6c00; }
+.project-tag.tag-approach-roads      { background: #c62828; }
+.project-tag.tag-residential         { background: #00838f; }
+.project-tag.tag-tidiness            { background: #455a64; }
+.project-tag.tag-sustainability      { background: #00897b; }
+.project-tag.tag-community           { background: #7b1fa2; }
