@@ -17,3 +17,11 @@ Vacant and derelict buildings can significantly undermine the visual quality of 
 ## What the adjudicator said
 
 The 2025 adjudicator recommended addressing the appearance of derelict properties in the village, suggesting that even basic cosmetic improvements to openings and frontages could make a meaningful difference to the overall streetscape.
+
+## Progress (May 2026)
+
+A local property developer (SMJ Construction) has begun refurbishing one of the properties flagged by the 2025 adjudicator, with a second property across from it also being upgraded.
+
+![Main-street property mid-refurbishment by SMJ Construction (May 2026)](main-street-refurb-may-2026.jpg)
+
+This is a directly favourable response to the 2025 adjudicator recommendation, and we will be highlighting it prominently in the 2026 entry's Streetscape section.

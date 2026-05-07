@@ -29,3 +29,7 @@ The [All-Ireland Pollinator Plan - Trees & Hedgerows](https://pollinators.ie/tre
 - Hawthorn, blackthorn, rowan, willow, and wild cherry are among the most valuable for pollinators
 - Avoid clipped formal hedges where possible — allow flowering to support bees
 - Connect planted areas to form corridors rather than isolated islands of habitat
+
+## Candidate sites
+
+- **Fanning Park entrance** — a mature flowering Hawthorn already anchors the corner; flagged on the village walk in May 2026 as a strong link in the corridor.

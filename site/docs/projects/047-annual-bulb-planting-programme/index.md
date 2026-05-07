@@ -1,26 +1,24 @@
 ---
-title: "Annual spring/summer bulb planting programme"
+title: "Village-wide bulb planting — autumn 2025"
 delivery_year: 2025
 tags:
   - green-spaces
   - community
   - approach-roads
-status: "Completed autumn 2025 — recurring annually"
+status: "Completed autumn 2025"
 cost_estimate: "€1,143.51 (autumn 2025; shared with residential estates)"
 benefit: "High"
 volunteer_hours: "~30hrs (one weekend planting day, combined Tidy Towns + estate volunteers)"
-inspired_by: "Cumulative autumn planting programme — 11,100 bulbs delivered in 2025 alone"
+inspired_by: "Internal — strategic planting effort to build out the spring/early-summer display"
 ---
 
 ## Description
 
-Each autumn the committee runs a village-wide bulb-planting day — combining Tidy Towns volunteers with volunteers from the residential estates — to keep building the spring and early-summer flowering display across Two Mile Borris. The programme covers the village core, the monument area, the sensory garden, the cemetery entrance, the estate entrances, and the N75 (the link road between the M8 motorway and Thurles, on the south approach to the village).
+In autumn 2025 the committee ran a village-wide bulb-planting day — combining TMB Tidy Towns volunteers with volunteers from the residential estates — to build out the spring and early-summer flowering display across Two Mile Borris. Bulbs went into the village core, the monument area, the sensory garden, the cemetery entrance, the estate entrances, and the N75 — the national link road between the M8 motorway and Thurles, which forms both the west and south approaches to the village.
 
-Cumulative effect over multiple autumns is what produces the headline visual story — by 2026 we are already over 10,000 bulbs in active flower across the village.
+This was a single concentrated effort rather than a recurring annual programme — a one-off investment of materials and labour, the visible benefit of which carries forward year on year as the bulbs naturalise.
 
-## Autumn 2025 delivery (most recent cycle)
-
-Combined Tidy Towns + estate-volunteer planting day in autumn 2025 placed:
+## Autumn 2025 delivery
 
 | Qty        | Species                              | Size  | Cost       |
 |------------|--------------------------------------|-------|------------|
@@ -41,10 +39,7 @@ Cost was **shared between TMB Tidy Towns and the residential estates** whose vol
 
 The Allium species deliver flowering through May–July, extending the display well beyond the spring crocus and daffodil flush.
 
-## Recurring requirements
+## Follow-up
 
-- Order bulbs by August each year (better selection and pricing earlier in the season).
-- Schedule a planting day in October–November.
-- Reach out to estate residents in advance to combine the workforce.
-- Photograph the spring and early-summer flush each year for the application photo set.
-- Track total cumulative bulbs planted across years as a running figure for the application narrative.
+- Photograph the bulb display at peak flowering and add to the 2026 application photo set.
+- Calculate the exact split between Tidy Towns and the participating estates so the Tidy Towns share can be quoted precisely if asked.

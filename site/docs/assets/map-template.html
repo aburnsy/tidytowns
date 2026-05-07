@@ -49,12 +49,23 @@
         .popup-card .popup-links .gmaps-link { background: #e8f0fe; color: #1a73e8; }
         .popup-card .popup-links .gmaps-link:hover { background: #d2e3fc; }
 
-        .popup-gallery { display: flex; gap: 4px; margin-top: 8px; }
-        .popup-gallery img {
-            width: 60px; height: 45px; object-fit: cover; border-radius: 4px;
-            cursor: pointer; border: 2px solid transparent; transition: border-color 0.2s;
+        .popup-gallery { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
+        .popup-gallery .gallery-item {
+            position: relative; width: 60px; height: 45px;
+            border-radius: 4px; overflow: hidden; flex-shrink: 0;
+            cursor: pointer; border: 2px solid transparent;
+            transition: border-color 0.2s;
         }
-        .popup-gallery img:hover { border-color: #1a73e8; }
+        .popup-gallery .gallery-item:hover { border-color: #1a73e8; }
+        .popup-gallery .gallery-item img {
+            width: 100%; height: 100%; object-fit: cover; display: block;
+        }
+        .popup-gallery .gallery-more {
+            position: absolute; inset: 0; background: rgba(0,0,0,0.55);
+            color: white; font-size: 13px; font-weight: 600;
+            display: flex; align-items: center; justify-content: center;
+            letter-spacing: 0.5px;
+        }
 
         #lightbox {
             display: none; position: fixed;
@@ -244,10 +255,18 @@
 
             var gallery = '';
             if (p.length > 1) {
+                var MAX_THUMBS = 4;
+                var visible = Math.min(p.length, MAX_THUMBS);
                 gallery = '<div class="popup-gallery">';
-                p.forEach(function(photo, i) {
-                    gallery += '<img src="' + photo.src + '" alt="' + photo.caption + '" title="' + photo.caption + '" onclick="openCarousel(\'' + esc(m.name) + '\', ' + i + ')" />';
-                });
+                for (var i = 0; i < visible; i++) {
+                    var photo = p[i];
+                    var hasMore = (i === visible - 1) && (p.length > MAX_THUMBS);
+                    var overlay = hasMore ? '<div class="gallery-more">+' + (p.length - MAX_THUMBS) + '</div>' : '';
+                    gallery += '<div class="gallery-item" title="' + photo.caption + '" onclick="openCarousel(\'' + esc(m.name) + '\', ' + i + ')">' +
+                               '<img src="' + photo.src + '" alt="' + photo.caption + '" />' +
+                               overlay +
+                               '</div>';
+                }
                 gallery += '</div>';
             }
 
