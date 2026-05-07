@@ -66,6 +66,23 @@
   box-shadow: 0 3px 8px rgba(0,0,0,0.18);
 }
 
+/* Page header with inline action button */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.page-header h1 {
+  margin: 0;
+}
+.page-header .md-button {
+  margin: 0;
+  flex-shrink: 0;
+}
+
 /* Per-category colours (match village map palette where sensible) */
 .project-tag.tag-nature-biodiversity { background: #2e7d32; }
 .project-tag.tag-green-spaces        { background: #558b2f; }
