@@ -4,7 +4,7 @@ delivery_year: 2026
 tags:
   - residential
   - nature-biodiversity
-status: "Planned 2026"
+status: "In progress, ball is with Glen Carraig estate"
 cost_estimate: "€0-50 (signage only)"
 benefit: "Medium"
 volunteer_hours: "2hrs (setup and signage installation)"
@@ -21,6 +21,10 @@ The entrance to the Glen Carraig estate was identified by the 2025 adjudicator a
 ## What the adjudicator said
 
 The 2025 adjudicator specifically identified the Glen Carraig entrance as a good candidate for a wildflower area, noting its potential to support pollinators and enhance the approach to the estate.
+
+## Progress (May 2026)
+
+Volunteers have approached the Glen Carraig estate to ask whether they'd consider it. The estate is researching and will come back to us. We're not committing to a date until they do, the estate manages that ground and the call is theirs.
 
 ## Best practice & research
 

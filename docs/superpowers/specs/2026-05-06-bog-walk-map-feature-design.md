@@ -1,8 +1,8 @@
-# Bog Walk Map Feature — Design Spec
+# Bog Walk Map Feature, Design Spec
 
 ## Summary
 
-Upgrade the bog walk from a minimal dashed polyline with two entrance markers to a central interactive feature on the village map. The walk becomes a single unified entity — one clickable path with a photo gallery popup, prominent glow styling, and interactive legend integration.
+Upgrade the bog walk from a minimal dashed polyline with two entrance markers to a central interactive feature on the village map. The walk becomes a single unified entity, one clickable path with a photo gallery popup, prominent glow styling, and interactive legend integration.
 
 ## Current State
 
@@ -40,8 +40,8 @@ Photos go in `site/docs/assets/map-data/photos/bog_walk/` with `_captions.json`,
 
 Two stacked Leaflet polylines replace the current single dashed line:
 
-- **Glow layer** (underneath): `weight: 12, color: '#1B5E20', opacity: 0.3` — wide semi-transparent halo. Not interactive.
-- **Main path** (on top): `weight: 5, color: '#2E7D32', opacity: 0.9, lineCap: 'round', lineJoin: 'round'` — solid bright green line. Interactive (clickable).
+- **Glow layer** (underneath): `weight: 12, color: '#1B5E20', opacity: 0.3`, wide semi-transparent halo. Not interactive.
+- **Main path** (on top): `weight: 5, color: '#2E7D32', opacity: 0.9, lineCap: 'round', lineJoin: 'round'`, solid bright green line. Interactive (clickable).
 
 Hover effect on main path: `weight: 7`, cursor changes to pointer.
 
@@ -76,10 +76,10 @@ Updated to:
 
 ### Files Changed
 
-1. `site/docs/assets/map-data/markers.json` — restructure bogWalkPath to bogWalk object, remove entrance markers
-2. `scripts/build_map.py` — handle bogWalk object and its photos
-3. `site/docs/assets/map-template.html` — dual polyline, interactive legend, path popup, hover effects
-4. `site/docs/assets/map-data/photos/bog_walk/` — photo folder (move existing entrance photos)
+1. `site/docs/assets/map-data/markers.json`, restructure bogWalkPath to bogWalk object, remove entrance markers
+2. `scripts/build_map.py`, handle bogWalk object and its photos
+3. `site/docs/assets/map-template.html`, dual polyline, interactive legend, path popup, hover effects
+4. `site/docs/assets/map-data/photos/bog_walk/`, photo folder (move existing entrance photos)
 
 ### Out of Scope
 

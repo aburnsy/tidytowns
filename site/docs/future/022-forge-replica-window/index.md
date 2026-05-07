@@ -1,9 +1,8 @@
 ---
 title: "Install replica window in the old forge"
-delivery_year: 2027
 tags:
   - streetscape
-status: "Future — when capacity or funding allows"
+status: "Future, when capacity or funding allows"
 cost_estimate: "€500-2000"
 benefit: "Medium"
 volunteer_hours: "10-20hrs (Heritage Officer engagement, contractor management)"
@@ -20,7 +19,7 @@ The 2025 adjudicator recommended installing a replica window in the old forge an
 
 ## Next steps
 
-1. **Contact the Tipperary County Heritage Officer** — request guidance on appropriate materials, design, methodology, and any funding routes for replica window installation in a building of this character. (No or low cost to the community is realistic.)
+1. **Contact the Tipperary County Heritage Officer**, request guidance on appropriate materials, design, methodology, and any funding routes for replica window installation in a building of this character. (No or low cost to the community is realistic.)
 2. Walk the building with the Heritage Officer if possible.
 3. Develop a costed proposal with a recommended contractor.
 4. Schedule installation alongside any related streetscape work.

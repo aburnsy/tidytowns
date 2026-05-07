@@ -1,9 +1,8 @@
 ---
 title: "Biodiversity corridor and native tree planting scheme"
-delivery_year: 2028
 tags:
   - nature-biodiversity
-status: "Future — when capacity or funding allows"
+status: "Future, when capacity or funding allows"
 cost_estimate: "€1000-3000"
 benefit: "High"
 volunteer_hours: "Significant - planting and multi-year aftercare"
@@ -27,9 +26,9 @@ The [All-Ireland Pollinator Plan - Trees & Hedgerows](https://pollinators.ie/tre
 
 - Prioritise native tree and shrub species over ornamental non-natives
 - Hawthorn, blackthorn, rowan, willow, and wild cherry are among the most valuable for pollinators
-- Avoid clipped formal hedges where possible — allow flowering to support bees
+- Avoid clipped formal hedges where possible, allow flowering to support bees
 - Connect planted areas to form corridors rather than isolated islands of habitat
 
 ## Candidate sites
 
-- **Fanning Park entrance** — a mature flowering Hawthorn already anchors the corner; flagged on the village walk in May 2026 as a strong link in the corridor.
+- **Fanning Park entrance**, a mature flowering Hawthorn already anchors the corner; flagged on the village walk in May 2026 as a strong link in the corridor.

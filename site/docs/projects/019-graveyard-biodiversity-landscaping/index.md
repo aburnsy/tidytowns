@@ -32,11 +32,11 @@ The [All-Ireland Pollinator Plan - Churchyards & Graveyards](https://pollinators
 - Manage grass cutting to protect ground-nesting bees and allow plants to set seed
 - Install interpretation signage to explain the biodiversity management approach to visitors
 
-This sits within the wider parish biodiversity commitment under the [Returning to Nature](../045-laudato-si-returning-to-nature/index.md) initiative (project 045). The Wexford pilot of that initiative paired parishes with their County Council biodiversity officer for exactly this kind of scheme — a route we should mirror with Tipperary Co Co.
+This sits within the wider parish biodiversity commitment under the [Returning to Nature](../045-laudato-si-returning-to-nature/index.md) initiative (project 045). The Wexford pilot of that initiative paired parishes with their County Council biodiversity officer for exactly this kind of scheme, a route we should mirror with Tipperary Co Co.
 
 ## Next steps
 
-1. **Contact the Tipperary County Biodiversity Officer** before any planting — confirm appropriate species for this sensitive location, soil/aspect considerations, and management approach. (Same officer is consulted for the [M8 roundabout](../046-roundabout-pollinator-planting/index.md), so bundle the requests.)
+1. **Contact the Tipperary County Biodiversity Officer** before any planting, confirm appropriate species for this sensitive location, soil/aspect considerations, and management approach. (Same officer is consulted for the [M8 roundabout](../046-roundabout-pollinator-planting/index.md), so bundle the requests.)
 2. Walk the extension with the Biodiversity Officer and parish reps to agree the planting plan.
 3. Source plants and schedule a planting day.
 4. Install "managed for wildlife" interpretation signage.

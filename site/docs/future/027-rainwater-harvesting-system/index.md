@@ -1,9 +1,8 @@
 ---
 title: "Village-scale rainwater harvesting system"
-delivery_year: 2028
 tags:
   - sustainability
-status: "Future — when capacity or funding allows"
+status: "Future, when capacity or funding allows"
 cost_estimate: "€2000-5000"
 benefit: "Medium"
 volunteer_hours: "Significant - planning, installation, and ongoing management"

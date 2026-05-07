@@ -3,16 +3,16 @@ title: "Derelict property improvements"
 delivery_year: 2026
 tags:
   - streetscape
-status: "In progress — refurbishments underway May 2026"
+status: "In progress, refurbishments underway May 2026"
 cost_estimate: "€0–500 (committee work; the developer is funding the refurbs)"
 benefit: "High"
 volunteer_hours: "8-16hrs (engagement, planning, supporting work)"
-inspired_by: "2025 adjudication recommendation + adjudicator-praised vibrant-colour treatments of vacant buildings"
+inspired_by: "2025 adjudicator's report + a committee chat about brightening up the openings"
 ---
 
 ## Description
 
-Vacant and derelict buildings can significantly undermine the visual quality of a village streetscape. Two routes are open to us — supporting full refurbishment by property owners, and applying simple cosmetic interventions (painting window and door openings, adding window boxes, tidying frontages) where full refurb isn't on the cards. Adjudicators have specifically praised vibrant-colour treatments of vacant buildings as an effective transformation of problematic streetscape features.
+Vacant and derelict buildings can significantly undermine the visual quality of a village streetscape. Two routes are open to us, supporting full refurbishment by property owners, and applying simple cosmetic interventions (painting window and door openings, adding window boxes, tidying frontages) where full refurb isn't on the cards. The committee talked about painting the openings in cheerful colours where we can't get a full refurb, a cheap streetscape lift that keeps the place looking lived-in.
 
 ## What the adjudicator said
 

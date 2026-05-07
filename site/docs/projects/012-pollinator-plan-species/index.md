@@ -17,7 +17,7 @@ references:
 
 ## Description
 
-A **cohesive village-wide planter scheme** — locally made wooden trough planters in a unified blue scheme, filled with split perennials propagated from our own existing beds rather than annual bedding bought in each year. The scheme replaces older concrete planters as they reach end-of-life, ties the village together visually, and dramatically improves the pollinator value of every container. Adjudicators in both 2024 and 2025 recommended transitioning planter species away from purely ornamental plants towards native pollinator-friendly species.
+A **cohesive village-wide planter scheme**, locally made wooden trough planters in a unified blue scheme, filled with split perennials propagated from our own existing beds rather than annual bedding bought in each year. The scheme replaces older concrete planters as they reach end-of-life, ties the village together visually, and dramatically improves the pollinator value of every container. Adjudicators in both 2024 and 2025 recommended transitioning planter species away from purely ornamental plants towards native pollinator-friendly species.
 
 ## What the adjudicator said
 
@@ -25,7 +25,7 @@ Both the 2024 and 2025 adjudicators recommended transitioning planter species aw
 
 ## Progress (May 2026)
 
-The blue trough planter scheme is on the ground at the cemetery layby, the Transport Museum gates, Dempsey Motors, Corcoran's, and other key spots. Planters are made from locally sourced wood by a local tradesman. Older concrete planters (e.g. Corcoran's frontage) are being filled with split perennials from our other beds — no waste, no annual bedding spend, and a much better deal for our pollinators.
+The blue trough planter scheme is on the ground at the cemetery layby, the Transport Museum gates, Dempsey Motors, Corcoran's, and other key spots. Planters are made from locally sourced wood by a local tradesman. Older concrete planters (e.g. Corcoran's frontage) are being filled with split perennials from our other beds, no waste, no annual bedding spend, and a much better deal for our pollinators.
 
 Photos: see the [village map](../../map.md) entries for **cemetery**, **transport museum**, **Dempsey Motors**, and **Corcoran's**.
 

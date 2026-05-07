@@ -8,8 +8,8 @@ tags:
 status: "Phase 1 (feature in application) underway 2026; Phase 2 (interpretation panels) planned 2027"
 cost_estimate: "€1,000-3,000 (signage and outdoor classroom; restoration costs separate)"
 benefit: "High"
-volunteer_hours: "Significant — phased over 12+ months"
-inspired_by: "Adjudicator-praised nature trails in high-scoring villages (51/55 in Nature & Biodiversity)"
+volunteer_hours: "Significant, phased over 12+ months"
+inspired_by: "Big committee priority, the bog walk didn't even get a mention in the 2025 entry"
 special_award: "Leave No Trace"
 references:
   - title: "All-Ireland Pollinator Plan"
@@ -20,15 +20,15 @@ references:
 
 ## Description
 
-The Bog Walk Loop is one of TMB's biggest amenity assets but was completely absent from the 2025 application. This project transforms it from an unmentioned walking path into a fully featured biodiversity nature trail — with interpretation panels, species ID boards, and an open-air learning area — and ensures it is showcased in our annual entries throughout. Comparable nature trails have been a major scoring driver for high-performing entries in Nature & Biodiversity (TMB currently scores 53% in this category).
+The Bog Walk Loop is one of TMB's biggest amenity assets but was completely absent from the 2025 application. This project transforms it from an unmentioned walking path into a fully featured biodiversity nature trail, with interpretation panels, species ID boards, and an open-air learning area, and ensures it is showcased in our annual entries throughout. The committee was surprised it didn't get a mention at all in 2025, and with Nature & Biodiversity sitting at 53% it's an obvious place to push.
 
 Phased delivery:
 
-- **Phase 1 (2026):** Restore path. Feature prominently in the 2026 application across Nature & Biodiversity, Green Spaces, and Community categories — photographs, descriptions, and habitat highlights. The interactive village map already includes the full 6.5km traced loop.
-- **Phase 2 (2027):** Install biodiversity interpretation panels and species ID boards along the trail, plus a small outdoor classroom area for school visits. Adjudicators have praised this kind of nature trail signage in other entries.
+- **Phase 1 (2026):** Restore path. Feature prominently in the 2026 application across Nature & Biodiversity, Green Spaces, and Community categories, photographs, descriptions, and habitat highlights. The interactive village map already includes the full 6.5km traced loop.
+- **Phase 2 (2027):** Install biodiversity interpretation panels and species ID boards along the trail, plus a small outdoor classroom area for school visits.
 - **Phase 3 (when capacity allows):** Wildlife information panels at 3–4 additional key spots around the village. Additional habitat features. (The wider [heritage trail](../../future/025-heritage-trail/index.md) sitting in the Future pile would tie this in.)
 
 ## Best practice & research
 
-- [All-Ireland Pollinator Plan](https://pollinators.ie/) — guidance on habitat management, species-friendly planting alongside the trail, and how to design effective interpretation materials that help visitors identify and appreciate native species and habitats.
-- [Leave No Trace Ireland](https://www.leavenotraceireland.org/) — principles for managing a nature trail that protects the very habitat it showcases.
+- [All-Ireland Pollinator Plan](https://pollinators.ie/), guidance on habitat management, species-friendly planting alongside the trail, and how to design effective interpretation materials that help visitors identify and appreciate native species and habitats.
+- [Leave No Trace Ireland](https://www.leavenotraceireland.org/), principles for managing a nature trail that protects the very habitat it showcases.

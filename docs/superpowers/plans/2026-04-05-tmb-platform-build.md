@@ -1165,7 +1165,7 @@ for project_dir in $(ls -d "$PROJECTS_DIR"/[0-9]* 2>/dev/null | sort); do
   TASKS_STR=""
   if [ "$TASK_COUNT" -gt 0 ]; then TASKS_STR=" | Tasks: $DONE_COUNT/$TASK_COUNT done"; fi
 
-  ENTRY="- [**$TITLE**](projects/$FOLDER/) — $STATUS | Cost: $COST | Benefit: **$BENEFIT**${OWNER_STR}${AWARD_STR}${TASKS_STR}"
+  ENTRY="- [**$TITLE**](projects/$FOLDER/), $STATUS | Cost: $COST | Benefit: **$BENEFIT**${OWNER_STR}${AWARD_STR}${TASKS_STR}"
 
   if [ "$STATUS" = "Won't Do" ]; then
     WONTDO_LIST="${WONTDO_LIST}\n${ENTRY}"
@@ -1235,7 +1235,7 @@ for project_dir in $(ls -d "$PROJECTS_DIR"/[0-9]* 2>/dev/null | sort); do
     ASSIGN_STR=""
     if [ -n "$ASSIGNEES" ]; then ASSIGN_STR=" | Assigned: **$ASSIGNEES**"; fi
 
-    TASKS_MD="${TASKS_MD}\n| $TASK_TITLE | [$PROJECT_TITLE](projects/$PROJECT_FOLDER/) | $TASK_STATUS | ${DUE:-—} | ${ASSIGNEES:-Unassigned} |"
+    TASKS_MD="${TASKS_MD}\n| $TASK_TITLE | [$PROJECT_TITLE](projects/$PROJECT_FOLDER/) | $TASK_STATUS | ${DUE:-, } | ${ASSIGNEES:-Unassigned} |"
     TASK_COUNT=$((TASK_COUNT + 1))
   done
 done

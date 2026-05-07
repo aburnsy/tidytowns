@@ -1,8 +1,8 @@
-# Bog Walk Map Feature — Implementation Plan
+# Bog Walk Map Feature, Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Upgrade the bog walk from a minimal dashed polyline with two entrance markers to a central interactive map feature — one clickable path with glow styling, photo gallery popup, and interactive legend.
+**Goal:** Upgrade the bog walk from a minimal dashed polyline with two entrance markers to a central interactive map feature, one clickable path with glow styling, photo gallery popup, and interactive legend.
 
 **Architecture:** Replace `bogWalkPath` array and two entrance markers with a single `bogWalk` object in markers.json. The build script attaches photos from a `bog_walk/` folder. The template renders dual stacked polylines (glow + main), binds a popup using the existing card pattern, and makes all legend rows clickable (bog walk zooms/pulses, others toggle category visibility).
 
@@ -20,7 +20,7 @@ Move bog_entrance_1 photos to a new bog_walk folder, remove the two entrance mar
 - Create: `site/docs/assets/map-data/photos/bog_walk/_captions.json`
 - Move: `site/docs/assets/map-data/photos/bog_entrance_1/*.jpg` → `site/docs/assets/map-data/photos/bog_walk/`
 - Delete: `site/docs/assets/map-data/photos/bog_entrance_1/` (entire folder)
-- Delete: `site/docs/assets/map-data/photos/bog_entrance_2/` (entire folder — only has empty `_captions.json`)
+- Delete: `site/docs/assets/map-data/photos/bog_entrance_2/` (entire folder, only has empty `_captions.json`)
 - Modify: `site/docs/assets/map-data/markers.json`
 
 - [ ] **Step 1: Create bog_walk photo folder and move photos**
@@ -169,7 +169,7 @@ Expected output includes:
   26 markers, NN marker photos, 3 bog walk photos
 ```
 
-(26 markers — down from 28 after removing the two entrance markers.)
+(26 markers, down from 28 after removing the two entrance markers.)
 
 - [ ] **Step 3: Commit**
 
@@ -180,7 +180,7 @@ git commit -m "build: update build_map.py to handle unified bogWalk object"
 
 ---
 
-### Task 3: Template — dual polyline with popup
+### Task 3: Template, dual polyline with popup
 
 Replace the single dashed polyline with a glow + main polyline, add hover effect, and bind a popup using the existing card pattern.
 
@@ -219,7 +219,7 @@ if (MAP_DATA.bogWalkPath && MAP_DATA.bogWalkPath.length > 1) {
 Replace with:
 
 ```javascript
-// Bog walk trail — dual polyline (glow + main) with popup
+// Bog walk trail, dual polyline (glow + main) with popup
 var bogGlow, bogPath, bogMidpoint;
 var bogWalk = MAP_DATA.bogWalk;
 if (bogWalk && bogWalk.path && bogWalk.path.length > 1) {
@@ -287,7 +287,7 @@ git commit -m "feat: dual polyline bog walk with glow styling and popup"
 
 ---
 
-### Task 4: Template — interactive legend
+### Task 4: Template, interactive legend
 
 Make all legend rows clickable. Bog Walk row zooms to path and opens popup. Other category rows toggle marker visibility.
 
@@ -421,7 +421,7 @@ git commit -m "feat: interactive legend with category toggle and bog walk zoom"
 
 Run the full build, verify everything works end-to-end, clean up.
 
-**Files:** None new — verification only.
+**Files:** None new, verification only.
 
 - [ ] **Step 1: Full rebuild**
 
