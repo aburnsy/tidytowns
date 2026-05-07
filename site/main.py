@@ -129,6 +129,32 @@ def define_env(env):
         return "\n".join(lines)
 
     @env.macro
+    def future_project_list():
+        """Render long-horizon / aspirational projects (in future/) grouped by delivery year."""
+        docs_dir = env.conf["docs_dir"]
+        projects = _scan_dir(docs_dir, "future")
+
+        src_path = env.page.file.src_path.replace("\\", "/")
+        prefix = "" if src_path.startswith("future/") else "future/"
+
+        if not projects:
+            return "*No future projects logged yet.*"
+
+        by_year = defaultdict(list)
+        for p in projects:
+            by_year[p["delivery_year"]].append(p)
+
+        years = sorted(by_year.keys())
+
+        lines = []
+        for year in years:
+            heading = year if year != "Unscheduled" else "Long-term / unscheduled"
+            lines.append(f"## {heading}\n")
+            lines.extend(_render_table(by_year[year], prefix))
+            lines.append("")
+        return "\n".join(lines)
+
+    @env.macro
     def completed_project_list():
         """Render completed projects (in completed/) grouped by completion year."""
         docs_dir = env.conf["docs_dir"]
@@ -160,7 +186,7 @@ def on_post_page_macros(env):
     """Auto-append metadata bar to project pages (active or completed)."""
     page = env.page
     src_path = page.file.src_path.replace("\\", "/")
-    m = re.match(r"^(projects|completed)/(\d{3}-[^/]+)/index\.md$", src_path)
+    m = re.match(r"^(projects|completed|future)/(\d{3}-[^/]+)/index\.md$", src_path)
     if not m:
         return
 
