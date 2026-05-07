@@ -18,9 +18,9 @@ Our Tidy Towns committee of 27 members, supported by volunteers, works year-roun
 
 ## Get Involved
 
-- **Join us**: Contact info@tmbvillage.ie
-- **Fundraising**: Support our [Split the Pot](https://www.tmbvillage.ie/) weekly draw
-- **Ideas**: [Propose a project](propose-project.md) or [comment on existing ones](submit-idea.md)
+- **Email us**: [info@tmbvillage.ie](mailto:info@tmbvillage.ie)
+- **Volunteer**: see the [Volunteer](volunteer.md) page
+- **Fundraising**: support our [Split the Pot](https://www.tmbvillage.ie/) weekly draw
 
 ## Links
 

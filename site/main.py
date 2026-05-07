@@ -107,8 +107,8 @@ def define_env(env):
         lines = []
         for year in years:
             lines.append(f"## {year}\n")
-            lines.append("| Project | Benefit | Cost | Status | Tags |")
-            lines.append("|---------|---------|------|--------|------|")
+            lines.append("| Project | Benefit | Cost | Status |")
+            lines.append("|---------|---------|------|--------|")
             sorted_projects = sorted(
                 by_year[year],
                 key=lambda p: benefit_order.get(p.get("benefit", "Low"), 9),
@@ -119,9 +119,8 @@ def define_env(env):
                 benefit = p.get("benefit", "")
                 cost = p.get("cost_estimate", "")
                 status = p.get("status", "")
-                tags = ", ".join(p.get("tags", []))
                 link = f"[{title}]({prefix}{folder}/index.md)"
-                lines.append(f"| {link} | {benefit} | {cost} | {status} | {tags} |")
+                lines.append(f"| {link} | {benefit} | {cost} | {status} |")
             lines.append("")
         return "\n".join(lines)
 
@@ -159,20 +158,13 @@ def on_post_page_macros(env):
 
     meta_bar = " | ".join(parts)
 
-    tags = meta.get("tags", [])
-    if isinstance(tags, str):
-        tags = [tags]
-    tags_line = ""
-    if tags:
-        tags_line = f"\n\n**Tags:** {', '.join(tags)}"
-
     inspired = meta.get("inspired_by", "")
     inspired_line = ""
     if inspired:
         inspired_line = f"\n\n*Inspired by: {inspired}*"
 
     # Navigation footer
-    nav = "\n\n---\n\n[Comment on this project](../../submit-idea.md) | [Propose a new project](../../propose-project.md)\n"
+    nav = "\n\n---\n\n*Questions or feedback? [Email us](mailto:info@tmbvillage.ie) at info@tmbvillage.ie.*\n"
 
-    suffix = f"\n\n{meta_bar}{tags_line}{inspired_line}{nav}"
+    suffix = f"\n\n{meta_bar}{inspired_line}{nav}"
     env.markdown += suffix
