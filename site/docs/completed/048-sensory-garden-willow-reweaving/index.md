@@ -1,6 +1,7 @@
 ---
-title: "Sensory garden willow weaving — periodic re-weave"
-delivery_year: 2028
+title: "Sensory garden willow weaving — first weave delivered"
+delivery_year: 2026
+completed_year: 2026
 tags:
   - green-spaces
   - community

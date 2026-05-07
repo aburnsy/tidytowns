@@ -1,13 +1,14 @@
 ---
-title: "Replace planter species with All-Ireland Pollinator Plan natives"
+title: "Cohesive village-wide pollinator planter scheme"
 delivery_year: 2026
 tags:
   - green-spaces
   - nature-biodiversity
-status: "Planned 2026"
-cost_estimate: "€100-200"
+  - streetscape
+status: "Phase 1 delivered May 2026; rolling replacement of older planters as they reach end-of-life"
+cost_estimate: "€100-200/yr (new planters built locally; perennials propagated by splitting existing stock)"
 benefit: "High"
-volunteer_hours: "8-12hrs (research, purchasing, replanting)"
+volunteer_hours: "8-12hrs/yr (purchasing, building, replanting)"
 inspired_by: "2025 and 2024 adjudication recommendation (repeated)"
 references:
   - title: "All-Ireland Pollinator Plan - Pollinator-friendly Plants"
@@ -16,11 +17,17 @@ references:
 
 ## Description
 
-Our village planters currently contain ornamental species that provide limited value for bees, butterflies, and other pollinators. Replacing them with native perennials recommended by the All-Ireland Pollinator Plan would increase biodiversity value significantly while maintaining a colourful, attractive display. This recommendation has been made by adjudicators in both 2024 and 2025.
+A **cohesive village-wide planter scheme** — locally made wooden trough planters in a unified blue scheme, filled with split perennials propagated from our own existing beds rather than annual bedding bought in each year. The scheme replaces older concrete planters as they reach end-of-life, ties the village together visually, and dramatically improves the pollinator value of every container. Adjudicators in both 2024 and 2025 recommended transitioning planter species away from purely ornamental plants towards native pollinator-friendly species.
 
 ## What the adjudicator said
 
-Both the 2024 and 2025 adjudicators recommended transitioning planter species away from purely ornamental plants towards native pollinator-friendly species. The repeated recommendation indicates this remains an unaddressed priority.
+Both the 2024 and 2025 adjudicators recommended transitioning planter species away from purely ornamental plants towards native pollinator-friendly species. The repeated recommendation indicates this remains a live priority.
+
+## Progress (May 2026)
+
+The blue trough planter scheme is on the ground at the cemetery layby, the Transport Museum gates, Dempsey Motors, Corcoran's, and other key spots. Planters are made from locally sourced wood by a local tradesman. Older concrete planters (e.g. Corcoran's frontage) are being filled with split perennials from our other beds — no waste, no annual bedding spend, and a much better deal for our pollinators.
+
+Photos: see the [village map](../../map.md) entries for **cemetery**, **transport museum**, **Dempsey Motors**, and **Corcoran's**.
 
 ## Best practice & research
 

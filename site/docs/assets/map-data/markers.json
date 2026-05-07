@@ -70,7 +70,7 @@
       "category": "Green Spaces & Nature",
       "color": "#4CAF50",
       "coords": [52.671526, -7.713888],
-      "desc": "Including graveyard extension — opportunity for biodiversity-rich landscaping scheme. Consult local biodiversity officer at Tipperary County Council (adjudicator recommendation)."
+      "desc": "Including graveyard extension. Opportunity for biodiversity-rich landscaping scheme. Consult local biodiversity officer at Tipperary County Council (adjudicator recommendation)."
     },
     {
       "id": "new_cemetery_entrance",
@@ -86,7 +86,7 @@
       "category": "School",
       "color": "#9C27B0",
       "coords": [52.67297, -7.710477],
-      "desc": "National school. Green Schools programme — elaborate on connection in application (adjudicator recommendation)."
+      "desc": "National school. Green Schools programme; elaborate on connection in application (adjudicator recommendation)."
     },
     {
       "id": "castle_park",
@@ -170,11 +170,11 @@
     },
     {
       "id": "dempsey_motors",
-      "name": "Dempsey Motors site (redevelopment)",
+      "name": "Dempsey & Harold Motors site (redevelopment)",
       "category": "Businesses",
       "color": "#FF9800",
-      "coords": [52.672, -7.7128],
-      "desc": "Former Dempsey Motors garage, recently retired. Local trucking business has planning permission for a new HQ and offices on the site. A positive Streetscape change in the pipeline. (Coords are approximate, please refine.)"
+      "coords": [52.6724058, -7.7128295],
+      "desc": "Former Dempsey & Harold Motors garage, recently retired by the proprietor. The site is being redeveloped by a new local business as offices and a yard. A positive Streetscape change in the pipeline at this end of the village."
     },
     {
       "id": "approach_west",
@@ -206,7 +206,7 @@
       "category": "Approach Roads",
       "color": "#F44336",
       "coords": [52.670436, -7.714858],
-      "desc": "Southern approach via the N75 from the M8 motorway (Junction 5) direction. Same road as the western approach — the N75 links Thurles in the north-west to the M8 in the south."
+      "desc": "Southern approach via the N75 from the M8 motorway (Junction 5) direction. Same road as the western approach. The N75 links Thurles in the north-west to the M8 in the south."
     },
     {
       "id": "seating_area",

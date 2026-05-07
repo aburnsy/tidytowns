@@ -1,6 +1,7 @@
 ---
 title: "Village-wide bulb planting — autumn 2025"
 delivery_year: 2025
+completed_year: 2025
 tags:
   - green-spaces
   - community

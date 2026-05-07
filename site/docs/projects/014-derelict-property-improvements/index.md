@@ -1,18 +1,18 @@
 ---
-title: "Improve appearance of derelict properties"
+title: "Derelict property improvements"
 delivery_year: 2026
 tags:
   - streetscape
-status: "Planned 2026"
-cost_estimate: "€100-200"
-benefit: "Medium"
-volunteer_hours: "8-16hrs (engagement, planning, painting)"
-inspired_by: "2025 adjudication recommendation + Emly example"
+status: "In progress — refurbishments underway May 2026"
+cost_estimate: "€0–500 (committee work; the developer is funding the refurbs)"
+benefit: "High"
+volunteer_hours: "8-16hrs (engagement, planning, supporting work)"
+inspired_by: "2025 adjudication recommendation + Emly's vibrant-colour vacant buildings"
 ---
 
 ## Description
 
-Vacant and derelict buildings can significantly undermine the visual quality of a village streetscape. Simple interventions such as painting window and door openings in complementary colours, adding window boxes, or tidying frontages can transform how these buildings are perceived. The exemplar village of Emly painted all their vacant buildings in vibrant colours, earning strong praise from adjudicators.
+Vacant and derelict buildings can significantly undermine the visual quality of a village streetscape. Two routes are open to us — supporting full refurbishment by property owners, and applying simple cosmetic interventions (painting window and door openings, adding window boxes, tidying frontages) where full refurb isn't on the cards. The exemplar village of Emly painted all their vacant buildings in vibrant colours, earning strong praise from adjudicators.
 
 ## What the adjudicator said
 
@@ -20,8 +20,12 @@ The 2025 adjudicator recommended addressing the appearance of derelict propertie
 
 ## Progress (May 2026)
 
-A local property developer (SMJ Construction) has begun refurbishing one of the properties flagged by the 2025 adjudicator, with a second property across from it also being upgraded.
+A local property developer (SMJ Construction, run by Sean Mockler Jnr) has begun refurbishing one of the properties flagged by the 2025 adjudicator, with a second property across from it also being upgraded.
 
 ![Main-street property mid-refurbishment by SMJ Construction (May 2026)](main-street-refurb-may-2026.jpg)
 
 This is a directly favourable response to the 2025 adjudicator recommendation, and we will be highlighting it prominently in the 2026 entry's Streetscape section.
+
+In parallel, Two-Mile-Borris Tidy Towns is actively following up with Tipperary County Council on the derelict property opposite the cemetery on the L4202, where overgrowth is encroaching on the public footpath. Draft letter and reporting routes at `private/derelict-property-cemetery.md`.
+
+The former Dempsey & Harold Motors site at the western end of the village is also under active redevelopment by a new local business, who are establishing offices and a yard on the site. A second positive Streetscape change in the pipeline.

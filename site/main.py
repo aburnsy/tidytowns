@@ -1,8 +1,9 @@
 """mkdocs-macros hook for TMB Tidy Towns project tracker.
 
 Provides:
-- on_page_markdown hook: auto-renders project metadata bar
-- project_list_by_year() macro: grouped project listing for index pages
+- on_post_page_macros hook: auto-renders project metadata bar
+- project_list_by_year() macro: grouped active project listing
+- completed_project_list() macro: grouped completed project listing
 """
 
 import datetime
@@ -52,18 +53,19 @@ def _read_frontmatter(filepath):
     return meta, body
 
 
-def _scan_projects(docs_dir):
-    """Scan all project directories and return a list of project dicts."""
-    projects_dir = Path(docs_dir) / "projects"
+def _scan_dir(docs_dir, subdir):
+    """Scan a project subdirectory and return a list of project dicts."""
+    base = Path(docs_dir) / subdir
     projects = []
-    for proj_dir in sorted(projects_dir.iterdir()):
+    if not base.exists():
+        return projects
+    for proj_dir in sorted(base.iterdir()):
         if not proj_dir.is_dir() or not re.match(r"^\d{3}-", proj_dir.name):
             continue
         index_file = proj_dir / "index.md"
         if not index_file.exists():
             continue
         meta, body = _read_frontmatter(str(index_file))
-        # Parse delivery_year from frontmatter or from status field
         delivery_year = meta.get("delivery_year", "")
         if not delivery_year:
             status = meta.get("status", "")
@@ -73,8 +75,28 @@ def _scan_projects(docs_dir):
         meta["_folder"] = proj_dir.name
         meta["_body"] = body
         meta["_dir"] = str(proj_dir)
+        meta["_subdir"] = subdir
         projects.append(meta)
     return projects
+
+
+def _render_table(projects, prefix):
+    """Render a sorted-by-benefit project table for a single year/section."""
+    benefit_order = {"High": 0, "Medium": 1, "Low": 2}
+    sorted_projects = sorted(
+        projects,
+        key=lambda p: benefit_order.get(p.get("benefit", "Low"), 9),
+    )
+    lines = ["| Project | Benefit | Cost | Status |", "|---------|---------|------|--------|"]
+    for p in sorted_projects:
+        title = p.get("title", p["_folder"])
+        folder = p["_folder"]
+        benefit = p.get("benefit", "")
+        cost = p.get("cost_estimate", "")
+        status = p.get("status", "")
+        link = f"[{title}]({prefix}{folder}/index.md)"
+        lines.append(f"| {link} | {benefit} | {cost} | {status} |")
+    return lines
 
 
 def define_env(env):
@@ -82,22 +104,17 @@ def define_env(env):
 
     @env.macro
     def project_list_by_year():
-        """Render all projects grouped by delivery year."""
+        """Render active projects (in projects/) grouped by delivery year."""
         docs_dir = env.conf["docs_dir"]
-        projects = _scan_projects(docs_dir)
+        projects = _scan_dir(docs_dir, "projects")
 
-        # Determine link prefix based on calling page location
         src_path = env.page.file.src_path.replace("\\", "/")
-        if src_path.startswith("projects/"):
-            prefix = ""
-        else:
-            prefix = "projects/"
+        prefix = "" if src_path.startswith("projects/") else "projects/"
 
         by_year = defaultdict(list)
         for p in projects:
             by_year[p["delivery_year"]].append(p)
 
-        benefit_order = {"High": 0, "Medium": 1, "Low": 2}
         current_year = str(datetime.date.today().year)
         years = sorted(by_year.keys())
         if current_year in years:
@@ -107,41 +124,48 @@ def define_env(env):
         lines = []
         for year in years:
             lines.append(f"## {year}\n")
-            lines.append("| Project | Benefit | Cost | Status |")
-            lines.append("|---------|---------|------|--------|")
-            sorted_projects = sorted(
-                by_year[year],
-                key=lambda p: benefit_order.get(p.get("benefit", "Low"), 9),
-            )
-            for p in sorted_projects:
-                title = p.get("title", p["_folder"])
-                folder = p["_folder"]
-                benefit = p.get("benefit", "")
-                cost = p.get("cost_estimate", "")
-                status = p.get("status", "")
-                link = f"[{title}]({prefix}{folder}/index.md)"
-                lines.append(f"| {link} | {benefit} | {cost} | {status} |")
+            lines.extend(_render_table(by_year[year], prefix))
             lines.append("")
         return "\n".join(lines)
 
-    pass  # Macros registered above; page hook is on_post_page_macros() below
+    @env.macro
+    def completed_project_list():
+        """Render completed projects (in completed/) grouped by completion year."""
+        docs_dir = env.conf["docs_dir"]
+        projects = _scan_dir(docs_dir, "completed")
+
+        src_path = env.page.file.src_path.replace("\\", "/")
+        prefix = "" if src_path.startswith("completed/") else "completed/"
+
+        if not projects:
+            return "*No completed projects logged yet.*"
+
+        by_year = defaultdict(list)
+        for p in projects:
+            year = p.get("completed_year") or p.get("delivery_year") or "Completed"
+            by_year[str(year)].append(p)
+
+        # Most-recent completion first
+        years = sorted(by_year.keys(), reverse=True)
+
+        lines = []
+        for year in years:
+            lines.append(f"## {year}\n")
+            lines.extend(_render_table(by_year[year], prefix))
+            lines.append("")
+        return "\n".join(lines)
 
 
 def on_post_page_macros(env):
-    """Auto-append metadata bar to project pages.
-
-    Called by mkdocs-macros after macro rendering for each page.
-    Modifies env.markdown in place for project index pages.
-    """
+    """Auto-append metadata bar to project pages (active or completed)."""
     page = env.page
     src_path = page.file.src_path.replace("\\", "/")
-    m = re.match(r"^projects/(\d{3}-[^/]+)/index\.md$", src_path)
+    m = re.match(r"^(projects|completed)/(\d{3}-[^/]+)/index\.md$", src_path)
     if not m:
         return
 
     meta = page.meta
 
-    # Build metadata bar
     parts = []
     status = meta.get("status", "")
     if status:
@@ -181,7 +205,6 @@ def on_post_page_macros(env):
     if inspired:
         inspired_line = f"\n\n*Inspired by: {inspired}*"
 
-    # Navigation footer
     nav = "\n\n---\n\n*Questions or feedback? [Email us](mailto:info@tmbvillage.ie) at info@tmbvillage.ie.*\n"
 
     suffix = f"\n\n{meta_bar}{tags_block}{inspired_line}{nav}"

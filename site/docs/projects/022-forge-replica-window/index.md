@@ -17,3 +17,10 @@ The old forge is a heritage building with significant character, but its empty w
 ## What the adjudicator said
 
 The 2025 adjudicator recommended installing a replica window in the old forge and advised engaging the County Heritage Officer for guidance on appropriate design and materials, as well as potential funding sources.
+
+## Next steps
+
+1. **Contact the Tipperary County Heritage Officer** — request guidance on appropriate materials, design, methodology, and any funding routes for replica window installation in a building of this character. (No or low cost to the community is realistic.)
+2. Walk the building with the Heritage Officer if possible.
+3. Develop a costed proposal with a recommended contractor.
+4. Schedule installation alongside any related streetscape work.

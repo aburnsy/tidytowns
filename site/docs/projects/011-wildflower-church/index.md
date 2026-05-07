@@ -33,4 +33,4 @@ The [All-Ireland Pollinator Plan - Managing Grassland](https://pollinators.ie/gr
 - Install "managed for wildlife" signage so visitors understand the intent
 - Cut and remove in autumn to keep soil nutrients low and favour wildflowers over coarse grasses
 
-This bed should be delivered as the first visible action of TMB's participation in the Irish Bishops' Conference [Returning to Nature](../045-laudato-si-returning-to-nature/) initiative — see project 045 for the parish-wide framing.
+This bed should be delivered as the first visible action of TMB's participation in the Irish Bishops' Conference [Returning to Nature](../045-laudato-si-returning-to-nature/index.md) initiative — see project 045 for the parish-wide framing.
