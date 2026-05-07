@@ -7,12 +7,12 @@ status: "Planned 2026"
 cost_estimate: "€0"
 benefit: "High"
 volunteer_hours: "2-4hrs/month (capturing, editing, organising) + 4hrs/season (set-piece shoots)"
-inspired_by: "Both exemplar villages praised for photos; Silvermines praised specifically for video"
+inspired_by: "Adjudicators consistently praise photographic and short-video documentation in high-scoring entries"
 ---
 
 ## Description
 
-High-quality photo and video documentation across the year lets us demonstrate the full scope of the village's Tidy Towns effort in a compelling, visual way. Both exemplar villages Emly and Silvermines were praised by adjudicators for their photographic documentation, and Silvermines specifically for their social media video content.
+High-quality photo and video documentation across the year lets us demonstrate the full scope of the village's Tidy Towns effort in a compelling, visual way. Adjudicators consistently praise high-scoring entries for strong photographic documentation, and increasingly for short-form social media video content too.
 
 Two strands run together:
 

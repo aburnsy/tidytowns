@@ -3,7 +3,7 @@ title: "Install replica window in the old forge"
 delivery_year: 2027
 tags:
   - streetscape
-status: "Planned 2027"
+status: "Future — when capacity or funding allows"
 cost_estimate: "€500-2000"
 benefit: "Medium"
 volunteer_hours: "10-20hrs (Heritage Officer engagement, contractor management)"

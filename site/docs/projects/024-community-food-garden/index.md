@@ -9,7 +9,7 @@ status: "Planned autumn 2026 (Sept/Oct planting)"
 cost_estimate: "€30-80 (sets, seed garlic, compost)"
 benefit: "Medium"
 volunteer_hours: "4-6hrs (autumn planting day; light spring/summer maintenance)"
-inspired_by: "Silvermines school garden — adjudicator described as 'one of the best I have encountered'"
+inspired_by: "Adjudicator-praised school food garden seen in other high-scoring entries"
 special_award: "Sustainability & Circular Economy"
 ---
 

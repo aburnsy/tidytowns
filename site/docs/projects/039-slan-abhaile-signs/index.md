@@ -7,9 +7,9 @@ status: "Planned 2026"
 cost_estimate: "€50-100"
 benefit: "Low"
 volunteer_hours: "2-4hrs (design, procurement, installation)"
-inspired_by: "Emly - adjudicator noted this detail"
+inspired_by: "Adjudicator-praised detail in similar villages"
 ---
 
 ## Description
 
-Adding "Slán Abhaile" (Safe Home) to the reverse side of the village welcome signs is a small but characterful Irish-language touch that bids visitors farewell as they leave. The exemplar village of Emly uses this detail and it was noticed and commented on positively by the adjudicator as a warm expression of community identity.
+Adding "Slán Abhaile" (Safe Home) to the reverse side of the village welcome signs is a small but characterful Irish-language touch that bids visitors farewell as they leave. Adjudicators have specifically praised this detail in other entries as a warm expression of community identity.

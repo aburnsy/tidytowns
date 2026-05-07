@@ -7,12 +7,12 @@ status: "In progress — refurbishments underway May 2026"
 cost_estimate: "€0–500 (committee work; the developer is funding the refurbs)"
 benefit: "High"
 volunteer_hours: "8-16hrs (engagement, planning, supporting work)"
-inspired_by: "2025 adjudication recommendation + Emly's vibrant-colour vacant buildings"
+inspired_by: "2025 adjudication recommendation + adjudicator-praised vibrant-colour treatments of vacant buildings"
 ---
 
 ## Description
 
-Vacant and derelict buildings can significantly undermine the visual quality of a village streetscape. Two routes are open to us — supporting full refurbishment by property owners, and applying simple cosmetic interventions (painting window and door openings, adding window boxes, tidying frontages) where full refurb isn't on the cards. The exemplar village of Emly painted all their vacant buildings in vibrant colours, earning strong praise from adjudicators.
+Vacant and derelict buildings can significantly undermine the visual quality of a village streetscape. Two routes are open to us — supporting full refurbishment by property owners, and applying simple cosmetic interventions (painting window and door openings, adding window boxes, tidying frontages) where full refurb isn't on the cards. Adjudicators have specifically praised vibrant-colour treatments of vacant buildings as an effective transformation of problematic streetscape features.
 
 ## What the adjudicator said
 

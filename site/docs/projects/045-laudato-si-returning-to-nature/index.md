@@ -5,10 +5,10 @@ tags:
   - nature-biodiversity
   - community
   - sustainability
-status: "Planned 2026"
+status: "Step 1 (parish priest conversation) underway; everything else is contingent"
 cost_estimate: "€0-100 (signage and FIT count materials)"
 benefit: "High"
-volunteer_hours: "8-12hrs (parish liaison, FIT counts, signage)"
+volunteer_hours: "1-2hrs initial conversation; 8-12hrs follow-on if signed up"
 inspired_by: "Irish Bishops' Conference Returning to Nature initiative"
 references:
   - title: "Returning to Nature - Irish Catholic Bishops' Conference"
@@ -19,19 +19,27 @@ references:
     url: "https://pollinators.ie/churchyards/"
 ---
 
-## Description
+## First step — and everything that depends on it
 
-In March 2023 the Irish Catholic Bishops' Conference committed parishes to returning 30% of church grounds to nature by 2030. The initiative responds to Laudato Si' and the COP15 biodiversity agreements. Joining brings St James Church grounds and the parish cemetery into a national, named programme — strengthening our Nature & Biodiversity narrative, evidencing partnership working, and unlocking practical tools (Faith Community Pollinator Plan, FIT counts).
+The whole of this project is gated on a single conversation: **getting Father Tom (St James parish priest) on board with the parish joining the Returning to Nature initiative**. Without that, none of the remaining steps can happen.
 
-This project formalises TMB's participation by:
+> **First step (active now):** approach Father Tom to introduce the initiative, explain what joining commits the parish to, and gauge appetite. Everything below is *contingent on a positive conversation* — we are not delivering it until Step 1 lands.
 
-1. Engaging the Parish Priest and Parish Pastoral Council to sign up to the initiative
-2. Identifying the 30% of grounds at St James Church + cemetery to manage for biodiversity
-3. Adopting the Faith Community Pollinator Plan as our church-grounds management framework
-4. Conducting Flower-Insect-Timed (FIT) counts as biodiversity evidence for the application
-5. Installing "managed for wildlife" signage so visitors understand the intent
+## Why we're pursuing this
 
-This wraps two existing 2026 actions — wildflower bed at church grounds (project 011) and graveyard biodiversity landscaping (project 019) — into a single named national programme. It provides a quotable partner organisation and a measurable monitoring methodology, both of which adjudicators reward.
+In March 2023 the Irish Catholic Bishops' Conference committed parishes to returning 30% of church grounds to nature by 2030. The initiative responds to Laudato Si' and the COP15 biodiversity agreements. If St James Parish signs up, it brings the church grounds and parish cemetery into a national, named programme — strengthening our Nature & Biodiversity narrative, evidencing partnership working, and unlocking practical tools (Faith Community Pollinator Plan, FIT counts).
+
+It also wraps two existing actions — the wildflower bed at the church grounds (project 011) and biodiversity landscaping at the graveyard extension (project 019) — into a single named national programme, giving us a quotable partner organisation and a measurable monitoring methodology that adjudicators reward.
+
+## Phased plan (contingent on parish sign-up)
+
+1. **Step 1 (now):** Approach Father Tom — introduce the Returning to Nature initiative, share the Faith Community Pollinator Plan, gauge appetite for parish sign-up.
+2. **Step 2 (if Step 1 lands):** Engage the Parish Pastoral Council formally and agree the parish will sign up.
+3. **Step 3:** Walk the grounds with parish reps to identify the 30% area to manage primarily for biodiversity.
+4. **Step 4:** Adopt the Faith Community Pollinator Plan as our church-grounds management framework.
+5. **Step 5:** Run a first FIT count (May/June, peak pollinator season) — record results.
+6. **Step 6:** Install "managed for wildlife" signage at the chosen area.
+7. **Step 7:** Photograph signage, FIT count in progress, and pollinator visits — these become application evidence.
 
 ## Why this matters for adjudication
 
@@ -47,12 +55,3 @@ This wraps two existing 2026 actions — wildflower bed at church grounds (proje
 - **Flower-Insect-Timed (FIT) counts** — 10-minute observation surveys recording insects visiting a flower patch, providing repeatable biodiversity data
 - **County Council linkage** — Wexford pilot showed parishes partnering with their County Council for nest boxes (barn owl, swift), bat roost boxes, and pollinator plans. We should explore the same with Tipperary Co Co Biodiversity Officer (already a 2025 adjudicator recommendation — rec #9)
 
-## First-year actions (2026)
-
-1. Letter to Parish Priest and Parish Pastoral Council proposing TMB Tidy Towns + Parish partnership under the Returning to Nature initiative
-2. Walk the grounds with parish reps to identify the 30% area
-3. Adopt the Faith Community Pollinator Plan as the management plan for that area
-4. First FIT count in May or June (peak pollinator season) — record results
-5. Install "managed for wildlife" signage at the chosen area
-6. Photograph signage, FIT count in progress, and pollinator visits — these become application evidence
-7. Cross-reference in 2026 application text under Community, Nature & Biodiversity, and Sustainability sections
