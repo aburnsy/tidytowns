@@ -1,6 +1,6 @@
 site_name: TMB Tidy Towns
 site_description: Two Mile Borris Tidy Towns - Community Projects
-site_url: ""
+site_url: https://aburnsy.github.io/tidytowns/
 
 theme:
   name: material
