@@ -5,7 +5,6 @@ tags:
   - nature-biodiversity
   - approach-roads
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€0-30 (signage)"
 benefit: "Medium"
 volunteer_hours: "Less than current (reduces mowing!)"

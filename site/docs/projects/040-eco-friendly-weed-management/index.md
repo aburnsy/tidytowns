@@ -5,7 +5,6 @@ tags:
   - sustainability
   - tidiness
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€50-100"
 benefit: "Medium"
 volunteer_hours: "4-8hrs (research, testing, documenting approach)"

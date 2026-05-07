@@ -4,7 +4,6 @@ delivery_year: 2027
 tags:
   - community
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€0 (time only)"
 benefit: "High"
 volunteer_hours: "20-30hrs (drafting, consulting, finalising)"

@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - community
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€200-500"
 benefit: "High"
 volunteer_hours: "20-40hrs (planning and running the event)"

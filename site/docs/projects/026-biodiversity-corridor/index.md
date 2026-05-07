@@ -4,7 +4,6 @@ delivery_year: 2028
 tags:
   - nature-biodiversity
 status: "Planned 2028"
-owner: ""
 cost_estimate: "€1000-3000"
 benefit: "High"
 volunteer_hours: "Significant - planting and multi-year aftercare"

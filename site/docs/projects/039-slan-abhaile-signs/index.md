@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - approach-roads
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€50-100"
 benefit: "Low"
 volunteer_hours: "2-4hrs (design, procurement, installation)"

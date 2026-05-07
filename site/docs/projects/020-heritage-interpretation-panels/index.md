@@ -5,7 +5,6 @@ tags:
   - streetscape
   - community
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€500-1000"
 benefit: "High"
 volunteer_hours: "20-30hrs (research, content writing, installation)"

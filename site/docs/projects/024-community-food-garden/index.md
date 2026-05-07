@@ -5,7 +5,6 @@ tags:
   - sustainability
   - community
 status: "Planned 2028"
-owner: ""
 cost_estimate: "€2000-5000"
 benefit: "High"
 volunteer_hours: "Significant - ongoing seasonal commitment"

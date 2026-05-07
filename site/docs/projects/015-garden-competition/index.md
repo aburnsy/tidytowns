@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - residential
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€100 (prizes)"
 benefit: "Medium"
 volunteer_hours: "10-15hrs (organising, judging, presenting awards)"

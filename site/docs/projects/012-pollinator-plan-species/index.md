@@ -5,7 +5,6 @@ tags:
   - green-spaces
   - nature-biodiversity
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€100-200"
 benefit: "High"
 volunteer_hours: "8-12hrs (research, purchasing, replanting)"

@@ -4,7 +4,6 @@ delivery_year: 2027
 tags:
   - nature-biodiversity
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€500-1500"
 benefit: "High"
 volunteer_hours: "20-40hrs (planning, planting, ongoing management)"
@@ -12,6 +11,8 @@ inspired_by: "2025 adjudication recommendation"
 references:
   - title: "All-Ireland Pollinator Plan - Churchyards & Graveyards"
     url: "https://pollinators.ie/churchyards/"
+  - title: "Returning to Nature - Irish Catholic Bishops' Conference"
+    url: "https://www.catholicbishops.ie/laudato-si/returning-to-nature/"
 ---
 
 ## Description
@@ -30,3 +31,5 @@ The [All-Ireland Pollinator Plan - Churchyards & Graveyards](https://pollinators
 - Use native wildflower species appropriate to the soil type and conditions
 - Manage grass cutting to protect ground-nesting bees and allow plants to set seed
 - Install interpretation signage to explain the biodiversity management approach to visitors
+
+This sits within the wider parish biodiversity commitment under the [Returning to Nature](../045-laudato-si-returning-to-nature/) initiative (project 045). The Wexford pilot of that initiative paired parishes with their County Council biodiversity officer for exactly this kind of scheme — a route we should mirror with Tipperary Co Co.

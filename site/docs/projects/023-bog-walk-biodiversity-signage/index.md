@@ -5,7 +5,6 @@ tags:
   - nature-biodiversity
   - green-spaces
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€500-1000"
 benefit: "High"
 volunteer_hours: "15-25hrs (species research, content writing, installation)"

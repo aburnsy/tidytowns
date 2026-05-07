@@ -5,7 +5,6 @@ tags:
   - residential
   - nature-biodiversity
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€0-50 (signage only)"
 benefit: "Medium"
 volunteer_hours: "2hrs (setup and signage installation)"

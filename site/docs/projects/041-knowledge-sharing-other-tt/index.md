@@ -4,7 +4,6 @@ delivery_year: 2027
 tags:
   - community
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€0-100"
 benefit: "Medium"
 volunteer_hours: "4-10hrs/yr (visits, calls, sharing materials)"

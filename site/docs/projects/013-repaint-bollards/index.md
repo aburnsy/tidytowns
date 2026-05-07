@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - tidiness
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€30-50"
 benefit: "Low"
 volunteer_hours: "3-4hrs"

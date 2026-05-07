@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - nature-biodiversity
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€0"
 benefit: "Low"
 volunteer_hours: "1-2hrs (writing)"

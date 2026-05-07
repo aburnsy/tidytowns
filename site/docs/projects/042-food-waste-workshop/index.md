@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - sustainability
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€50-200"
 benefit: "Medium"
 volunteer_hours: "8-12hrs (organising and running the workshop)"

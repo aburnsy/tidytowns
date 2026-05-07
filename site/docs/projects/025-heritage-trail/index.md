@@ -5,7 +5,6 @@ tags:
   - streetscape
   - community
 status: "Planned 2028"
-owner: ""
 cost_estimate: "€3000-8000"
 benefit: "High"
 volunteer_hours: "Significant - multi-year planning and delivery"

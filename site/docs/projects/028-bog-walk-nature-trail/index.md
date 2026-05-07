@@ -6,7 +6,6 @@ tags:
   - green-spaces
   - community
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€1,000-3,000 (on top of existing restoration budget)"
 benefit: "High"
 volunteer_hours: "Significant - phased over 12+ months"

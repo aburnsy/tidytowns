@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - streetscape
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€100-200"
 benefit: "Medium"
 volunteer_hours: "8-16hrs (engagement, planning, painting)"

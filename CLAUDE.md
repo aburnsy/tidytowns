@@ -58,6 +58,10 @@ uv run --with pymupdf python research/extract_scores.py
 - `private/` - Application strategy, marks analysis, adjudicator tracker. NEVER publish these.
 - `research/` - Results booklets, reports, analysis scripts. Not published.
 
+## Review Documents
+
+- **Image links in markdown** - when creating review/reference documents with images for the user, use `file:///` URLs (e.g. `![desc](file:///C:/Users/andre/.../photo.jpg)`) so images render in local markdown previewers.
+
 ## Key Conventions
 
 - **Use `uv` for Python** - not pip or raw python. Example: `uv run --with package python script.py`

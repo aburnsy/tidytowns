@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - sustainability
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€50-80"
 benefit: "High"
 volunteer_hours: "3hrs setup, then 30 min/month maintenance"

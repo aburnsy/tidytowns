@@ -4,7 +4,6 @@ delivery_year: 2028
 tags:
   - sustainability
 status: "Planned 2028"
-owner: ""
 cost_estimate: "€2000-5000"
 benefit: "Medium"
 volunteer_hours: "Significant - planning, installation, and ongoing management"

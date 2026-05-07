@@ -6,7 +6,6 @@ tags:
   - nature-biodiversity
   - green-spaces
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€0"
 benefit: "High"
 volunteer_hours: "4hrs (writing, photography)"

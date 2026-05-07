@@ -5,7 +5,6 @@ tags:
   - sustainability
   - tidiness
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€0"
 benefit: "High"
 volunteer_hours: "2hrs initial setup, then 15 min per cleanup"

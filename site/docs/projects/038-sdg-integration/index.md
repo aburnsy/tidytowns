@@ -5,7 +5,6 @@ tags:
   - community
   - sustainability
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€0"
 benefit: "Medium"
 volunteer_hours: "4-8hrs (mapping projects to SDGs, updating application)"

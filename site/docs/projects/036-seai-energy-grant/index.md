@@ -4,7 +4,6 @@ delivery_year: 2027
 tags:
   - sustainability
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€0"
 benefit: "High"
 volunteer_hours: "20-30hrs (application writing and supporting documentation)"

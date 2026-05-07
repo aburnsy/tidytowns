@@ -5,7 +5,6 @@ tags:
   - nature-biodiversity
   - sustainability
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€20-50"
 benefit: "Medium"
 volunteer_hours: "4-8hrs/yr (coordination with school, harvesting, storing)"

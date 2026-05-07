@@ -4,7 +4,6 @@ delivery_year: 2027
 tags:
   - nature-biodiversity
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€0-200"
 benefit: "High"
 volunteer_hours: "15-30hrs/yr (survey days and data recording)"

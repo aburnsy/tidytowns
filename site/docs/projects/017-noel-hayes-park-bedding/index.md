@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - residential
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€150-300"
 benefit: "Medium"
 volunteer_hours: "6-10hrs (planting and seasonal maintenance)"

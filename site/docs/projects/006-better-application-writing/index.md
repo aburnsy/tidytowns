@@ -4,7 +4,6 @@ delivery_year: 2026
 tags:
   - community
 status: "Planned 2026"
-owner: ""
 cost_estimate: "€0"
 benefit: "High"
 volunteer_hours: "10-20hrs (researching exemplars, drafting, reviewing)"

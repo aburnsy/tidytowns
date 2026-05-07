@@ -5,7 +5,6 @@ tags:
   - sustainability
   - nature-biodiversity
 status: "Planned 2028"
-owner: ""
 cost_estimate: "€500-1500"
 benefit: "High"
 volunteer_hours: "Significant - multi-year phased delivery"

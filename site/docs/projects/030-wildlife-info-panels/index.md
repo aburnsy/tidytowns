@@ -4,7 +4,6 @@ delivery_year: 2027
 tags:
   - nature-biodiversity
 status: "Planned 2027"
-owner: ""
 cost_estimate: "€300-600"
 benefit: "High"
 volunteer_hours: "10-15hrs (research, content writing, installation)"
