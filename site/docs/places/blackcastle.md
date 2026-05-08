@@ -11,6 +11,6 @@ The wider story is older though, and very much tied up with the village name. "B
 
 The keep itself is now incorporated into a working farmyard, with a lovely red-trim cottage out front that gives you a real sense of just how big the tower really is. Around the back, across an unmown meadow, you get one of the best views in the village in May, when the Hawthorn comes into full blossom and you have five hundred years of Norman stonework, a season of native white blossom and a meadow full of pollinator habitat all in the one frame. Hawthorn is the traditional Irish May tree and a foundational native species for our biodiversity plan, so the meadow at the back of the castle is doing real work for the village even before you get to the heritage of the building itself.
 
-Most of the medieval features uncovered during the 2007 to 2009 M8 archaeological excavation were found in fields just south of here, in Borris and Blackcastle townlands. For the wider medieval story, see [Medieval Two Mile Borris](../heritage/medieval.md) in our Heritage section.
+Most of the medieval features uncovered during the 2007 to 2009 M8 archaeological excavation were found in fields south of the village, in Borris and Blackcastle townlands. For the wider medieval story, see [Medieval Two Mile Borris](../heritage/medieval.md) in our Heritage section.
 
 {{ place_photos("blackcastle") }}

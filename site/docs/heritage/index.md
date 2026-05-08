@@ -5,10 +5,10 @@ title: Heritage
 # The Long Story of Two Mile Borris
 
 <div class="heritage-hero" markdown="1">
-People have been living, working, farming and burying their dead in this corner of Tipperary for at least 7,500 years. The fields immediately south of the village hold one of the richest multi-period archaeological sites uncovered during the M8 motorway build, and that's only the part we've actually dug. The rest is still under your feet.
+People have been living, working, farming and burying their dead in this corner of Tipperary for at least 2,800 years. The fields immediately south of the village hold one of the richest multi-period archaeological sites uncovered during the M8 motorway build, and that's only the part we've actually dug. The rest is still under your feet.
 </div>
 
-The story isn't one thing. It's a Late Bronze Age ritual enclosure on low ground by the Black River. It's a fifth-century stockaded settlement that grew into a classic ringfort. It's a medieval Anglo-Norman borough with a working watermill, smithing furnaces, three kilns drying barley for ale, and 71 silver coins. It's a Norman castle still standing on the western approach. It's an early medieval monastery 2km east, founded by St Mochoemog, that gave the village school its name. And it's the panel of hurlers that brought the All-Ireland title back to Tipperary in 1900 and got a centennial monument in the middle of the village a hundred years later.
+The story isn't one thing. It's a Late Bronze Age ritual enclosure on low ground by the Black River. It's a fifth-century stockaded settlement that grew into a classic ringfort. It's a medieval Anglo-Norman borough with a working watermill, iron-smelting furnaces and smithing hearths, three kilns for drying grain and malting barley, and 71 silver coins. It's a Norman castle still standing on the western approach. It's an early medieval monastery 2km east, founded by St Mochoemog, that gave the village school its name. And it's the panel of hurlers that brought the All-Ireland title back to Tipperary in 1900 and got a centennial monument in the middle of the village a hundred years later.
 
 Pick an era to start exploring.
 
@@ -35,7 +35,7 @@ Pick an era to start exploring.
 
 === "Prehistoric"
 
-    On low ground beside the Black River, a Late Bronze Age ritual enclosure 95 metres across. Inside it, the carefully arranged bones of an old cow placed in three crisscrossed layers in a small pit, with three stakes set in the ground first. A human skull fragment in the ditch. A flint scraper among burnt stone and charcoal. Up on the ridge, a circular timber house big enough for seven adults and a dog, ring-ditches with cremations, and a flat cemetery of 18 burials.
+    On low ground beside the Black River, a Late Bronze Age ritual enclosure 95 metres across. Inside it, the carefully arranged bones of an old cow placed in three or four crisscrossed layers in a small pit, with three stakes set in the ground first. A human skull fragment in the ditch. A flint scraper among burnt stone and charcoal. Up on the ridge, a circular timber house big enough for seven adults and a dog, ring-ditches with cremations, and a flat cemetery of 18 burials.
 
     [Read more about prehistoric Two Mile Borris →](prehistoric.md)
 

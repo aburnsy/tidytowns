@@ -238,43 +238,55 @@ def define_env(env):
         return "\n".join(lines)
 
     @env.macro
-    def place_photos(marker_id, limit=None):
-        """Render a photo grid for a place, skipping the hero (first) photo.
+    def place_photos(*marker_ids, limit=None):
+        """Render a photo grid pulling from one or more photo folders.
 
-        Photos link to the full-size image. Pages can pass `limit` to cap count.
+        The first photo of the FIRST folder is skipped (it's the hero, already
+        rendered above the prose). All photos from subsequent folders are
+        included. Photos link to the full-size image. Pages can pass `limit`
+        to cap count.
         """
+        if not marker_ids:
+            return ""
+
         docs_dir = env.conf["docs_dir"]
-        captions_file = (
-            Path(docs_dir) / "assets" / "map-data" / "photos" / marker_id / "_captions.json"
-        )
-        if not captions_file.exists():
-            return ""
-        try:
-            with open(captions_file, "r", encoding="utf-8") as f:
-                entries = json.load(f)
-        except (json.JSONDecodeError, OSError):
-            return ""
-        if not entries:
-            return ""
-
-        # Skip the hero (first photo) since it's rendered above the prose
-        entries = entries[1:]
-        if limit is not None:
-            entries = entries[:limit]
-        if not entries:
-            return ""
-
         src_path = env.page.file.src_path.replace("\\", "/")
         prefix = "../../" if src_path.startswith("places/") else ""
-        photo_base = f"{prefix}assets/map-data/photos/{marker_id}"
+
+        # Collect (folder, entry) pairs across all requested folders
+        all_entries = []
+        for idx, marker_id in enumerate(marker_ids):
+            captions_file = (
+                Path(docs_dir) / "assets" / "map-data" / "photos" / marker_id / "_captions.json"
+            )
+            if not captions_file.exists():
+                continue
+            try:
+                with open(captions_file, "r", encoding="utf-8") as f:
+                    entries = json.load(f)
+            except (json.JSONDecodeError, OSError):
+                continue
+            if not entries:
+                continue
+            # Skip the hero on the FIRST folder only
+            if idx == 0:
+                entries = entries[1:]
+            for e in entries:
+                all_entries.append((marker_id, e))
+
+        if limit is not None:
+            all_entries = all_entries[:limit]
+        if not all_entries:
+            return ""
 
         items = ['<div class="place-gallery" markdown="0">']
-        for entry in entries:
+        for marker_id, entry in all_entries:
             file = entry.get("file", "")
             caption = entry.get("caption", "")
             if not file:
                 continue
             alt = caption.replace('"', "&quot;")
+            photo_base = f"{prefix}assets/map-data/photos/{marker_id}"
             items.append(
                 f'<figure class="place-photo">'
                 f'<a href="{photo_base}/{file}" target="_blank" rel="noopener">'

@@ -14,7 +14,7 @@ This page is shorter than the others. We have less from a single archaeological 
 
 ## The 1900 All-Ireland
 
-The headline event of modern Two Mile Borris is the [1900 All-Ireland Hurling Final](https://en.wikipedia.org/wiki/1900_All-Ireland_Senior_Hurling_Championship_final). The Two Mile Borris hurling club represented Tipperary that year, and on 26 October 1901 (the final was played late) we beat London 2-5 to 0-6 at Jones' Road in Dublin, the ground that became Croke Park. The men of the village won an All-Ireland.
+The headline event of modern Two Mile Borris is the [1900 All-Ireland Hurling Final](https://en.wikipedia.org/wiki/1900_All-Ireland_Senior_Hurling_Championship_final). The Two Mile Borris hurling club represented Tipperary that year, and on 26 October 1902 (the final was played late) we beat London 2-5 to 0-6 at Jones' Road in Dublin, the ground that became Croke Park. The men of the village won an All-Ireland.
 
 A century later, in 2000, the village raised the **All-Ireland Victory Centennial monument** at the heart of the village, with the names of the 1900 panel listed on the centre plaque, the club's red-and-yellow flying alongside the Tipperary blue-and-gold. It's still the focal point of the village.
 
@@ -30,7 +30,7 @@ The village primary school is named after the same St Mochoemog who founded [Lia
 
 ## The 2007–2009 dig
 
-The other thing worth marking under "modern Two Mile Borris" is, in a slight twist, the dig itself. Between 2007 and 2009, a team of archaeologists from Valerie J Keeley Ltd, directed by Mícheál Ó Droma and supported by the National Roads Authority, opened up 950 metres of ground in the fields directly south of the village. They worked through one full year's turning of the seasons. They published a chapter on the findings in 2010.
+The other thing worth marking under "modern Two Mile Borris" is, in a slight twist, the dig itself. Between 2007 and 2009, a team of archaeologists from Valerie J Keeley Ltd, directed by Mícheál Ó Droma and supported by the National Roads Authority, worked across 950 metres of road corridor in the fields directly south of the village. They worked through one full year's turning of the seasons. They published a chapter on the findings in 2010.
 
 Without that dig, almost nothing on the [Prehistoric](prehistoric.md), [Early Medieval](early-medieval.md) or [Medieval](medieval.md) pages would be on this website. The motorway took some of the village's surface, but it gave us back several thousand years of buried story we didn't know we had.
 

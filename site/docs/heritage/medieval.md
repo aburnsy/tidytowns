@@ -14,7 +14,7 @@ The medieval village had what every borough was supposed to have: a row of house
 
 ## Buiríos Léith, the medieval borough
 
-Two Mile Borris belonged to the *cantred* (a hundred-village district) of Eliogarty. In 1185, Theobold Walter, founder of the Butler dynasty of Ormond, was granted the cantred. He and his descendants reshaped it. The cantred had probably been coterminous with the older Gaelic territory of Éile Ua Fógartaigh.
+Two Mile Borris belonged to the *cantred* (a hundred-village district) of Eliogarty. In 1185, Theobold Walter, founder of the Butler dynasty of Ormond, was granted the cantred. He and his descendants reshaped it. The cantred had probably been coterminous with the older Gaelic territory of Éile Ua Fogartaigh.
 
 The modern village is the direct descendant of the medieval borough of *Burgage Leeth*, which is *Buiríos Léith* in Irish, "the grey borough", established late twelfth or early thirteenth century. By 1312 the borough was held in fief by the Archbishop of Cashel, which is to say the senior churchman in the country had a financial and legal interest in this little place.
 
@@ -41,7 +41,7 @@ The dig found the millhouse foundations (a small square stone-walled building, b
 <h3>Three "dumbbell" kilns above the mill</h3>
 <div class="finding-meta">Medieval; charcoal and carbonised cereal in the fills</div>
 
-About 75 metres east of the mill, on a north-west-facing terrace, the dig found three medieval cereal-drying kilns of "dumbbell" type, built into the subsoil and partly stone-lined. Their fills were rich in charcoal and carbonised grain.
+About 75 metres east of the mill, on a north-west-facing terrace, the dig found three medieval cereal-drying kilns of "dumbbell" type, all cut into the subsoil with two of them partly stone-lined. Their fills were rich in charcoal and carbonised grain.
 
 Kilns like these had two related jobs: drying grain so it would store and grind safely, and malting barley for brewing ale. So this was the mill, the kilns, and the brewing setup, all on the same patch of ground. The full agricultural-and-industrial workings of a medieval borough.
 </div>
@@ -63,17 +63,17 @@ Iron tools, nails and the by-products of metalworking show up across the medieva
 <h3>A long-lived workshop on the river bank</h3>
 <div class="finding-meta">Four superimposed floor levels; final use as a smithing workshop</div>
 
-A rectangular earthen-walled building, 5.8 metres by 6 metres, was excavated next to the west bank of the Black River. It had four well-preserved superimposed floor surfaces, in order:
+A rectangular earthen-walled building, 5.8 metres by 6 metres, was excavated next to the west bank of the Black River. It had four well-preserved superimposed floor surfaces over a foundation layer:
 
-1. A foundation layer of sand and gravel mixed with woodchips
-2. A first floor of limestone cobbles
-3. An orange-clay floor (with an iron chisel and a nail in it)
-4. A compact sandy-silt floor (with a lead weight, 30 stake-holes, and a shallow internal drain)
-5. A final floor of compact clay in the north and large flagstones in the south, with a central limestone slab and a hearth
+- *Foundation*: sand and gravel mixed with woodchips
+- *Floor 1*: limestone cobbles
+- *Floor 2*: orange clay (with an iron chisel and a nail in it)
+- *Floor 3*: compact sandy silt (with a lead weight, 30 stake-holes, and a shallow internal drain)
+- *Floor 4*: compact clay in the north and large flagstones in the south, with a central limestone slab and a hearth
 
-That last floor was where the building's life ended as a smithing workshop. The hearth deposit and the area around the central slab contained *hammerscale*, the tiny flecks of metal that fly off when you hammer hot iron on an anvil.
+That final floor was where the building's life ended as a smithing workshop. The hearth deposit and the area around the central slab contained *hammerscale*, the tiny flecks of metal that fly off when you hammer hot iron on an anvil.
 
-A midden (rubbish dump) just south of the building yielded sherds of imported pottery, including wares from England and France, and two silver coins. Wine and oil shipped from Bordeaux and elsewhere, landed at Waterford, then carried up the Suir and its tributaries to here. This little borough was plugged into the wider Anglo-Norman trading network.
+A midden (rubbish dump) just south of the building yielded sherds of imported pottery, including wares from England and France, and two silver coins. Wine and oil from England and France, landed at Waterford, then carried up the Suir and its tributaries to here. This little borough was plugged into the wider Anglo-Norman trading network.
 </div>
 
 ??? note "About the silver coin hoard"

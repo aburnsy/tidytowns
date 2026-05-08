@@ -13,6 +13,6 @@ Tucked into the doorway is the Liathmore sheela-na-gig, a small medieval carved 
 
 The connection between Liathmore and Two Mile Borris also runs through the village name. Our older Irish name "Borrisleigh" almost certainly relates to the monastic community of Liathmore-Mochoemóg in nearby Leigh townland, so the village we live in today carries the saint's monastery in its very name.
 
-The early medieval cemetery uncovered south of the village in 2008 contained 20 east-west aligned burials right beside a working ringfort, and Liathmore is the most likely place those burials *moved to* once burial in consecrated ecclesiastical ground became the norm. The line that runs from those small graves to the visible Christian cemetery here at Liathmore is plausibly the same community of people. For more on that connection, see [Early Medieval Two Mile Borris](../heritage/early-medieval.md) in our Heritage section.
+The early medieval cemetery uncovered south of the village during the 2007–2009 dig contained 20 east-west aligned burials right beside a working ringfort, and Liathmore is plausibly where the community's burial practice moved next, on Ó Droma's reading, once burial in consecrated ecclesiastical ground became the norm. The line that runs from those small graves to the visible Christian cemetery here at Liathmore is plausibly the same community of people. For more on that connection, see [Early Medieval Two Mile Borris](../heritage/early-medieval.md) in our Heritage section.
 
 {{ place_photos("liathmore") }}

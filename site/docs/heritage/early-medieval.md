@@ -44,7 +44,7 @@ The dating sits squarely within the main ringfort era of seventh to ninth centur
 
 ??? note "The house that matches the law book"
 
-    One of the four houses inside the ringfort, called Structure 2 on the dig, lines up almost word-for-word with a house type described in the Críth Gabhlach, an early Irish law-tract about social status. The law-tract describes the *tech ninicas* as "seventeen feet in diameter . . . half of the interior of the house is taken up with the bed cubicle (imdae), and the other half is paved (plait)".
+    One of the four houses inside the ringfort, called Structure 2 on the dig, lines up almost word-for-word with a house type described in the Críth Gabhlach, an early Irish law-tract about social status. The law-tract describes the *tech nincís* as "seventeen feet in diameter", with the interior split in half — a bed cubicle (*imdae*) on one side and a paved floor (*plait*) on the other.
 
     Structure 2 was 5.2 metres in diameter (which is exactly 17 feet), and the northern half of the interior had a cobbled floor surface. Half cobbled, half not, exactly like the law book says. Reading the textbook description and looking at the excavated floor side by side, it lands.
 
@@ -80,7 +80,7 @@ The interesting thing is the *closeness*: the burials sit right beside the worki
 
 Burial moved at some point in this period. Settlement-cemeteries like ours gave way over time to burial in larger community graveyards in consecrated ecclesiastical precincts.
 
-Just 2.2km east of the dig site, on the western edge of the wetland, sits **[Liathmore (Liath Mochoemog)](../places/liathmore.md)**, the early medieval monastic site founded by St Mochoemog, the same saint our village school is named after. Ó Droma's working hypothesis is that Liathmore took over from the small settlement-cemetery here at Two Mile Borris as the community's burial ground.
+Just 2.2km east of the dig site, on the western edge of the wetland, sits **[Liathmore (Liath Mochoemog)](../places/liathmore.md)**, the early medieval monastic site founded by St Mochoemog, the same saint our village school is named after. Ó Droma tentatively suggests that Liathmore succeeded the small settlement-cemetery here at Two Mile Borris as the community's burial ground.
 
 In other words, the line that runs from the small east-west graves we found in 2008 to the visible Christian cemetery at Liathmore is plausibly the line of a single community deciding, somewhere in the seventh or eighth century, that their dead now belong with the saints.
 
