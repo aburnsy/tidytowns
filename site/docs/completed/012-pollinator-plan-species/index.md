@@ -72,17 +72,17 @@ We're not ripping anything out. Where there are existing annuals or non pollinat
 | **Red Valerian** | Light pinky-red panicles, the same plant you see growing wild on stone walls all over Ireland. Drought-resistant, brilliant for butterflies, divides readily. |
 | **Deschampsia 'Goldschleier'** (Tufted Hair Grass, "Gold Veil") | Native ornamental grass throwing tall airy golden seed plumes for structure and seasonal movement. Splits readily. |
 
-Three things drove every choice:
+The criteria we actually worked to, in order:
 
-- **Pollinator-friendly first.** Every plant in the mix earns its keep on the [All-Ireland Pollinator Plan plant list](https://pollinators.ie/plants/). We're following the national guidance rather than guessing.
-- **Splits easily.** Every variety is a clump-former we can divide ourselves. That's how we keep ongoing cost down to almost nothing while the display gets bigger and better every year.
+- **Pollinator-friendly first.** Every variety in the mix earns its keep on the [All-Ireland Pollinator Plan plant list](https://pollinators.ie/plants/). We're following the national guidance rather than guessing.
+- **Subdividable.** Every variety is a clump-former we can divide ourselves. That's how we keep ongoing cost down to almost nothing while the display gets bigger and better every year, and how we propagate new beds from existing village stock rather than buying in fresh annuals.
+- **Long flowering season.** We aim for continuous flowering from late spring through to autumn across the planter scheme, no hungry gaps for pollinators.
+- **Hardy.** The planters sit in full sun on free-draining roadside soil with a fair bit of salt spray and traffic dust through the year. Anything that can't cope with that doesn't earn a spot.
+- **Simple open flowers.** Single-flowered cultivars over double-flowered, so short-tongued bees can actually access the nectar. No heavily bred cultivars with little or no pollen.
 - **Red and yellow as the core colours.** Those are our village flag colours, the same red and yellow that fly on the GAA monument at the centre of the village. The Geum, Echinacea and Red Valerian all bring the red, the Achillea brings the yellow, and the planter scheme quietly ties in with the village's own identity.
+
+Native and near-native species are preferred where they meet all of the above, but we don't put native first if a near-native cultivar gives us a hardier, longer-flowering plant for the same spot. The point of the scheme is reliable pollinator value through the season, not species purism.
 
 ## Best practice we leaned on
 
-The [All-Ireland Pollinator Plan - Pollinator-friendly Plants](https://pollinators.ie/plants/) gives a curated list of native and near-native plants that support pollinators across the growing season. The principles we worked to:
-
-- Native perennials over annual bedding.
-- Simple, open flowers accessible to short-tongued bees.
-- Continuous flowering from March through to October, no hungry gaps.
-- No double-flowered or highly bred cultivars (they often have little or no nectar and pollen).
+The [All-Ireland Pollinator Plan - Pollinator-friendly Plants](https://pollinators.ie/plants/) gives a curated list of native and near-native plants that support pollinators across the growing season. The principles we worked to: clump-forming pollinator perennials over annual bedding; simple, open flowers accessible to short-tongued bees; continuous flowering from March through to October; no double-flowered or highly bred cultivars (they often have little or no nectar and pollen).

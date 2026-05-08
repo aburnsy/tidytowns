@@ -16,7 +16,7 @@ references:
 
 ## Description
 
-The plan is to put a small winter wildlife strip in every village estate that has the green space for one. We pick a section, leave it unmown from late summer, let it set seed, and leave the stems standing right through to early spring. The seed-heads feed birds over the winter and the dead stems give insects somewhere to shelter through the cold months. Then we cut it once in early spring, before the insects come out. Every strip gets a small sign so people know it's on purpose and not just neglected.
+The plan is to put a small winter wildlife strip in every village estate that has the green space for one. We pick a section, leave it unmown from late summer, let it set seed, and leave the stems standing right through to early spring. The seed-heads feed birds over the winter and the dead stems give insects somewhere to shelter through the cold months. Then we cut it once in early spring, before the insects come out, being careful to lift any thatch buildup the grass has left behind so the wildflowers can come up cleanly the following year. Every strip gets a small sign so people know it's on purpose and not just neglected.
 
 It's the same approach we've asked Glen Carraig to consider at their entrance green (Project 016, ball is with the estate) and that we've proposed for the approach-road verges (Project 009, ball is with the council Roads section), just dropped into housing estates so wildlife has a foothold inside the village too.
 
@@ -26,4 +26,4 @@ We've written to most of the estates we think have the green space for one, aski
 
 ## Best practice & research
 
-The [All-Ireland Pollinator Plan grasslands guidance](https://pollinators.ie/grasslands/) is the basis for the approach: native seed bank rather than commercial mix, small clearly signed sections, single cut and lift in early spring, no fertiliser or seeding.
+The [All-Ireland Pollinator Plan grasslands guidance](https://pollinators.ie/grasslands/) is the basis for the approach: native seed bank rather than commercial mix, small clearly signed sections, single cut and lift in early spring (lifting the thatch as well as the cut material), no fertiliser or seeding.

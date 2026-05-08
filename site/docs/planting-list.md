@@ -15,7 +15,7 @@ A single autumn 2025 planting weekend put 11,100 pollinator-friendly bulbs in th
 | Variety | Quantity | Where it shows |
 |---|---|---|
 | Ruby Giant crocus | 5,000 | Cluain Na Seimre entrance green; Glen Carraig roadside; mixed estate verges |
-| Dutch Master daffodils | 1,600 | N75 western approach from Thurles; Glen Carraig limestone wall; east L4202 verge at the Thurles directional sign |
+| Dutch Master daffodils | 1,600 | N75 western approach from Thurles; Glen Carraig limestone wall; east L4202 verge outside Leighton Manor (about 100) |
 | Drumstick alliums | 2,500 | Mixed beds and verges across the village |
 | Purple Sensation alliums | 1,000 | Glen Carraig limestone wall; village seating area; Leighton Manor wildflower strip |
 | Nigrum alliums | 1,000 | Leighton Manor wildflower strip |
