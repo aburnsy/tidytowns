@@ -67,10 +67,10 @@ We're not ripping anything out. Where there are existing annuals or non pollinat
 |---|---|
 | **Geum 'Mrs Bradshaw'** | Ruffled scarlet doubles flowering from May. Brings the red of the village flag. Divides easily. |
 | **Achillea 'Coronation Gold'** (Yarrow) | Flat plates of deep yellow for the yellow of the village flag. Garden form of our native Yarrow, brilliant for hoverflies and bees. Easy to split. |
-| **Echinacea** (red varieties) | Big daisy-like flowers with cone centres, a late-summer pollinator magnet. Reinforces the red. Clump-former that divides every two or three years. |
-| **Salvia 'Caradonna'** | Almost-black stems with deep violet-purple spikes. Bumblebee magnet, long flowering, splits cleanly. |
+| **Echinacea 'Prima Ruby'** | Big daisy-like flowers with cone centres, a late-summer pollinator magnet. Reinforces the red. Clump-former that divides every two or three years. |
+| **Salvia 'Ostfriesland'** (East Friesland) | Compact bushy salvia with deep blue-purple spikes. Bumblebee magnet, long flowering, splits cleanly. |
 | **Red Valerian** | Light pinky-red panicles, the same plant you see growing wild on stone walls all over Ireland. Drought-resistant, brilliant for butterflies, divides readily. |
-| **Deschampsia 'Goldtau'** (Tufted Hair Grass, "Gold Dew") | Native ornamental grass with airy golden seed plumes for structure and seasonal movement. Splits readily. |
+| **Deschampsia 'Goldschleier'** (Tufted Hair Grass, "Gold Veil") | Native ornamental grass throwing tall airy golden seed plumes for structure and seasonal movement. Splits readily. |
 
 Three things drove every choice:
 
