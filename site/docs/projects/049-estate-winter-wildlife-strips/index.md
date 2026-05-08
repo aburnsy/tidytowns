@@ -18,7 +18,7 @@ references:
 
 The plan is to put a small winter wildlife strip in every village estate that has the green space for one. We pick a section, leave it unmown from late summer, let it set seed, and leave the stems standing right through to early spring. The seed-heads feed birds over the winter and the dead stems give insects somewhere to shelter through the cold months. Then we cut it once in early spring, before the insects come out. Every strip gets a small sign so people know it's on purpose and not just neglected.
 
-It's the same approach we're already running at the Glen Carraig wildflower area and on the unmown verge strips along the approach roads, just dropped into housing estates so wildlife has a foothold inside the village too.
+It's the same approach we've asked Glen Carraig to consider at their entrance green (Project 016, ball is with the estate) and that we've proposed for the approach-road verges (Project 009, ball is with the council Roads section), just dropped into housing estates so wildlife has a foothold inside the village too.
 
 ## Progress (May 2026)
 

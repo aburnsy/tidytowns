@@ -40,11 +40,15 @@ The village mix in our locally-made blue planters and main flower beds. Default 
 
 We follow All-Ireland Pollinator Plan grassland guidance: let the existing native seed bank come up rather than sowing in a commercial mix, manage by removing dock and thistle from April to September, cut-and-remove in autumn to keep soil nutrients low.
 
-- **Glen Carraig entrance green:** unmown wildflower area with "managed for wildlife" signage. Native seed-bank emergence with the bulb display on top.
-- **Leighton Manor roadside strip:** wildflower strip with Allium Purple Sensation and Nigrum, Chamomile and native grasses coming through.
-- **St James Church grounds:** existing unmown wildflower bed.
+- **St James Church grounds:** existing unmown wildflower bed (no signage and no formal management cycle yet; both would follow if the parish takes up *Returning to Nature*).
+- **Leighton Manor roadside strip:** wildflower strip with Allium Purple Sensation and Nigrum, Chamomile and native grasses coming through. The estate is the only one where this is established on the ground.
 - **Castle Park boundary:** native seed-bank emergence under mature Sycamore canopy. Dandelion clocks, Cow Parsley and other native wildflowers.
-- **Approach-road inside verges:** unmown strips on N75, Ballyduff Road and L4202, no commercial seed sown.
+
+**In conversation, not yet on the ground:**
+
+- **Glen Carraig entrance green:** the 2025 adjudicator flagged this spot. The committee has asked the estate to consider designating it as an unmown wildflower area; the estate is researching and the call is theirs (Project 016).
+- **Winter wildlife strips inside other estates:** committee has written to most estates and to the council Roads section proposing small unmown sections in each estate (Project 049). No designations agreed yet.
+- **Approach-road inside verges:** committee has proposed unmown strips on the N75, Ballyduff Road and L4202 (Project 009), with the conversation open with the County Biodiversity Officer and council Roads section. The mowing is the council's, not ours, so this is a multi-year council relationship rather than something we can deliver on our own.
 
 ---
 
