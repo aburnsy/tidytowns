@@ -6,7 +6,7 @@
       "category": "Village Features",
       "color": "#2196F3",
       "coords": [52.67263, -7.710828],
-      "desc": "Central village feature with flower beds, sensory garden signpost, and Christmas tree site. Bollards to be repainted (adjudicator recommendation, repeated from 2024)."
+      "desc": "The heart of the village. Anchored by our All-Ireland Victory Centennial monument, marking 100 years since Two Mile Borris represented Tipperary and won the 1900 All-Ireland Hurling Final at Jones' Road in Dublin (we beat London 2-5 to 0-6). The names of the winning panel are listed on the centre plaque, with the club's red-and-yellow flying alongside the Tipperary blue-and-gold. Surrounded by seasonal flower beds, the sensory garden signpost, and the Christmas tree site. Bollards to be repainted (adjudicator recommendation, repeated from 2024)."
     },
     {
       "id": "forge",
@@ -23,6 +23,14 @@
       "color": "#2196F3",
       "coords": [52.672048, -7.715111],
       "desc": "Historic Norman castle remains on the western approach to the village."
+    },
+    {
+      "id": "liathmore",
+      "name": "Liathmore Monastic Site",
+      "category": "Village Features",
+      "color": "#2196F3",
+      "coords": [52.67055, -7.66861],
+      "desc": "Seventh-century monastic site about 2.8km east of the village, founded by St Mochoemog, the same saint our village school Scoil Mochaomhóg Naofa NS is named after. Two ruined churches and the foundation of an ancient round tower are still visible at the site, and the larger 12th-century church has a Romanesque doorway and a sheela-na-gig carving."
     },
     {
       "id": "bannons",
@@ -79,6 +87,14 @@
       "color": "#4CAF50",
       "coords": [52.6726, -7.7133],
       "desc": "New entrance to the enlarged cemetery on the L4202."
+    },
+    {
+      "id": "old_road_triangle",
+      "name": "Old Road Triangle (N75 Diversion)",
+      "category": "Green Spaces & Nature",
+      "color": "#4CAF50",
+      "coords": [52.6713, -7.7155],
+      "desc": "Wedge of mature trees and rough ground left between the old and new road alignments after the N75 was rerouted around the village in 2010, when the M8 motorway opened at Junction 5. Used to be the through-road for centuries, then overnight became an island between the new junction and the village edge. Nobody has touched it since, and it has quietly turned into a proper little wildlife refuge of mature trees and undergrowth. We deliberately leave it alone, no mowing, no tidying, no lifting of fallen wood, and let it do its own thing. Birds we regularly see and hear in there include Wren, Blackcap, Chiffchaff, Robin, Chaffinch, Blue Tit, House Sparrow, Goldcrest, Goldfinch and Blackbird, a list that says everything about the habitat quality, with summer-migrant warblers and Ireland's smallest bird (the Goldcrest) all settled in."
     },
     {
       "id": "school",
