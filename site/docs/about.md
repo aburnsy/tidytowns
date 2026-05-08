@@ -31,6 +31,10 @@ We competed from 2013 to 2019, then re-entered the competition in 2024.
 - **Volunteer**: see the [Volunteer](volunteer.md) page
 - **Fundraising**: support our [Split the Pot](https://www.tmbvillage.ie/) weekly draw
 
+## Photos on this site
+
+Where children appear in photographs on this site, we have permission from a parent or guardian to publish that image. If you spot a photo you'd like removed, or you have any concerns about a photo, please get in touch at [info@tmbvillage.ie](mailto:info@tmbvillage.ie) and we'll take it down straight away.
+
 ## Links
 
 - [TMB Village Website](https://www.tmbvillage.ie/)
