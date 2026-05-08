@@ -20,7 +20,7 @@ Cleanup questions are at the bottom — the 7 originals of script-placed photos 
 > A sunset view of Two-Mile-Borris from the air, with the village laid out below and the rolling Tipperary fields stretching off into the distance. The L4202 main street, the housing estates, and the GAA pitch all in one frame.
 
 **Your comments / instructions:**
->
+> Make available to use in the main  application. Add to the main homepage of the site too.
 >
 
 ---
@@ -35,7 +35,7 @@ Cleanup questions are at the bottom — the 7 originals of script-placed photos 
 > A daytime aerial of Two-Mile-Borris showing how the village sits in its working countryside. The L4202 runs through the centre, housing estates wrap around it on both sides, and the surrounding fields and bog stretch out beyond.
 
 **Your comments / instructions:**
->
+> Skip
 >
 
 ---
@@ -50,7 +50,7 @@ Cleanup questions are at the bottom — the 7 originals of script-placed photos 
 > The committee launching www.tmbvillage.ie, our community website, at the village welcome sign. A serious upgrade to how the village shares information with residents and visitors.
 
 **Your comments / instructions:**
->
+> Add to approach west (this is near the transport museum)
 >
 
 ---
@@ -65,7 +65,7 @@ Cleanup questions are at the bottom — the 7 originals of script-placed photos 
 > Volunteers heading out for a roadside litter pick on one of the approach roads. Hi-vis on, gloves on, bags out, and the verges left looking the better for it.
 
 **Your comments / instructions:**
->
+> Add this to the application photos. On the site, add it to the litter pick for 2026.
 >
 
 ---
@@ -80,7 +80,7 @@ Cleanup questions are at the bottom — the 7 originals of script-placed photos 
 > A planting day at the monument area, getting the wooden raised bed filled in with split perennials from our other beds. Locally-made wooden raised beds are part of our cohesive village-wide planter scheme.
 
 **Your comments / instructions (please confirm location):**
->
+> Add to the monument area.
 >
 
 ---
@@ -96,7 +96,7 @@ These three are graphics, not photos. Useful as evidence of community activity f
 **My take:** Marketing graphic for a New Year's Eve fundraiser. Not a map photo. Could be kept somewhere as evidence of fundraising for the application, or just deleted since the fundraiser is past.
 
 **Your comments / instructions:**
->
+> Skip
 >
 
 ---
@@ -108,7 +108,7 @@ These three are graphics, not photos. Useful as evidence of community activity f
 **My take:** Lions Club / Graveyard Development fundraiser at the Transport Museum, June 2025. Solid evidence of the partnership work for the application. Not a map photo, but worth keeping as a project artefact.
 
 **Your comments / instructions:**
->
+> How does this tie into Tidy Towns though as we weren't involved?
 >
 
 ---
@@ -120,7 +120,7 @@ These three are graphics, not photos. Useful as evidence of community activity f
 **My take:** **Recommend delete.** This is the same poster as #7 with the date / location / cars cropped off. The full version (#7) supersedes it.
 
 **Your comments / instructions:**
->
+> Same as previous one.
 >
 
 ---
@@ -143,7 +143,7 @@ Plus `d9aee9_d9d1fb51...` → live as `monument/all-ireland-1900-centennial-monu
 
 **Your call:** delete all 8 to lean out scratch, keep them as archive for future re-resizing, or specifically rerun the `castle_park` one?
 
->
+> delete them if we already have them. Which photo are we missing? you didjn't use a file link
 >
 
 ---
@@ -153,5 +153,5 @@ Plus `d9aee9_d9d1fb51...` → live as `monument/all-ireland-1900-centennial-monu
 Has done its job. Safe to delete or leave.
 
 **Your call:**
->
+> delete it
 >
