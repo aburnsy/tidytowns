@@ -322,12 +322,33 @@ def main():
         ha="right",
         va="top",
     )
+    interactive_url = "https://aburnsy.github.io/tidytowns/assets/village-map.html"
+    tracker_url = "https://aburnsy.github.io/tidytowns/"
+    fig.text(
+        0.5,
+        0.945,
+        f"Interactive version with photos and project links: {interactive_url}",
+        fontsize=10,
+        ha="center",
+        va="center",
+        color="#0D47A1",
+        url=interactive_url,
+    )
     fig.text(
         0.04,
         0.025,
-        "Tile basemap © OpenStreetMap contributors, © CartoDB.  Map data and marker positions: TMB Tidy Towns committee.",
+        f"Public project tracker: {tracker_url}",
         fontsize=7,
         ha="left",
+        color="#0D47A1",
+        url=tracker_url,
+    )
+    fig.text(
+        0.96,
+        0.025,
+        "Tile basemap © OpenStreetMap contributors, © CartoDB.  Map data and marker positions: TMB Tidy Towns committee.",
+        fontsize=7,
+        ha="right",
         color="#444",
     )
 

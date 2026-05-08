@@ -58,6 +58,12 @@ The picture from prehistoric Two Mile Borris is of a community that was farming 
 
 It is a long way from the village we have now, but the people on this ground 3,000 years ago picked the same patch of ground at the meeting of the river and the small stream, and kept choosing it.
 
+## Where on the ground
+
+Nothing prehistoric is visible at the dig site. The features described on this page were excavated in 2007–2009 along the line of the N75 link road, in the townlands of Borris and Blackcastle, approximately 300 metres south of the modern village (Ó Droma 2010, p. 45). They were recorded in plan and section and then built over. Portable finds were lifted and went into archive and conservation; the structures themselves are gone.
+
+These specific features were new discoveries during the road build and are not listed in the National Monuments Service [Sites and Monuments Record](https://maps.archaeology.ie/HistoricEnvironment/). The Iron Age shield from Clonoura and the bog body from Newhill, both within 5 km of the village, are in museum collections.
+
 ## Source
 
 Mícheál Ó Droma (2010), *Archaeological investigations at Twomileborris, Co. Tipperary*. NRA Monograph Series No. 5, pp. 45–58. [Read the PDF](https://websitecms.tii.ie/media/2xrh3tkt/mon-5-ch-5-o-droma.pdf).

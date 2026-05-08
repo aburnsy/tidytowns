@@ -90,6 +90,22 @@ Five hundred years of continuous occupation of one south-facing hill. A defensiv
 
 This is the period that turned this place into a *settled* place.
 
+## Where on the ground
+
+The three enclosures, the four houses inside the ringfort, and the cemetery of 20 burials were excavated in 2007–2009 along the line of the N75 link road, in the townlands of Borris and Blackcastle, approximately 300 metres south of the modern village (Ó Droma 2010, p. 45). The features were recorded and then built over. There are no upstanding remains and no SMR/RMP record for the excavated complex itself.
+
+Where the community went next, however, is still standing. The Liathmore monastic site lies 2.2 km east of the dig and carries five linked records on the SMR:
+
+| Feature | SMR | Coordinates |
+|---|---|---|
+| Ecclesiastical site (overall) | TN042-055---- | 52.6702°N, 7.6690°W |
+| Larger church | TN042-055001- | 52.6705°N, 7.6686°W |
+| Smaller church | TN042-055003- | 52.6698°N, 7.6687°W |
+| Round tower foundation | TN042-055002- | 52.6701°N, 7.6688°W |
+| Sheela-na-gig | TN042-055004- | 52.6705°N, 7.6686°W |
+
+Place page: [Liathmore Monastic Site](../places/liathmore.md). Wider parish record: [National Monuments Service Historic Environment Viewer](https://maps.archaeology.ie/HistoricEnvironment/).
+
 ## Source
 
 Mícheál Ó Droma (2010), *Archaeological investigations at Twomileborris, Co. Tipperary*. NRA Monograph Series No. 5, pp. 45–58. [Read the PDF](https://websitecms.tii.ie/media/2xrh3tkt/mon-5-ch-5-o-droma.pdf). Críth Gabhlach quotation reproduced from Kelly, F. (1998), *Early Irish Farming*, p. 362.

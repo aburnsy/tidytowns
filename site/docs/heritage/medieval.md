@@ -88,6 +88,21 @@ Two Mile Borris in the medieval period wasn't a peaceful backwater. It was a wor
 
 The Norman castle that gave Blackcastle townland its name still stands. The street pattern of the modern village still echoes the medieval burgage plot layout. The name *Borris*, the anglicised *Buiríos*, is the medieval one.
 
+## Where on the ground
+
+The mill, the three cereal-drying kilns, the iron-tapping furnaces, the three smithing hearths, the rectangular workshop and the silver-coin hoard were excavated in 2007–2009 along the line of the N75 link road, in the townlands of Borris and Blackcastle, approximately 300 metres south of the modern village (Ó Droma 2010, p. 45). They were recorded and then built over. The waterlogged oak timbers of the mill, including the 5 m+ Timber 5, were lifted; the foundations are gone.
+
+The bones of the medieval borough are still on the SMR, and one piece of it is still upstanding:
+
+| Feature | Status | SMR | Coordinates |
+|---|---|---|---|
+| Blackcastle tower house | Upstanding ruin | TN042-052001- | 52.6720°N, 7.7152°W |
+| Medieval borough zone | Underlies the modern village | TN042-052---- | 52.6718°N, 7.7140°W |
+| Medieval parish church | In the village graveyard | TN042-052002- | 52.6713°N, 7.7139°W |
+| Medieval graveyard | At the church | TN042-052006- | 52.6714°N, 7.7140°W |
+
+Place page: [Blackcastle](../places/blackcastle.md). Wider parish record: [National Monuments Service Historic Environment Viewer](https://maps.archaeology.ie/HistoricEnvironment/).
+
 ## Source
 
 Mícheál Ó Droma (2010), *Archaeological investigations at Twomileborris, Co. Tipperary*. NRA Monograph Series No. 5, pp. 45–58. [Read the PDF](https://websitecms.tii.ie/media/2xrh3tkt/mon-5-ch-5-o-droma.pdf). The 1312 Archbishop-of-Cashel reference is from Sweetman & Handcock (1886), *Calendar of Documents Relating to Ireland*.

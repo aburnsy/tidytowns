@@ -38,6 +38,18 @@ Without that dig, almost nothing on the [Prehistoric](prehistoric.md), [Early Me
 
 A proper modern history of Two Mile Borris is still to be written. If you have local memory, photographs, parish records, or research on the village from the last few centuries, the committee would love to hear from you. Drop us a line at [info@tmbvillage.ie](mailto:info@tmbvillage.ie) or come along to a meeting.
 
+## Where on the ground
+
+The modern village is, by definition, the bit you can walk through. The three landmarks named on this page:
+
+| Feature | Notes | Coordinates |
+|---|---|---|
+| 1900 Centennial Monument | Village centre. Erected 2000. Too recent for an SMR record. | 52.6726°N, 7.7108°W |
+| St James parish church | The medieval parish church is recorded on the same ground at SMR TN042-052002-. | 52.6713°N, 7.7139°W |
+| Scoil Mochaomhóg Naofa NS | Primary school named after the saint of [Liathmore](../places/liathmore.md). Opened 1846. | see [Places](../places/school.md) |
+
+For everything else, the [village map](../map.md) ties the modern features together.
+
 <div class="heritage-nav" markdown="0">
   <a href="../medieval/">
     <span class="nav-label">← Previous era</span>
