@@ -32,3 +32,10 @@ The [All-Ireland Pollinator Plan - Trees & Hedgerows](https://pollinators.ie/tre
 ## Candidate sites
 
 - **Fanning Park entrance**, a mature flowering Hawthorn already anchors the corner; flagged on the village walk in May 2026 as a strong link in the corridor.
+- **Castlepark entrance corner**, a mature Sycamore canopy with a curving bark-mulched border underneath where Dandelions, Cow Parsley and other native wildflowers come up naturally each spring. A working template for the kind of low-cost, high-value biodiversity stitching we want at every estate gate around the village.
+
+<figure markdown>
+![Wildflower border under the mature Sycamore at Castlepark entrance](../../assets/map-data/photos/castle_park/wildflower-border-may-2026.jpg){ width="600" }
+<figcaption>The Castlepark entrance corner: mature Sycamore canopy, bark-mulched curving border, native wildflowers coming through naturally from the seed bank. This is the template (May 2026)</figcaption>
+</figure>
+
