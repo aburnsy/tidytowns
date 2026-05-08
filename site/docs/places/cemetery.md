@@ -13,4 +13,4 @@ At the parking layby in front of the original gates we have two of our blue trou
 
 The cemetery is also the direct beneficiary of our annual St Bridget's Day Clover Bog Walk fundraiser. The 2025 walk brought in €1000 specifically toward the graveyard development, which is a brilliant example of how the village's wider community life feeds back into the cemetery as a place we all look after.
 
-{{ place_photos("cemetery", "new_cemetery_entrance") }}
+{{ place_photos("cemetery", "new_cemetery_entrance", limit=4) }}

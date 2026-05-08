@@ -14,9 +14,9 @@ The medieval village had what every borough was supposed to have: a row of house
 
 ## Buiríos Léith, the medieval borough
 
-Two Mile Borris belonged to the *cantred* (a hundred-village district) of Eliogarty. In 1185, Theobold Walter, founder of the Butler dynasty of Ormond, was granted the cantred. He and his descendants reshaped it. The cantred had probably been coterminous with the older Gaelic territory of Éile Ua Fogartaigh.
+Two Mile Borris belonged to the *cantred* (a hundred-village district) of Eliogarty. In 1185, Theobold Walter, founder of the Butler dynasty of Ormond, was granted the cantred. He and his descendants reshaped it. The cantred had probably been coterminous with the older Gaelic territory of *Éile Ua Fogartaigh* (in modern Irish, *Éile Ua Fógartaigh*).
 
-The modern village is the direct descendant of the medieval borough of *Burgage Leeth*, which is *Buiríos Léith* in Irish, "the grey borough", established late twelfth or early thirteenth century. By 1312 the borough was held in fief by the Archbishop of Cashel, which is to say the senior churchman in the country had a financial and legal interest in this little place.
+The modern village is the direct descendant of the medieval borough recorded in the Anglo-Norman documents as *Burgage Leeth*, with the Irish form given as *Buríos leith* — in modern standardised Irish, *Buiríos Léith*, "the grey borough". The borough was established late twelfth or early thirteenth century. By 1312 the borough was held in fief by the Archbishop of Cashel, which is to say the senior churchman in the country had a financial and legal interest in this little place.
 
 You can still hear the borough's old name in *Two Mile Borris* itself: *Borris* is the anglicisation of *Buiríos*, the Irish for borough.
 
