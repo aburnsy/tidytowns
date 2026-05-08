@@ -4,7 +4,7 @@ delivery_year: 2026
 tags:
   - streetscape
 status: "In progress, refurbishments underway May 2026"
-cost_estimate: "€0 (developer is funding the refurbs)"
+cost_estimate: "€0"
 benefit: "High"
 volunteer_hours: "8-16hrs (engagement, planning, supporting work)"
 inspired_by: "2025 adjudicator's report + a committee chat about brightening up the openings"
