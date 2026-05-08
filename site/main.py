@@ -265,7 +265,7 @@ def define_env(env):
             return ""
 
         src_path = env.page.file.src_path.replace("\\", "/")
-        prefix = "../" if src_path.startswith("places/") else ""
+        prefix = "../../" if src_path.startswith("places/") else ""
         photo_base = f"{prefix}assets/map-data/photos/{marker_id}"
 
         items = ['<div class="place-gallery" markdown="0">']
@@ -415,7 +415,7 @@ def on_post_page_macros(env):
             alt = hero_caption.replace('"', "&quot;")
             hero_block = (
                 f'<figure class="place-hero">'
-                f'<img src="../assets/map-data/photos/{marker_id}/{hero_file}" alt="{alt}" />'
+                f'<img src="../../assets/map-data/photos/{marker_id}/{hero_file}" alt="{alt}" />'
                 f"<figcaption>{hero_caption}</figcaption>"
                 f"</figure>\n\n"
             )
