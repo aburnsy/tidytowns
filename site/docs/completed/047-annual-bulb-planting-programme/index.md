@@ -81,4 +81,4 @@ It's a really nice payoff for the [no-mow approach](https://pollinators.ie/grass
 | 2,500      | Drumstick alliums                | 7/8   | €100.00    |
 | **11,100** | **Subtotal**                     |       | **€771.00**|
 
-Shipping €236.50, tax €136.01. Grand total **€1,143.51**, split between TMB Tidy Towns and the participating estates.
+Shipping €236.50, tax €136.01. Grand total **€1,143.51**, split between TMB Tidy Towns and the participating estates. The committee's share came in at roughly **€320 inc. VAT and delivery**, with the estates picking up the rest in proportion to the bulbs that went into their ground.

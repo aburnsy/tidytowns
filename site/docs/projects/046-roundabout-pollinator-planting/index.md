@@ -4,7 +4,7 @@ delivery_year: 2027
 tags:
   - nature-biodiversity
   - approach-roads
-status: "Pending Biodiversity Officer guidance"
+status: "In design with Biodiversity Officer (multi-year)"
 cost_estimate: "€0–500 (€0 unmown / €300–500 meadow planting)"
 benefit: "Medium"
 volunteer_hours: "TBC pending design"
@@ -22,9 +22,13 @@ There are two realistic routes:
 
 Because the roundabout sits beside a motorway, the choice between these two routes needs guidance from the County Biodiversity Officer, what species cope with the road-edge environment (salt spray, exhaust, sight-line constraints), what management is feasible, and whether a meadow design would be approved by the council's road-safety team.
 
+## Progress
+
+The roundabout was on the list of six items we put to the Biodiversity Officer, Ann-Marie Fleming, in April 2026. In May 2026 we also wrote to the Thurles Municipal District Roads office about the practical side: sight-lines, road-safety, and whether the council would supply signage if we go the unmown route. We're not rushing this one. The site is right beside a motorway, and a pollinator meadow on the wrong soil with the wrong species and the wrong management can look great in year one and be gone by year two. We'd much rather get Ann-Marie's read on it first.
+
 ## Next steps
 
-1. Get a recommendation from the Tipperary County Council Biodiversity Officer (item raised on the Biodiversity Officer discussion list).
-2. Pending guidance, scope a planting design (or an unmown management plan) and confirm cost.
-3. Coordinate with the council on sight-lines, mowing contractor, and signage.
-4. Deliver in autumn 2026 (planting) or spring 2027 (unmown signage installation).
+1. Walk the roundabout with the Biodiversity Officer once a summer 2026 visit is agreed (same trip as church grounds, cemetery, and Bog Walk).
+2. Agree the route (unmown management or a designed pollinator meadow) with her input on species, sight-lines, and any council road-safety constraints.
+3. Scope cost and delivery once the design is settled. Likely a 2027 delivery if planting, or 2026/27 sign installation if unmown.
+4. Coordinate with the council's mowing operation on cut-and-remove timing.

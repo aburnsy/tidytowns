@@ -19,7 +19,7 @@ places:
 
 ## Description
 
-The graveyard extension presents a valuable opportunity to establish biodiversity-rich planting that complements the contemplative setting while providing habitat for pollinators and native species. Working with the County Biodiversity Officer to design an appropriate planting scheme will ensure the right species are chosen for this sensitive location.
+The cemetery has a recent extension, and that new ground is the obvious spot for a proper bit of biodiversity planting. The grave plots stay as they are, but the surrounding strips and corners can carry pollinator-friendly species without changing the feel of the place for visitors. We need Ann-Marie's read on what suits this exact site before we plant a thing.
 
 ## What the adjudicator said
 
@@ -36,9 +36,13 @@ The [All-Ireland Pollinator Plan - Churchyards & Graveyards](https://pollinators
 
 This sits within the wider parish biodiversity commitment under the [Returning to Nature](../045-laudato-si-returning-to-nature/index.md) initiative (project 045). The Wexford pilot of that initiative paired parishes with their County Council biodiversity officer for exactly this kind of scheme, a route we should mirror with Tipperary Co Co.
 
+## Progress
+
+In April 2026 we wrote to Ann-Marie Fleming, Tipperary County Council's Biodiversity Officer, to ask for her input on the cemetery extension and on the wider biodiversity work the committee is taking on. We're hoping she can walk the site with us over the summer, on the same trip as the church grounds and the Bog Walk so it's all in one visit. This is the start of an ongoing conversation, not a one-off question. The budget is small and we want the design right first time, which means getting her advice before we plant anything.
+
 ## Next steps
 
-1. **Contact the Tipperary County Biodiversity Officer** before any planting, confirm appropriate species for this sensitive location, soil/aspect considerations, and management approach. (Same officer is consulted for the [M8 roundabout](../046-roundabout-pollinator-planting/index.md), so bundle the requests.)
-2. Walk the extension with the Biodiversity Officer and parish reps to agree the planting plan.
-3. Source plants and schedule a planting day.
-4. Install "managed for wildlife" interpretation signage.
+1. Walk the cemetery extension with the Biodiversity Officer and parish reps once a date is agreed. (Same visit can also cover the church grounds and the Bog Walk.)
+2. Agree a planting plan with the Biodiversity Officer's input on species, soil, and management.
+3. Source plants and schedule a planting day, targeted for 2027 alongside any grant-funded delivery.
+4. Install "managed for wildlife" interpretation signage in the agreed area.
