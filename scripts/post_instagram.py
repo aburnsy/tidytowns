@@ -136,7 +136,7 @@ def preview(post, caption):
 def login(username, password):
     from instagrapi import Client
     from instagrapi.exceptions import (
-        ChallengeRequired, BadPassword, PleaseWaitAFewMinutes,
+        ChallengeRequired, BadPassword, PleaseWaitFewMinutes,
     )
 
     cl = Client()
@@ -162,10 +162,19 @@ def login(username, password):
             "Check the email/SMS for this account, then enter the code here: "
         ).strip()
         cl.login(username, password, verification_code=code)
-    except BadPassword:
-        sys.exit("Bad password. Check IG_PASSWORD in private/.env.")
-    except PleaseWaitAFewMinutes:
+    except BadPassword as e:
+        sys.exit(
+            f"BadPassword from Instagram: {e}\n"
+            "This can mean: (1) wrong password in private/.env, "
+            "(2) 2FA enabled and code required, "
+            "(3) Instagram has flagged this login and wants in-app verification.\n"
+            "Try logging in via the IG app on your phone first. If that prompts "
+            "a 'verify it's you' check, complete it, then retry the script."
+        )
+    except PleaseWaitFewMinutes:
         sys.exit("Instagram is rate-limiting this account. Wait a few hours and retry.")
+    except Exception as e:
+        sys.exit(f"Login failed: {type(e).__name__}: {e}")
 
     cl.dump_settings(SESSION_PATH)
     print("Logged in fresh; session cached to private/instagram-session.json.")

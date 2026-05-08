@@ -63,18 +63,20 @@ We're not ripping anything out. Where there are existing annuals or non pollinat
 
 ## What we planted, and why
 
-| Plant                            | Role in the scheme                                                              |
-|----------------------------------|---------------------------------------------------------------------------------|
-| **Geum** (red varieties)         | Long flowering from May. Red is one of our village flag colours. Divides easily. |
-| **Achillea** (Yarrow, yellow)    | Native, brilliant for hoverflies and bees. Yellow is our other village flag colour. Spreads into easy-to-split clumps. |
-| **Salvia**                       | Magnet for bumblebees. Long flowering. Splits cleanly every 2-3 years.          |
-| **Deschampsia** (Tufted Hair Grass) | Native ornamental grass for structure and seasonal movement. Splits readily.    |
+| Plant | Role in the scheme |
+|---|---|
+| **Geum 'Mrs Bradshaw'** | Ruffled scarlet doubles flowering from May. Brings the red of the village flag. Divides easily. |
+| **Achillea 'Coronation Gold'** (Yarrow) | Flat plates of deep yellow for the yellow of the village flag. Garden form of our native Yarrow, brilliant for hoverflies and bees. Easy to split. |
+| **Echinacea** (red varieties) | Big daisy-like flowers with cone centres, a late-summer pollinator magnet. Reinforces the red. Clump-former that divides every two or three years. |
+| **Salvia 'Caradonna'** | Almost-black stems with deep violet-purple spikes. Bumblebee magnet, long flowering, splits cleanly. |
+| **Red Valerian** | Light pinky-red panicles, the same plant you see growing wild on stone walls all over Ireland. Drought-resistant, brilliant for butterflies, divides readily. |
+| **Deschampsia 'Goldtau'** (Tufted Hair Grass, "Gold Dew") | Native ornamental grass with airy golden seed plumes for structure and seasonal movement. Splits readily. |
 
 Three things drove every choice:
 
-- **Recommended on the [All-Ireland Pollinator Plan plant list](https://pollinators.ie/plants/).** We're following the national guidance, not guessing. Every plant in the mix earns its keep for our pollinators.
+- **Pollinator-friendly first.** Every plant in the mix earns its keep on the [All-Ireland Pollinator Plan plant list](https://pollinators.ie/plants/). We're following the national guidance rather than guessing.
 - **Splits easily.** Every variety is a clump-former we can divide ourselves. That's how we keep ongoing cost down to almost nothing while the display gets bigger and better every year.
-- **Red and yellow as the core colours.** Those are our village flag colours, the same red and yellow that fly on the GAA monument at the centre of the village. The Geum brings the red, the Achillea brings the yellow, and the planter scheme quietly ties together with the village's own identity.
+- **Red and yellow as the core colours.** Those are our village flag colours, the same red and yellow that fly on the GAA monument at the centre of the village. The Geum, Echinacea and Red Valerian all bring the red, the Achillea brings the yellow, and the planter scheme quietly ties in with the village's own identity.
 
 ## Best practice we leaned on
 
