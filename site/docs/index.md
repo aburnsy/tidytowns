@@ -4,6 +4,8 @@ title: Home
 
 # Welcome to Two Mile Borris
 
+![Aerial view of Two-Mile-Borris at sunset](assets/photos/village-aerial-sunset.jpg)
+
 Two Mile Borris (Buirios Leith) is a small village in northeast County Tipperary, about 7km east of Thurles and just off the M8. The village has a primary school, a church and a graveyard, and a tight-knit set of community groups behind everything that happens here.
 
 ## Our Tidy Towns committee
