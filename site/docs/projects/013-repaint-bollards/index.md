@@ -8,6 +8,8 @@ cost_estimate: "€30-50"
 benefit: "Low"
 volunteer_hours: "3-4hrs"
 inspired_by: "2025 and 2024 adjudication recommendation (repeated twice)"
+places:
+  - monument
 ---
 
 ## Description

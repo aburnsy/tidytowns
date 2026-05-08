@@ -8,6 +8,11 @@ cost_estimate: "€3000-8000"
 benefit: "High"
 volunteer_hours: "Significant - multi-year planning and delivery"
 inspired_by: "A committee idea, pull the castle, forge, church and bog walk together as one trail"
+places:
+  - blackcastle
+  - forge
+  - church
+  - bog_walk
 ---
 
 ## Description

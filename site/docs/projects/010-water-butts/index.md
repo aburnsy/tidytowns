@@ -9,6 +9,8 @@ benefit: "Medium"
 volunteer_hours: "4hrs (installation)"
 inspired_by: "2025 adjudication recommendation"
 special_award: "Sustainability & Circular Economy"
+places:
+  - church
 ---
 
 ## Description

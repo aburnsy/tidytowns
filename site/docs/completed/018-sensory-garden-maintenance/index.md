@@ -9,6 +9,8 @@ cost_estimate: "€250"
 benefit: "Medium"
 volunteer_hours: "12hrs"
 inspired_by: "2025 adjudication: blocked paths and damaged fixtures"
+places:
+  - sensory_garden
 ---
 
 The 2025 adjudicator flagged blocked paths and damaged timber. Spring 2026 we got stuck in: Michael Maher did an almighty job applying 2 coats of protective oil to all the wood. We repaired some damaged elements with locally sourced wood. Gravel paths were cleaned up. Reads as a proper sensory and learning space again. We're delighted with the results.

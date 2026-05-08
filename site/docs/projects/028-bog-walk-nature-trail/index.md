@@ -16,6 +16,8 @@ references:
     url: "https://pollinators.ie/"
   - title: "Leave No Trace Ireland"
     url: "https://www.leavenotraceireland.org/"
+places:
+  - bog_walk
 ---
 
 ## Description

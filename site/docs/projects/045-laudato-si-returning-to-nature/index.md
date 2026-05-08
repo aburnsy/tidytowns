@@ -19,6 +19,8 @@ references:
     url: "https://pollinators.ie/churchyards/"
   - title: "All-Ireland Pollinator Plan - Managing Grassland"
     url: "https://pollinators.ie/grasslands/"
+places:
+  - church
 ---
 
 ## What it is

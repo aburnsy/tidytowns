@@ -8,6 +8,7 @@ ASSETS = ROOT / "site" / "docs" / "assets"
 MAP_DATA = ASSETS / "map-data"
 MARKERS_JSON = MAP_DATA / "markers.json"
 PHOTOS_DIR = MAP_DATA / "photos"
+PLACES_DIR = ROOT / "site" / "docs" / "places"
 TEMPLATE = ASSETS / "map-template.html"
 OUTPUT = ASSETS / "village-map.html"
 
@@ -48,11 +49,18 @@ def build():
         if marker_photos:
             print(f"  {marker['id']}: {len(marker_photos)} photo(s)")
 
+        place_file = PLACES_DIR / f"{marker['id']}.md"
+        if place_file.exists():
+            marker["page_url"] = f"../places/{marker['id']}/"
+
     if bog_walk:
         bog_photos = load_photos("bog_walk")
         bog_walk["photos"] = bog_photos
         if bog_photos:
             print(f"  bog_walk: {len(bog_photos)} photo(s)")
+        bog_place = PLACES_DIR / "bog_walk.md"
+        if bog_place.exists():
+            bog_walk["page_url"] = "../places/bog_walk/"
 
     build_data = json.dumps(
         {"markers": markers, "bogWalk": bog_walk},

@@ -11,6 +11,8 @@ benefit: "Medium"
 volunteer_hours: "4-6hrs (autumn planting day; light spring/summer maintenance)"
 inspired_by: "Came up at committee, a small food bed in the school's sensory garden"
 special_award: "Sustainability & Circular Economy"
+places:
+  - sensory_garden
 ---
 
 ## Description

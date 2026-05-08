@@ -8,6 +8,9 @@ status: "Done for 2026"
 cost_estimate: "€0"
 benefit: "High"
 inspired_by: "2025 adjudication recommendation"
+places:
+  - dempsey_motors
+  - cemetery
 ---
 
 The 2025 adjudicator asked us to do something about the look of derelict buildings around the village. We can't make property owners refurbish, but a few good things have happened this year that we're delighted about.

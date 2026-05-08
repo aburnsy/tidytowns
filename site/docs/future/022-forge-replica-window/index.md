@@ -7,6 +7,8 @@ cost_estimate: "€500-2000"
 benefit: "Medium"
 volunteer_hours: "10-20hrs (Heritage Officer engagement, contractor management)"
 inspired_by: "2025 adjudication recommendation - Heritage Officer to advise"
+places:
+  - forge
 ---
 
 ## Description

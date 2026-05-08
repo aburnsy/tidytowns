@@ -8,6 +8,9 @@ benefit: "Medium"
 volunteer_hours: "Significant - planning, installation, and ongoing management"
 inspired_by: "Scales up sensory garden demo to village level"
 special_award: "Sustainability & Circular Economy"
+places:
+  - sensory_garden
+  - church
 ---
 
 ## Description

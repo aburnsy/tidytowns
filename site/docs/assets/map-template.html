@@ -48,6 +48,8 @@
         }
         .popup-card .popup-links .gmaps-link { background: #e8f0fe; color: #1a73e8; }
         .popup-card .popup-links .gmaps-link:hover { background: #d2e3fc; }
+        .popup-card .popup-links .readmore-link { background: #e8f5e9; color: #2e7d32; }
+        .popup-card .popup-links .readmore-link:hover { background: #c8e6c9; }
 
         .popup-gallery { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
         .popup-gallery .gallery-item {
@@ -231,7 +233,8 @@
                 color: '#E65100',
                 desc: bogWalk.description,
                 distance: bogWalk.distance,
-                photos: bogWalk.photos || []
+                photos: bogWalk.photos || [],
+                page_url: bogWalk.page_url || null
             };
             bogPath.bindPopup(buildPopup(bogMarkerData), { maxWidth: 320, minWidth: 280 });
         }
@@ -279,11 +282,12 @@
                     (m.distance ? '<p style="margin:0 0 8px 0;font-size:13px;color:#E65100;font-weight:600;">' + m.distance + '</p>' : '') +
                     '<p>' + m.desc + '</p>' +
                     gallery +
-                    (m.coords ? '<div class="popup-links">' +
-                        '<a class="gmaps-link" href="' + gmapsUrl(m.coords[0], m.coords[1]) + '" target="_blank">' +
+                    ((m.page_url || m.coords) ? '<div class="popup-links">' +
+                        (m.page_url ? '<a class="readmore-link" href="' + m.page_url + '">Read more →</a>' : '') +
+                        (m.coords ? '<a class="gmaps-link" href="' + gmapsUrl(m.coords[0], m.coords[1]) + '" target="_blank">' +
                             '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>' +
                             'View on Google Maps' +
-                        '</a>' +
+                        '</a>' : '') +
                     '</div>' : '') +
                 '</div>' +
             '</div>';

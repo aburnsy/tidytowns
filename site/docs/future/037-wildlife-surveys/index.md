@@ -10,6 +10,9 @@ inspired_by: "Came up at committee, wildlife surveys would give us real numbers 
 references:
   - title: "All-Ireland Pollinator Plan - Monitoring"
     url: "https://pollinators.ie/monitoring/"
+places:
+  - bog_walk
+  - old_road_triangle
 ---
 
 ## Description

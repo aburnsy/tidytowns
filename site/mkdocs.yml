@@ -27,6 +27,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
   - attr_list
   - md_in_html
   - tables
@@ -40,8 +42,15 @@ nav:
   - Home: index.md
   - Projects:
     - Current Projects: projects/index.md
+    - Future: future/index.md
     - Completed: completed/index.md
-  - Future: future/index.md
+  - Places: places/index.md
+  - Heritage:
+    - Overview: heritage/index.md
+    - Prehistoric (5500 BC – AD 450): heritage/prehistoric.md
+    - Early Medieval (AD 450 – 1169): heritage/early-medieval.md
+    - Medieval (AD 1169 – 1550): heritage/medieval.md
+    - Modern (1550 – today): heritage/modern.md
   - Village Map: map.md
   - Volunteer: volunteer.md
   - About: about.md

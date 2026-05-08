@@ -10,6 +10,8 @@ cost_estimate: "€0 (volunteer craft using existing willow)"
 benefit: "Medium"
 volunteer_hours: "4 to 8hrs per re-weave; light annual touch-ups"
 inspired_by: "Patrick Hayes, volunteer, March 2026"
+places:
+  - sensory_garden
 ---
 
 **Patrick Hayes** rewove our living willow gateway for the sensory garden in March 2026. Volunteer craft, no cost. Living willow needs a light tidy each spring (tying in new growth, replacing the odd broken whip) and a full re-weave every two or three years to keep its shape. Next big re-weave pencilled in for late winter 2028 or early 2029.

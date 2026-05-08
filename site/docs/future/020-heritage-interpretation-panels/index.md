@@ -8,6 +8,11 @@ cost_estimate: "€500-1000"
 benefit: "High"
 volunteer_hours: "20-30hrs (research, content writing, installation)"
 inspired_by: "A committee idea, proper interpretation panels at the heritage spots"
+places:
+  - blackcastle
+  - forge
+  - church
+  - bog_walk
 ---
 
 ## Description

@@ -13,6 +13,8 @@ references:
     url: "https://pollinators.ie/churchyards/"
   - title: "Returning to Nature - Irish Catholic Bishops' Conference"
     url: "https://www.catholicbishops.ie/laudato-si/returning-to-nature/"
+places:
+  - cemetery
 ---
 
 ## Description
