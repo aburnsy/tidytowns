@@ -20,6 +20,8 @@ A century later, in 2000, the village raised the **All-Ireland Victory Centennia
 
 The monument and the surrounding bed are described on the [Monument Area](../places/monument.md) place page.
 
+A grace-note from the [Schools' Folklore Collection](https://www.duchas.ie/) of 1937 to 1938, when Tom Semple was still a living legend across north Tipperary: a child at Gleannach (Glenough) school recorded a [verse "Tom Semple is his name…"](https://www.duchas.ie/en/cbes/4922315/4869357/5071616) about a Tipperary against Clare championship game. He doesn't appear in the Leamhach school volume from his own parish, but the children of the next parish over wrote him into theirs.
+
 ## St James and the parish
 
 The Catholic parish church of St James sits on the main street, across from Tully's. It anchors the village week to week, and Father Tom is its current priest. The church grounds are the largest piece of green space in the village centre and are gradually being managed for biodiversity as part of [our Tidy Towns work](../projects/index.md).
@@ -27,6 +29,20 @@ The Catholic parish church of St James sits on the main street, across from Tull
 ## Scoil Mochaomhóg Naofa NS
 
 The village primary school is named after the same St Mochoemog who founded [Liathmore](../places/liathmore.md) two kilometres of road and 1,300 years of history away from the school gate. The continuity of name is one of those quiet things you only notice when you go looking.
+
+## Stories from the parish in the 1937 schoolbook
+
+Two Mile Borris itself didn't have its own collection in the [Schools' Folklore Collection](https://www.duchas.ie/) of 1937 to 1938. The parish-level coverage was done at Leamhach (Leigh) National School up the road, compiled by the teacher Máighread Ní Mhuireagáin. The volume has no named pupils or informants, but it pulls together place-name lore, parish boundaries, and the sort of memory a 1930s village teacher had access to. A few of the entries are worth a click today.
+
+**The bishop and the horseshoe.** The compiler describes the [old parish church beside the castle](https://www.duchas.ie/en/cbes/4922209/4860843/5015854) in nave-and-chancel form, about 82 feet long inside, with a flattish-arched south door and an old rath right beside it. There is a tradition, prompted by horseshoe-shaped marks on the walls, that a bishop is buried inside who died after falling from a horse. If anyone in the village has spotted those marks, we'd love a photo for the record.
+
+**Where the village name comes from.** The same volume gives the [parish boundaries and place-name](https://www.duchas.ie/en/cbes/4922209/4860844/5015856) from *Burghéis a dá mhíle*, the burgage two Irish miles from Thurles, with the older form recorded as *Buirghéis Liath*, named from the nearby ancient church of Liath Mochoeméóg. That is the direct line in writing tying the village name to Liathmore. A companion essay on [Moycarky and Twomileborris parishes together](https://www.duchas.ie/en/cbes/4922209/4860835/5015850) walks the boundaries townland by townland.
+
+**Daniel O'Connell stayed in the parish.** A [monster repeal-era meeting at Knockroe](https://www.duchas.ie/en/cbes/4922209/4860840/5015852) was chaired by Val Maher of Turtulla, the local MP. The Liberator stayed the night at Maher's of Turtulla afterwards.
+
+**The Polish priest at Moycarkey.** A [Polish priest who fought against Russia](https://www.duchas.ie/en/cbes/4922209/4860841/5015853) is said to lie buried in Moycarkey old graveyard. The story has him evading capture in a wood by sawing pine trunks to a man's height overnight and dressing the stumps as soldiers to fool the enemy.
+
+**Drish Bridge, the fort, and 1798.** The compiler also writes up [the fort at Drish Bridge on the Thurles to Two Mile Borris road](https://www.duchas.ie/en/cbes/4922209/4860865/5015888) with two traditions of fights around it: Langley of Archerstown going after the Whiteboys, and an action of 1798 either at the fort itself or at the nearby Loughnafulla graveyard. Drish Bridge was already five-arched in 1786 and locally called the "Six Bridges".
 
 ## The 2007–2009 dig
 

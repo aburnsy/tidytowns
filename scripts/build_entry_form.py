@@ -48,9 +48,9 @@ SIGNED_DATE = date.today().strftime("%d/%m/%Y")
 
 ESTIMATED_LOCATION = (
     "Two Mile Borris is a small village on the N75 in mid-Tipperary, about "
-    "5 km east of Thurles and 1 km off the M8 motorway at Junction 5. The "
-    "village sits between Thurles and Horse and Jockey, with the L4202 "
-    "running through the village core."
+    "5 km east of Thurles and 1 km off the M8 motorway at Junction 5. It can also be approached"
+    " from the old National road R639, which runs parallel to the M8 and passes through the nearby "
+    "village of Littleton to the South and Urlingford to the North"
 )
 
 # Map markdown filename -> section heading prefix to find in the form

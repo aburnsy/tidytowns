@@ -13,6 +13,8 @@ National Spring Clean has been part of school life for the last 8 years, with cl
 
 The school grounds themselves are kept beautifully, with the planters in the front yard well tended and a school garden where the children plant, mind and harvest different fruits and vegetables in raised beds. Active travel is pushed hard, with cycling, scooting and walking to school all encouraged, and the bike shed from An Taisce has made a real difference.
 
+One of the village's two community defibrillators is mounted on the school wall, kept maintained by a separate volunteer group funded through the weekly Split the Pot lottery draw.
+
 Follow [@twomileborrisns](https://www.instagram.com/twomileborrisns/) on Instagram to see the Green Schools work as it happens.
 
 {{ place_photos("school") }}

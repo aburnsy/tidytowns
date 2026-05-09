@@ -8,4 +8,6 @@ Bannon's Bar Lounge sits on the main street, one of the two pubs that anchor the
 
 The Bannon name has been over the door on this stretch of the main street since at least 1889. [Bassett's directory of County Tipperary](https://www.libraryireland.com/genealogy/bassett/tipperary/two-mile-borris.php) for that year listed Pat Bannon as one of three spirit retailers in the village. That gives the pub a documented trading history under the same name of more than 130 years, which is a quietly remarkable bit of continuity for a village this size.
 
+The second of the village's two community defibrillators is mounted on the front of the pub, kept maintained alongside the unit at the school by a volunteer group funded through the weekly Split the Pot lottery draw.
+
 {{ place_photos("bannons") }}
