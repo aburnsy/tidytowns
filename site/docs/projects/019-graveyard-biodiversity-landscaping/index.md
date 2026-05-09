@@ -21,6 +21,8 @@ places:
 
 The cemetery has a recent extension, and that new ground is the obvious spot for a proper bit of biodiversity planting. The grave plots stay as they are, but the surrounding strips and corners can carry pollinator-friendly species without changing the feel of the place for visitors. We need Ann-Marie's read on what suits this exact site before we plant a thing.
 
+The extension is also the natural home for native tree planting in the village. Our existing village core, with mature canopy across the estates, the approach roads and the Old Road Triangle, is already tree-rich; a few well-chosen native species along the cemetery extension perimeter will do more for biodiversity than scattered planting across already-treed ground. Species and layout will be planned with Ann-Marie's input as part of the same scheme.
+
 ## What the adjudicator said
 
 The 2025 adjudicator recommended pursuing biodiversity-rich landscaping for the graveyard extension and suggested consulting the County Biodiversity Officer before proceeding with any planting to ensure appropriate species selection.
