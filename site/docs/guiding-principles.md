@@ -10,22 +10,24 @@ How the committee operates: how we choose what to plant where, how we spend mone
 
 ## 1. Planting policy: what goes where
 
-The committee maintains three categories of planted space, each with a different purpose and a different default species choice.
+The committee maintains three categories of planted space. Each one has a different purpose and a different default species choice. We're honest with ourselves that the planters and the in-ground beds aren't pure native habitat — they're high-visibility village beds where longevity and value-for-money come first, and we lean on the All-Ireland Pollinator Plan list to make the pollinator-friendly choice within that.
 
-**Raised beds and planters.** High-visibility, high-traffic locations such as the village core and the monument area. Limited soil volume and exposure mean these are the hardest places to maintain natives. Default: a mix of pollinator-friendly perennials chosen from the All-Ireland Pollinator Plan recommended list. Replacement plants chosen for value-for-money over multiple seasons rather than single-year display, splitting existing perennials across beds where we can rather than buying in fresh annuals.
+**Trough planters and raised beds.** The cohesive village-wide blue planter scheme (cemetery layby, Meadow Brook entrance, Transport Museum gates, the former Dempsey & Harold Motors site, the school's 1846 plaque on the L4202), plus the older concrete and plastic planters at Corcoran's and similar spots that we are gradually filling with split perennials as the existing annuals die back. Limited soil volume and roadside exposure mean these need the hardiest, longest-flowering pollinator-friendly perennials we can find rather than a strictly native mix. Default: clump-forming pollinator perennials we can divide ourselves between beds.
 
-**In-ground beds.** Sensory garden, monument area surrounds, cemetery entrance, named beds at estate entrances. Sufficient soil and root depth to grow natives well. Default: native and near-native pollinator-friendly perennials from the All-Ireland Pollinator Plan list, layered to give continuous flowering from March to October. Seed-heads are left for birds in autumn; cutting back is delayed to early spring.
+**In-ground beds.** The main flower bed at the monument area, the named beds at the cemetery entrance and at estate entrances, the Sensory Garden beds. Sufficient soil and root depth to grow a wider mix. Default: pollinator-friendly perennials layered to give continuous flowering from March to October, with native and near-native species used wherever they cope with the conditions. Seed-heads are left for birds in autumn; cutting back is delayed to early spring.
 
-**Wildflower areas and unmown verges.** St James Church grounds, Leighton Manor estate entrance, Glen Carraig estate entrance, inside strip of approach-road verges. Default: no sown seed mix at all. We let the existing native seed bank emerge, manage by removing dock and thistle periodically from April to September, and cut-and-remove in autumn to keep soil nutrients low. Longer term we would like to add "Managed for wildlife" signage so the intent is obvious. This follows All-Ireland Pollinator Plan grassland guidance.
+**Wildflower areas and unmown verges.** Leighton Manor estate entrance with the existing allium-and-chamomile strip (agreed), Castlepark sycamore-corner border (agreed), the seating area where we've decided to let the alliums come up through the longer grass, and a set of areas still in conversation: St James Church grounds (under the parish's *Returning to Nature* decision), Glen Carraig estate entrance, the other village estates, and the inside strips of the approach-road verges (council Roads section). Default: no sown seed mix at all. We let the existing native seed bank emerge, manage by removing dock and thistle periodically from April to September, and cut-and-remove in autumn or do a single early-spring cut so soil nutrients stay low. Longer term we'd like a "managed for wildlife" sign on each so residents know it's on purpose. This follows the All-Ireland Pollinator Plan grassland guidance.
 
 **Species choice criteria, in order of priority:**
 
-1. **Native first.** The default for any new planting is a native species suited to the soil and aspect.
-2. **Perennial preferred.** Perennials give multi-year value for the same cash spend; annuals are reserved for high-impact, high-visibility locations.
-3. **Pollinator-friendly.** Where neither native nor perennial is practical, the next test is whether the species appears on the All-Ireland Pollinator Plan recommended list.
-4. **Simple flower form.** Single-flowered cultivars over double-flowered, so short-tongued bees can access them.
-5. **Continuous flowering.** Aim for at least one species in flower every month from March to October across the village's planted areas.
-6. **Value for money.** Where two species meet the criteria, the cheaper one wins.
+1. **Pollinator value first.** Every variety in the planter and bed mix earns its keep on the All-Ireland Pollinator Plan plant list.
+2. **Subdividable.** Clump-forming so we can split our own existing stock between beds rather than buying in fresh annuals each year. This is how we keep ongoing cost down to almost nothing.
+3. **Long flowering season.** We aim for continuous flowering from March to October across the village's planted areas, no hungry gaps for pollinators.
+4. **Hardy.** Roadside conditions (full sun, free-draining soil, occasional salt spray) rule out a lot of fancier garden options. Anything that can't cope doesn't earn a spot.
+5. **Simple open flowers.** Single-flowered cultivars over double-flowered, so short-tongued bees can actually access the nectar. No heavily bred cultivars with little or no pollen.
+6. **Native and near-native where they cope.** Where a native option meets the four criteria above, it wins. Where it doesn't, a near-native that does is preferred to a poor-condition native.
+7. **Red and yellow as the core colours.** The village flag colours, picked up across the planter scheme and the monument-area bed.
+8. **Value for money.** Where two species meet the criteria, the cheaper one wins.
 
 ---
 
