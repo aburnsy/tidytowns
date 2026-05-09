@@ -12,6 +12,7 @@ Run with:
   uv run python scripts/build_site_snapshot.py
 """
 
+import base64
 import html
 import re
 import shutil
@@ -23,7 +24,10 @@ from pathlib import Path
 ROOT = Path(__file__).parent.parent
 DOCS = ROOT / "site" / "docs"
 ATTACH_DIR = ROOT / "private" / "application-2026" / "attachments"
+PHOTO_DIR = ROOT / "private" / "application-photos-2026"
 OUTPUT = ATTACH_DIR / "project-tracker-snapshot.pdf"
+SITE_URL = "https://aburnsy.github.io/tidytowns"
+COVER_PHOTO = PHOTO_DIR / "village-aerial-sunset-spring-2025.jpg"
 
 BROWSER_CANDIDATES = [
     # Chrome first - Edge headless --print-to-pdf is unreliable on this machine
@@ -139,6 +143,10 @@ def render_project_row(p: dict) -> str:
     tags = html.escape(fmt(p.get("tags", "")))
     summary = html.escape(strip_em_dashes(p.get("_summary", "")))
 
+    subdir = p.get("_subdir", "projects")
+    folder = p.get("_folder", "")
+    project_url = f"{SITE_URL}/{subdir}/{folder}/" if folder else SITE_URL
+
     badges = []
     if benefit:
         badges.append(f'<span class="badge benefit-{benefit.lower()}">Benefit: {benefit}</span>')
@@ -150,7 +158,7 @@ def render_project_row(p: dict) -> str:
     return f"""
     <div class="project">
       <div class="project-head">
-        <div class="project-title"><span class="project-id">{pid}</span> {title}</div>
+        <div class="project-title"><a href="{html.escape(project_url)}"><span class="project-id">{pid}</span> {title}</a></div>
         <div class="project-badges">{''.join(badges)}</div>
       </div>
       {f'<div class="project-status"><strong>Status:</strong> {status}</div>' if status else ''}
@@ -160,18 +168,39 @@ def render_project_row(p: dict) -> str:
     """
 
 
-def render_section(title: str, projects: list, lead: str = "") -> str:
+def render_section(title: str, projects: list, lead: str = "", page_break: bool = False) -> str:
     if not projects:
         return ""
     rows = "\n".join(render_project_row(p) for p in projects)
     lead_html = f'<p class="section-lead">{html.escape(lead)}</p>' if lead else ""
+    cls = ' class="page-break-before"' if page_break else ""
     return f"""
-    <section>
+    <section{cls}>
       <h2>{html.escape(title)}</h2>
       {lead_html}
       {rows}
     </section>
     """
+
+
+def cover_photo_data_uri(path: Path) -> str:
+    if not path.exists():
+        return ""
+    data = base64.b64encode(path.read_bytes()).decode("ascii")
+    return f"data:image/jpeg;base64,{data}"
+
+
+def _delivery_year_key(value):
+    if isinstance(value, list):
+        value = value[0] if value else ""
+    try:
+        return int(str(value).strip())
+    except (ValueError, AttributeError):
+        return 9999  # missing/unsortable years go last
+
+
+def sort_by_delivery_year(projects: list) -> list:
+    return sorted(projects, key=lambda p: (_delivery_year_key(p.get("delivery_year", "")), p.get("_id", "")))
 
 
 CSS = """
@@ -182,27 +211,47 @@ body {
   line-height: 1.4;
   color: #222;
 }
-.cover {
+.cover-page {
+  page-break-after: always;
   text-align: center;
-  margin-bottom: 18pt;
-  padding-bottom: 14pt;
-  border-bottom: 2px solid #1B5E20;
+  padding-top: 4mm;
 }
-.cover h1 {
-  font-size: 22pt;
+.cover-page h1 {
+  font-size: 26pt;
   color: #1B5E20;
-  margin: 0 0 6pt 0;
+  margin: 0 0 4pt 0;
+  letter-spacing: 0.5pt;
 }
-.cover .subtitle { font-size: 11pt; color: #444; }
-.cover .meta { font-size: 9pt; color: #666; margin-top: 6pt; }
+.cover-page .subtitle {
+  font-size: 13pt;
+  color: #444;
+  margin-bottom: 14pt;
+}
+.cover-hero {
+  width: 100%;
+  max-height: 130mm;
+  object-fit: cover;
+  border-radius: 3pt;
+  margin: 0 0 14pt 0;
+  box-shadow: 0 1pt 3pt rgba(0,0,0,0.18);
+}
+.cover-page .meta {
+  font-size: 10pt;
+  color: #666;
+  margin-top: 10pt;
+}
 .intro {
   background: #F1F8E9;
   border-left: 4px solid #1B5E20;
-  padding: 10pt 12pt;
-  margin-bottom: 14pt;
-  font-size: 9.5pt;
+  padding: 12pt 14pt;
+  margin: 0 6mm 0 6mm;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  text-align: left;
+  color: #222;
 }
 section { margin-bottom: 10pt; }
+section.page-break-before { page-break-before: always; }
 section h2 {
   font-size: 14pt;
   color: #1B5E20;
@@ -264,19 +313,27 @@ section h2 {
 .project-status, .project-cost { font-size: 9pt; margin-top: 2pt; }
 .project-summary { font-size: 9pt; margin-top: 4pt; color: #444; }
 strong { color: #1B5E20; }
+a { color: #1B5E20; text-decoration: none; }
+.project-title a { color: inherit; }
+.project-title a:hover { text-decoration: underline; }
+.cover .meta a, .intro a { color: #1B5E20; text-decoration: underline; }
 """
 
 
 def build_html(active, completed, future):
     today = date.today().isoformat()
+    site_link = f'<a href="{SITE_URL}/">{SITE_URL.replace("https://", "")}/</a>'
     intro = (
         "This document is a printable snapshot of the live Two Mile Borris TidyTowns "
-        "project tracker at https://aburnsy.github.io/tidytowns/. The live site is the "
+        f"project tracker at {site_link}. The live site is the "
         "formal multi-year plan; this PDF is included as Attachment 2 of the 2026 "
         "submission so the adjudicator has a single static index of all projects, "
-        "their status, benefit and cost. The live site holds the full project pages, "
-        "supporting evidence and updates."
+        "their status, benefit and cost. Each project title in the following pages "
+        "links straight to its full page on the tracker, with supporting evidence "
+        "and updates."
     )
+    photo_uri = cover_photo_data_uri(COVER_PHOTO)
+    photo_html = f'<img class="cover-hero" src="{photo_uri}" alt="Two Mile Borris at sunset">' if photo_uri else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -285,15 +342,16 @@ def build_html(active, completed, future):
 <style>{CSS}</style>
 </head>
 <body>
-<div class="cover">
+<div class="cover-page">
   <h1>Two Mile Borris TidyTowns</h1>
   <div class="subtitle">Project Tracker, 3 to 5 Year Plan</div>
-  <div class="meta">Snapshot generated {today} &middot; Live tracker: aburnsy.github.io/tidytowns</div>
+  {photo_html}
+  <div class="intro">{intro}</div>
+  <div class="meta">Snapshot generated {today} &middot; Live tracker: <a href="{SITE_URL}/">{SITE_URL.replace("https://", "")}/</a></div>
 </div>
-<div class="intro">{html.escape(intro)}</div>
-{render_section("Active Projects", active, "Currently being delivered or scheduled within the current planning window.")}
-{render_section("Completed Projects", completed, "Projects delivered, captured for the application record.")}
-{render_section("Future Projects", future, "Multi-year ambitions on the public tracker, captured here as forward-look.")}
+{render_section("Active Projects", active, "Currently being delivered or scheduled within the current planning window.", page_break=True)}
+{render_section("Future Projects", future, "Multi-year ambitions on the public tracker, captured here as forward-look.", page_break=True)}
+{render_section("Completed Projects", completed, "Projects delivered, captured for the application record.", page_break=True)}
 </body>
 </html>
 """
@@ -326,9 +384,9 @@ def html_to_pdf(browser: Path, html_str: str, dst: Path):
 def main():
     browser = find_browser()
     print(f"Using browser at: {browser}")
-    active = scan_dir("projects")
-    completed = scan_dir("completed")
-    future = scan_dir("future")
+    active = sort_by_delivery_year(scan_dir("projects"))
+    completed = sort_by_delivery_year(scan_dir("completed"))
+    future = sort_by_delivery_year(scan_dir("future"))
     print(f"Active: {len(active)}, Completed: {len(completed)}, Future: {len(future)}")
     html_str = build_html(active, completed, future)
     html_to_pdf(browser, html_str, OUTPUT)
