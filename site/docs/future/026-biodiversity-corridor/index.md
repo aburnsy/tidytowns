@@ -1,5 +1,5 @@
 ---
-title: "Biodiversity corridor and native tree planting scheme"
+title: "Native tree planting scheme"
 tags:
   - nature-biodiversity
 status: "Future, when capacity or funding allows"

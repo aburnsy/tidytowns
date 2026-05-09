@@ -32,4 +32,4 @@ This is a concrete, infrastructure-grade sustainability project of the kind that
 ## Connections
 
 - Sustainability & Circular Economy story for the Tidy Towns application.
-- Pairs naturally with the parallel community work on water (project 010 water butts; the future-pile village rainwater harvesting).
+- Pairs naturally with the parallel community work on water (project 010 water butts).
