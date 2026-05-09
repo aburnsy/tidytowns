@@ -33,17 +33,17 @@ CONTACT = {
     "Local Authority": "Tipperary County Council",
     "Last Year of Entry": "2025",
     "Organisation Name": "Two Mile Borris Development and Tidy Towns",
-    "Contact Name": "Michael Maher",
-    "Address": "Loughfield, Two Mile Borris, Thurles, Co. Tipperary, E41 A665",
-    "Phone": "086 253 7898",
-    "Email": "michael@tmbvillage.com",
+    "Contact Name": "Andy Burns",
+    "Address": "6 Leighton Manor, Two Mile Borris, Thurles, Co. Tipperary, E41 H6X8",
+    "Phone": "087 091 0661",
+    "Email": "andrewburns89@gmail.com",
     "Internet/Social Media address": (
         "www.tmbvillage.ie  |  https://aburnsy.github.io/tidytowns/  |  Instagram @twomileborristidytowns"
     ),
 }
 
 POPULATION = "600"
-SIGNED_BY = "Michael Maher"
+SIGNED_BY = "Andy Burns"
 SIGNED_DATE = date.today().strftime("%d/%m/%Y")
 
 ESTIMATED_LOCATION = (
