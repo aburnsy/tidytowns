@@ -1,9 +1,9 @@
 ---
 title: "Community EV charger at the (former) pump house"
-delivery_year: 2027
+delivery_year: 2028
 tags:
   - sustainability
-status: "Concept, pending pump house decommissioning"
+status: "Concept, pending pump house decommissioning; informal SEAI contact made"
 cost_estimate: "TBC (capital + grant)"
 benefit: "High"
 volunteer_hours: "10-20hrs (proposal writing, council/Irish Water liaison, grant application)"
@@ -15,7 +15,7 @@ special_award: "Sustainability & Circular Economy"
 
 The village pump house is expected to be **decommissioned in the near future**. Crucially, the site already has **three-phase power** running to it, exactly the supply needed for a fast EV charger. We propose to apply, when the time is right, to **convert the pump house site into a community EV charging point**.
 
-This is a concrete, infrastructure-grade sustainability project of the kind that fits the Tidy Towns Sustainability & Circular Economy award. SEAI community grants of around €15k are available for community energy projects like this, so funding isn't the bottleneck.
+This is a concrete, infrastructure-grade sustainability project of the kind that fits the Tidy Towns Sustainability & Circular Economy award. SEAI community grants of around €15k are available for community energy projects like this, and we've already opened an initial informal conversation with SEAI about the community grant route, so funding isn't the bottleneck.
 
 ## Why this site
 
