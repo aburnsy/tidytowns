@@ -48,14 +48,14 @@ def site_photo(rel: str) -> Path:
 # Each tuple: (Path, caption). Caption format: "Section / Project ref / rec — description"
 PHOTO_CAPTIONS = [
     # --- Page 1: Streetscape, monument, heritage, adjudicator items ---
-    (site_photo("monument/all-ireland-1900-centennial-monument.jpg"),
-     "Section 2 — All-Ireland Victory Centennial monument, the village centre anchor"),
-    (site_photo("monument/centennial-1900-team-plaque-may-2026.jpg"),
-     "Section 1 — 1900 winning panel listed on the monument plaque"),
+    (site_photo("monument/monument-wall-flowers-may-2026.jpg"),
+     "Section 2 — All-Ireland Victory Centennial monument with the 2026 flower bed in the foreground"),
+    (site_photo("monument/flower-bed-portrait-may-2026.jpg"),
+     "Section 2 / Project 012 — Close-up of the monument flower bed in full bloom, May 2026"),
     (site_photo("cemetery/parking-with-planters-may-2026.jpg"),
      "Section 2 / Project 012 — Cohesive blue trough planters at the cemetery parking layby"),
-    (site_photo("transport_museum/gates-may-2026.jpg"),
-     "Section 2 / Project 012 — Blue planters at the Transport Museum gates"),
+    (site_photo("cemetery/blue-planter-may-2026.jpg"),
+     "Section 2 / Project 012 — Single Seamus-built blue trough planter close-up, cemetery layby"),
     (site_photo("forge/forge-front-may-2026.jpg"),
      "Section 2 / Project 022 / rec #2 — The forge, replica window subject for Heritage Officer outreach"),
     (app_photo("derelict-property-cemetery-may-2026.jpg"),

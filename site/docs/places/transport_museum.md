@@ -5,8 +5,12 @@ category: "Other"
 hero: gates-may-2026.jpg
 ---
 
-The Two-Mile-Borris Transport Museum is a car and transport museum on the eastern side of the village. It is temporarily closed at the moment, but the gates and frontage are still very much part of the streetscape, and we keep the wooden planters either side dressed up to match the cohesive village planter scheme. They came into their own for our Vintage Coffee Morning, when the gates were dressed for the day and the museum was the focal point of one of the community fundraisers.
+The Two-Mile-Borris Transport Museum sits on the eastern edge of the village and it's the work of one man, **Eamonn Medley**, who has built it up over the years into one of the real curiosities of the parish. Eamonn opens the gates for events or on demand whenever a village group comes looking for somewhere to gather, and he is incredibly generous with his time. He's also heavily involved in Thurles Lions Club, and between the Lions and the museum a steady stream of car shows and coffee mornings has rolled through the yard, with the proceeds shared out among the village's community groups, the graveyard group included.
 
-When the museum is open it is a real curiosity in the village, the kind of thing visitors do not expect to find at the end of a country road, and we are looking forward to seeing it back in full swing.
+The newest addition is a cracker. A full train and stretch of track that came directly from the now-retired Bord na Móna bog at Littleton, saved from the scrap pile and reassembled on site. It brings a whole layer of recent industrial heritage into a place that was already worth the visit, the kind of thing visitors do not expect to find at the end of a country road.
+
+From our side the gates and frontage are very much part of the village streetscape, and Eamonn keeps a pair of wooden planters either side dressed up to match the cohesive village planter scheme. They came into their own for our Vintage Coffee Morning, when Eamonn opened the gates for the day and the museum became the focal point of one of the year's community fundraisers.
+
+If you're passing and the gates are open, push in and have a look. You won't regret it.
 
 {{ place_photos("transport_museum") }}

@@ -41,7 +41,7 @@ A **cohesive village-wide planter scheme**, locally crafted blue wooden trough p
   </figure>
   <figure>
     <img src="../../assets/map-data/photos/transport_museum/gates-may-2026.jpg" alt="Wooden planters at the Transport Museum gates">
-    <figcaption>The Transport Museum gates dressed up for our Vintage Coffee Morning, with the wooden planters either side echoing the village planter scheme (May 2026)</figcaption>
+    <figcaption>The gates of Eamonn Medley's Transport Museum dressed up for our Vintage Coffee Morning, with the wooden planters either side echoing the village planter scheme (May 2026)</figcaption>
   </figure>
   <figure>
     <img src="../../assets/map-data/photos/corcorans/planter-may-2026.jpg" alt="Older concrete planter at Corcoran's">
