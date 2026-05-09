@@ -25,20 +25,24 @@ DOCS = ROOT / "site" / "docs"
 ATTACH_DIR = ROOT / "private" / "application-2026" / "attachments"
 OUTPUT = ATTACH_DIR / "project-tracker-snapshot.pdf"
 
-EDGE_CANDIDATES = [
+BROWSER_CANDIDATES = [
+    # Chrome first - Edge headless --print-to-pdf is unreliable on this machine
+    Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
+    Path(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"),
     Path(r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"),
     Path(r"C:\Program Files\Microsoft\Edge\Application\msedge.exe"),
 ]
 
 
-def find_edge() -> Path:
-    for p in EDGE_CANDIDATES:
+def find_browser() -> Path:
+    for p in BROWSER_CANDIDATES:
         if p.exists():
             return p
-    found = shutil.which("msedge")
-    if found:
-        return Path(found)
-    raise SystemExit("ERROR: Microsoft Edge not found.")
+    for name in ("chrome", "msedge"):
+        found = shutil.which(name)
+        if found:
+            return Path(found)
+    raise SystemExit("ERROR: Chrome or Edge not found.")
 
 
 def read_frontmatter(filepath: Path):
@@ -295,18 +299,22 @@ def build_html(active, completed, future):
 """
 
 
-def html_to_pdf(edge: Path, html_str: str, dst: Path):
+def html_to_pdf(browser: Path, html_str: str, dst: Path):
     html_str = strip_em_dashes(html_str)
+    dst = dst.resolve()
     with tempfile.TemporaryDirectory() as tmp:
-        html_path = Path(tmp) / "snapshot.html"
+        tmp_path = Path(tmp)
+        html_path = tmp_path / "snapshot.html"
         html_path.write_text(html_str, encoding="utf-8")
         url = html_path.resolve().as_uri()
+        user_data_dir = tmp_path / "browser-profile"
         subprocess.run(
             [
-                str(edge),
+                str(browser),
                 "--headless=new",
                 "--disable-gpu",
                 "--no-pdf-header-footer",
+                f"--user-data-dir={user_data_dir}",
                 f"--print-to-pdf={dst}",
                 url,
             ],
@@ -316,14 +324,14 @@ def html_to_pdf(edge: Path, html_str: str, dst: Path):
 
 
 def main():
-    edge = find_edge()
-    print(f"Using Edge at: {edge}")
+    browser = find_browser()
+    print(f"Using browser at: {browser}")
     active = scan_dir("projects")
     completed = scan_dir("completed")
     future = scan_dir("future")
     print(f"Active: {len(active)}, Completed: {len(completed)}, Future: {len(future)}")
     html_str = build_html(active, completed, future)
-    html_to_pdf(edge, html_str, OUTPUT)
+    html_to_pdf(browser, html_str, OUTPUT)
     print(f"OK: -> {OUTPUT.relative_to(ROOT)} ({OUTPUT.stat().st_size // 1024} KB)")
 
 
