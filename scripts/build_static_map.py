@@ -27,7 +27,7 @@ from pyproj import Transformer
 
 ROOT = Path(__file__).resolve().parent.parent
 MARKERS_JSON = ROOT / "site" / "docs" / "assets" / "map-data" / "markers.json"
-OUT_DIR = ROOT / "private" / "application-2026" / "attachments"
+OUT_DIR = ROOT / "applications-2026"
 OUT_PDF = OUT_DIR / "village-map.pdf"
 OUT_PNG = OUT_DIR / "village-map.png"
 

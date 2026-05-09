@@ -31,7 +31,7 @@ ROOT = Path(__file__).parent.parent
 APP_PHOTOS = ROOT / "private" / "application-photos-2026"
 SITE_PHOTOS = ROOT / "site" / "docs" / "assets" / "map-data" / "photos"
 SITE_COMPLETED = ROOT / "site" / "docs" / "completed"
-OUTPUT = ROOT / "private" / "application-2026" / "attachments" / "photo-appendix.docx"
+OUTPUT = ROOT / "applications-2026" / "photo-appendix.docx"
 
 GREEN = RGBColor(0x1B, 0x5E, 0x20)
 
@@ -54,8 +54,8 @@ PHOTO_CAPTIONS = [
      "Section 2 / Project 012 — Close-up of the monument flower bed in full bloom, May 2026"),
     (site_photo("cemetery/parking-with-planters-may-2026.jpg"),
      "Section 2 / Project 012 — Cohesive blue trough planters at the cemetery parking layby"),
-    (site_photo("cemetery/blue-planter-may-2026.jpg"),
-     "Section 2 / Project 012 — Single Seamus-built blue trough planter close-up, cemetery layby"),
+    (site_photo("meadow_brook/planter-in-flower-summer-2025.jpg"),
+     "Section 2 / Project 012 — Seamus-built blue trough planter in full summer flower at Meadow Brook"),
     (site_photo("forge/forge-front-may-2026.jpg"),
      "Section 2 / Project 022 / rec #2 — The forge, replica window subject for Heritage Officer outreach"),
     (app_photo("derelict-property-cemetery-may-2026.jpg"),
@@ -68,8 +68,8 @@ PHOTO_CAPTIONS = [
      "Sections 3, 7 / Project 047 — Honeybee on a Ruby Giant crocus at Glen Carraig, spring 2026"),
     (site_photo("cluain_na_seimre/crocuses-spring-2026.jpg"),
      "Sections 3, 7, 8 / Project 047 — 1,500 Ruby Giant crocuses at the Cluain Na Seimre entrance green, March 2026"),
-    (site_photo("sensory_garden/timber-gateway-spring-2026.jpg"),
-     "Section 3 / Project 018 — Sensory Garden timber gateway after the spring 2026 maintenance blitz"),
+    (site_photo("sensory_garden/pergola-may-2026.jpg"),
+     "Section 3 / Project 018 — Sensory Garden timber pergola, freshly oiled in the spring 2026 maintenance blitz"),
     (site_photo("sensory_garden/willow-weaving-spring-2026.jpg"),
      "Section 3 / Project 048 — Patrick H weaving the Sensory Garden's living-willow gateway, March 2026"),
     (app_photo("school-sensory-garden-play-may-2026.jpg"),

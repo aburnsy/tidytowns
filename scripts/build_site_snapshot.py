@@ -23,9 +23,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 DOCS = ROOT / "site" / "docs"
-ATTACH_DIR = ROOT / "private" / "application-2026" / "attachments"
+OUT_DIR = ROOT / "applications-2026"
 PHOTO_DIR = ROOT / "private" / "application-photos-2026"
-OUTPUT = ATTACH_DIR / "project-tracker-snapshot.pdf"
+OUTPUT = OUT_DIR / "project-tracker-snapshot.pdf"
 SITE_URL = "https://aburnsy.github.io/tidytowns"
 COVER_PHOTO = PHOTO_DIR / "village-aerial-sunset-spring-2025.jpg"
 

@@ -21,7 +21,7 @@ from docx.oxml.ns import qn
 ROOT = Path(__file__).parent.parent
 TEMPLATE = ROOT / "applications" / "2026-SuperValu-TidyTowns-Entry-Form-English.docx"
 APP_DIR = ROOT / "private" / "application-2026"
-OUTPUT = ROOT / "applications" / "2026-TMB-entry-form-filled.docx"
+OUTPUT = ROOT / "applications-2026" / "2026-TMB-entry-form-filled.docx"
 
 GREEN = RGBColor(0x1B, 0x5E, 0x20)
 

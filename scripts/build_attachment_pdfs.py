@@ -16,11 +16,12 @@ from markdown_it import MarkdownIt
 
 ROOT = Path(__file__).parent.parent
 APP_DIR = ROOT / "private" / "application-2026"
-ATTACH_DIR = APP_DIR / "attachments"
+OUT_DIR = ROOT / "applications-2026"
+SPECIES_NOTE_MD = APP_DIR / "attachments" / "species-planting-note.md"
 
 SOURCES = [
-    (APP_DIR / "guiding-principles.md", ATTACH_DIR / "guiding-principles.pdf", "Two Mile Borris TidyTowns 2026: Guiding Principles"),
-    (ATTACH_DIR / "species-planting-note.md", ATTACH_DIR / "species-planting-note.pdf", "Two Mile Borris TidyTowns 2026: Planting and Species Note"),
+    (APP_DIR / "guiding-principles.md", OUT_DIR / "guiding-principles.pdf", "Two Mile Borris TidyTowns 2026: Guiding Principles"),
+    (SPECIES_NOTE_MD, OUT_DIR / "species-planting-note.pdf", "Two Mile Borris TidyTowns 2026: Planting and Species Note"),
 ]
 
 BROWSER_CANDIDATES = [

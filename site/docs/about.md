@@ -10,10 +10,11 @@ This is the public project tracker for Two Mile Borris Tidy Towns. The [home pag
 
 We competed from 2013 to 2019, then re-entered the competition in 2024.
 
-| Year | Score | Change |
-|------|-------|--------|
-| 2024 | 307   |        |
-| 2025 | 318   | +11    |
+| Year | Score   | Change | Submission |
+|------|---------|--------|------------|
+| 2024 | 307     |        |            |
+| 2025 | 318     | +11    |            |
+| 2026 | Pending |        | [Download zip](assets/downloads/tmb-tidytowns-2026-application.zip) |
 
 ## Photos on this site
 
