@@ -46,8 +46,7 @@ We follow All-Ireland Pollinator Plan grassland guidance: let the existing nativ
 
 **In conversation, not yet on the ground:**
 
-- **Glen Carraig entrance green:** the 2025 adjudicator flagged this spot. The committee has asked the estate to consider designating it as an unmown wildflower area; the estate is researching and the call is theirs (Project 016).
-- **Winter wildlife strips inside other estates:** committee has written to most estates and to the council Roads section proposing small unmown sections in each estate (Project 049). No designations agreed yet.
+- **Wildflower patches in every estate:** the 2025 adjudicator flagged the Glen Carraig entrance specifically; the committee took the principle and went out to every estate and the council Roads section asking for a small unmown patch in each (Project 016). Leighton Manor have agreed; others are still considering. Each patch is left standing through winter for seed-heads and stems, then a single early-spring cut.
 - **Approach-road inside verges:** committee has proposed unmown strips on the N75, Ballyduff Road and L4202 (Project 009), with the conversation open with the County Biodiversity Officer and council Roads section. The mowing is the council's, not ours, so this is a multi-year council relationship rather than something we can deliver on our own.
 
 ---
