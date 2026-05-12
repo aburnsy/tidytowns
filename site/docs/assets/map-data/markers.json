@@ -282,8 +282,8 @@
       "category": "Heritage",
       "color": "#795548",
       "style": "buried",
-      "coords": [52.6660, -7.7077],
-      "desc": "Early Bronze Age flat cremation cemetery with 13 burials (2204-1896 BC), reused in the early medieval period: a 7th century V-shaped ditch, a 9-10th century curvilinear enclosure, and bloom-smithing hearths producing iron. The published NGR is a transcription error; we have placed the marker between AR 35 and AR 37 and asked TII to confirm the true location."
+      "coords": [52.6593, -7.7079],
+      "desc": "Early Bronze Age flat cremation cemetery with 13 burials (2204-1896 BC), reused in the early medieval period: a 7th century V-shaped ditch, a 9-10th century curvilinear enclosure, and bloom-smithing hearths producing iron. The published easting is a transcription error; the published northing (156453) is preserved and the marker is placed ~700m south of AR 35 to match the chainage gap. Awaiting TII confirmation."
     },
     {
       "id": "dig_ar37",

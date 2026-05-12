@@ -69,11 +69,11 @@ A lot of this story is invisible from the road, ploughed flat or buried under to
 
 ## A note on the source material
 
-A huge amount of what we now know about prehistoric, early medieval and medieval Two Mile Borris comes from a single archaeological project. Between September 2006 and October 2007, archaeologists from Valerie J. Keeley Ltd dug seven separate sites along the line of the M8/N8 Cullahill-Cashel road scheme south and east of the village, ahead of motorway construction. The seven sites are known by their excavation numbers AR 31 to AR 37 (registration numbers E2374, E2375, E2376, E2378, E2379 and E2491). Mícheál Ó Droma directed the work on the bigger sites (AR 31-33) and Gary Conboy on the others (AR 35-37).
+A huge amount of what we now know about prehistoric, early medieval and medieval Two Mile Borris comes from one archaeological project. Between September 2006 and October 2007, archaeologists from Valerie J. Keeley Ltd dug seven separate sites along the line of the M8/N8 Cullahill to Cashel road scheme south and east of the village, ahead of motorway construction. The seven sites are known by their excavation numbers AR 31 to AR 37. Mícheál Ó Droma directed the work on the bigger ones (AR 31 to 33) and Gary Conboy on the others (AR 35 to 37).
 
-Ó Droma published a provisional synthesis chapter in 2010 in the National Roads Authority's monograph series, but the final two-volume site reports were only released to the Digital Repository of Ireland later, and they revise the picture in important ways. Some features the 2010 chapter attributed to a single 950-metre dig actually belong to different sites along the corridor.
+Ó Droma published a provisional synthesis chapter in 2010 in the National Roads Authority's monograph series, but the final two-volume site reports only landed on the Digital Repository of Ireland later, and they revise the picture in important ways. Some features the 2010 chapter put on a single 950-metre dig actually belong to different sites along the corridor. The heritage pages here reflect the final reports.
 
-The current heritage pages reflect the final reports. Sources:
+Sources:
 
 - Ó Droma, M. (2010), *Archaeological investigations at Twomileborris, Co. Tipperary*. In: J Eogan (ed.), *Roads, Rediscovery and Research*, NRA Monograph Series No. 5. [Read the chapter (PDF, 14 pages)](https://websitecms.tii.ie/media/2xrh3tkt/mon-5-ch-5-o-droma.pdf).
 - Final reports for each excavation are on the Digital Repository of Ireland:

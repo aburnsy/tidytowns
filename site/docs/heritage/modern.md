@@ -7,26 +7,26 @@ title: "Modern Two Mile Borris (1550 – today)"
 *1550 – today*
 
 <div class="heritage-hero" markdown="1">
-By the early modern period the chartered borough of Buiríos Léith had faded back into a country village. The mill stopped turning. The Norman castle changed hands and slowly became the picturesque ruin you see on the western approach today. The wider story of the village across the last few centuries is parish, school, hurling, agriculture, and now a tightly stitched community trying to lift the place. We're still piecing this part together.
+By the early modern period the chartered borough of Buiríos Léith had faded back into a country village. The mill stopped turning. The Norman castle changed hands and slowly became the picturesque ruin you see on the western approach today. The wider story of the village across the last few centuries is parish, school, hurling, agriculture, and now a tightly stitched community trying to lift the place. We are still piecing this part together.
 </div>
 
-This page is shorter than the others. We have less from a single archaeological source for the modern period, so we're building it up from local memory, parish records, and what we can find. If you have anything to add, [get in touch](mailto:info@tmbvillage.ie).
+This page is shorter than the others. We have less from a single archaeological source for the modern period, so we are building it up from local memory, parish records, and what we can find. If you have anything to add, [get in touch](mailto:info@tmbvillage.ie).
 
 ## The post-medieval surroundings of the Black Castle
 
-Even after the medieval borough had faded, people kept working the land in the immediate shadow of the Black Castle tower house. The 2006-07 dig at [Site AR 31](../places/dig_ar31.md) found a 16th to 17th century scatter of features in Blackcastle townland, directly south of the upstanding tower:
+Even after the medieval borough had faded, people kept working the land in the immediate shadow of the Black Castle tower house. The 2006-07 dig at [AR 31](../places/dig_ar31.md) found a 16th to 17th century scatter of features in Blackcastle townland, directly south of the upstanding tower:
 
 - A stone-built corn-drying kiln dating to roughly the 15th-17th century (cal AD 1447-1629)
 - Two adjacent stone-built circular buildings, probably grain or fodder stores (cal AD 1495-1648 and 1521-1951)
 - Several smithing features, dated cal AD 1452-1634, doing iron-working much like the medieval phase had done a couple of centuries earlier
 - A scatter of field ditches
 
-So even as the borough name and its market function disappeared, the Black Castle continued to be a working farm and craft centre for the new wave of land-holders.
+Even as the borough name and its market function disappeared, Blackcastle continued to be a working farm and craft centre for the new wave of land-holders.
 
 ## The 19th-century limekilns
 
 ![19th-century stone limekiln at AR 31](../assets/map-data/photos/dig_ar31/plate36-limekiln.jpg)
-*One of the 19th-century stone limekilns excavated in Blackcastle townland, looking west. Photo: Valerie J. Keeley Ltd / TII (placeholder).*
+*One of the 19th-century stone limekilns excavated in Blackcastle townland at [AR 31](../places/dig_ar31.md), looking west. Courtesy Valerie J. Keeley Ltd / TII (placeholder).*
 
 A little further west, in the open fields of Blackcastle townland, the dig also uncovered a cluster of 19th-century stone-built limekilns. Lime-burning was a foundational rural industry across 19th-century Tipperary. Quarried limestone, heaped with peat or coal in a kiln, was burned at high temperature to drive off carbon dioxide and produce *quicklime* (calcium oxide). Quicklime was then slaked with water and spread on fields to sweeten the soil for tillage, used as a binding agent in mortar for buildings, or whitewashed onto interior walls. Most townlands in this part of Tipperary had at least one limekiln in the period 1840-1913, and Blackcastle was no exception.
 
@@ -36,11 +36,9 @@ The kilns are gone now, ploughed flat or built over, but their presence is one o
 
 The headline event of modern Two Mile Borris is the [1900 All-Ireland Hurling Final](https://en.wikipedia.org/wiki/1900_All-Ireland_Senior_Hurling_Championship_final). The Two Mile Borris hurling club represented Tipperary that year, and on 26 October 1902 (the final was played late) we beat London 2-5 to 0-6 at Jones' Road in Dublin, the ground that became Croke Park. The men of the village won an All-Ireland.
 
-A century later, in 2000, the village raised the **All-Ireland Victory Centennial monument** at the heart of the village, with the names of the 1900 panel listed on the centre plaque, the club's red-and-yellow flying alongside the Tipperary blue-and-gold. It's still the focal point of the village.
+A century later, in 2000, the village raised the **All-Ireland Victory Centennial monument** at the heart of the village, with the names of the 1900 panel listed on the centre plaque, the club's red-and-yellow flying alongside the Tipperary blue-and-gold. It is still the focal point of the village. The monument and the surrounding bed are described on the [Monument Area](../places/monument.md) place page.
 
-The monument and the surrounding bed are described on the [Monument Area](../places/monument.md) place page.
-
-A grace-note from the [Schools' Folklore Collection](https://www.duchas.ie/) of 1937 to 1938, when Tom Semple was still a living legend across north Tipperary: a child at Gleannach (Glenough) school recorded a [verse "Tom Semple is his name…"](https://www.duchas.ie/en/cbes/4922315/4869357/5071616) about a Tipperary against Clare championship game. He doesn't appear in the Leamhach school volume from his own parish, but the children of the next parish over wrote him into theirs.
+A grace-note from the [Schools' Folklore Collection](https://www.duchas.ie/) of 1937-38, when Tom Semple was still a living legend across north Tipperary: a child at Gleannach (Glenough) school recorded a [verse "Tom Semple is his name…"](https://www.duchas.ie/en/cbes/4922315/4869357/5071616) about a Tipperary against Clare championship game. He doesn't appear in the Leamhach school volume from his own parish, but the children of the next parish over wrote him into theirs.
 
 He wasn't the only sportsman the parish produced. In the same 1937 collection, a Thurles schoolgirl writing up the [local champion athletes of the era](https://www.duchas.ie/en/cbes/4922205/4860563/4946881) names Pat Maher of Two-Mile Borris as the best cross-country runner of the day, alongside hurlers and weight-throwers from across north Tipperary.
 
@@ -58,7 +56,7 @@ There was an older school on the same spot before the National School. A Mrs Har
 
 ## Stories from the parish in the 1937 schoolbook
 
-Two Mile Borris itself didn't have its own collection in the [Schools' Folklore Collection](https://www.duchas.ie/) of 1937 to 1938. The parish-level coverage was done at Leamhach (Leigh) National School up the road, compiled by the teacher Máighread Ní Mhuireagáin, and a handful of village informants also turned up in the schoolbooks of the Thurles schools next door. A few of the entries are worth a click today.
+Two Mile Borris itself didn't have its own collection in the [Schools' Folklore Collection](https://www.duchas.ie/) of 1937-38. The parish-level coverage was done at Leamhach (Leigh) National School up the road, compiled by the teacher Máighread Ní Mhuireagáin, and a handful of village informants also turned up in the schoolbooks of the Thurles schools next door. A few of the entries are worth a click today.
 
 **The bishop and the horseshoe.** The compiler describes the [old parish church beside the castle](https://www.duchas.ie/en/cbes/4922209/4860843/5015854) in nave-and-chancel form, about 82 feet long inside, with a flattish-arched south door and an old rath right beside it. There is a tradition, prompted by horseshoe-shaped marks on the walls, that a bishop is buried inside who died after falling from a horse. If anyone in the village has spotted those marks, we'd love a photo for the record.
 
@@ -74,25 +72,11 @@ Two Mile Borris itself didn't have its own collection in the [Schools' Folklore 
 
 ## The 2007–2009 dig
 
-The other thing worth marking under "modern Two Mile Borris" is, in a slight twist, the dig itself. Between 2007 and 2009, a team of archaeologists from Valerie J Keeley Ltd, directed by Mícheál Ó Droma and supported by the National Roads Authority, worked across 950 metres of road corridor in the fields directly south of the village. They worked through one full year's turning of the seasons. They published a chapter on the findings in 2010.
+The other thing worth marking under "modern Two Mile Borris" is, in a slight twist, the dig itself. Between 2007 and 2009, a team of archaeologists from Valerie J Keeley Ltd, directed by Mícheál Ó Droma and supported by the National Roads Authority, worked across 950 metres of road corridor in the fields directly south of the village. They worked through one full year's turning of the seasons. A chapter on the findings was published in 2010.
 
-Without that dig, almost nothing on the [Prehistoric](prehistoric.md), [Early Medieval](early-medieval.md) or [Medieval](medieval.md) pages would be on this website. The motorway took some of the village's surface, but it gave us back several thousand years of buried story we didn't know we had.
+Without that dig, almost nothing on the [Prehistoric](prehistoric.md), [Early Medieval](early-medieval.md) or [Medieval](medieval.md) pages would be on this website. The motorway took some of the village's surface and handed us back several thousand years of buried story we didn't know we had. For the locations of every dig site and every standing monument named on this page, see the [village map](../map.md).
 
-## What we still need
-
-A proper modern history of Two Mile Borris is still to be written. If you have local memory, photographs, parish records, or research on the village from the last few centuries, the committee would love to hear from you. Drop us a line at [info@tmbvillage.ie](mailto:info@tmbvillage.ie) or come along to a meeting.
-
-## Where on the ground
-
-The modern village is, by definition, the bit you can walk through. The three landmarks named on this page:
-
-| Feature | Notes | Coordinates |
-|---|---|---|
-| 1900 Centennial Monument | Village centre. Erected 2000. Too recent for an SMR record. | 52.6726°N, 7.7108°W |
-| St James parish church | The medieval parish church is recorded on the same ground at SMR TN042-052002-. | 52.6713°N, 7.7139°W |
-| Scoil Mochaomhóg Naofa NS | Primary school named after the saint of [Liathmore](../places/liathmore.md). Opened 1846. | see [Places](../places/school.md) |
-
-For everything else, the [village map](../map.md) ties the modern features together.
+A proper modern history of the village is still to be written. If you have local memory, photographs, parish records, or research on the village from the last few centuries, the committee would love to hear from you. Drop us a line at [info@tmbvillage.ie](mailto:info@tmbvillage.ie) or come along to a meeting.
 
 <div class="heritage-nav" markdown="0">
   <a href="../medieval/">
