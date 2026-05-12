@@ -8,7 +8,7 @@ title: Heritage
 People have been living, working, farming and burying their dead in this corner of Tipperary for at least 2,800 years. The fields immediately south of the village hold one of the richest multi-period archaeological sites uncovered during the M8 motorway build, and that's only the part we've actually dug. The rest is still under your feet.
 </div>
 
-You can pick out nearly every era from what's been found here. The earliest is a Late Bronze Age ritual enclosure on low ground by the Black River, with a strange pit holding the layered bones of an old cow. Hundreds of years later, a fifth-century stockaded settlement on higher ground grew into a classic ringfort. By the 13th century the Anglo-Normans had a working borough on the spot, complete with watermill, iron-smelting furnaces, grain-drying kilns, and 71 silver coins someone tucked into the ground and never came back for. The ruin of their castle still stands on the western approach. Two kilometres east is Liathmore, the early medieval monastery St Mochoemog founded around AD 600, the same saint the village school is named for. And right at the heart of the village stands the centennial monument that lists the lads who brought the All-Ireland hurling title home to Tipperary in 1900.
+You can pick out nearly every era from what's been found here. The earliest is a Late Bronze Age ritual enclosure on low ground by the Black River, with a strange pit holding the layered bones of an old cow. Hundreds of years later, a fifth-century stockaded settlement on higher ground grew into a classic ringfort. By the 13th century the Anglo-Normans had a working borough on the spot, complete with two watermills, iron-smelting furnaces, grain-drying kilns, and 71 silver coins someone tucked into the ground and never came back for. The ruin of their castle still stands on the western approach. Two kilometres east is Liathmore, the early medieval monastery St Mochoemog founded around AD 600, the same saint the village school is named for. And right at the heart of the village stands the centennial monument that lists the lads who brought the All-Ireland hurling title home to Tipperary in 1900.
 
 Pick an era to start exploring.
 
@@ -47,7 +47,7 @@ Pick an era to start exploring.
 
 === "Medieval"
 
-    The Anglo-Normans arrived in 1169 and the landscape changed dramatically. By the late 12th century there was a borough called Buiríos Léith here, held by 1312 by the Archbishop of Cashel himself. The dig found the borough's working edge: a vertical undershot watermill with five-metre oak timbers still in place, three dumbbell-shaped cereal-drying kilns, two iron-tapping furnaces, three smithing hearths, imported pottery from England and France, and a hoard of 53 silver pennies buried in a pit alongside a carved bone object. Up the road on the western approach, Blackcastle still stands.
+    The Anglo-Normans arrived in 1169 and the landscape changed dramatically. By the late 12th century there was a borough called Buiríos Léith here, held by 1312 by the Archbishop of Cashel himself. The dig found the borough's working edge: two vertical undershot watermills on the Black River with five-metre oak timbers still in place, three dumbbell-shaped cereal-drying kilns, two iron-tapping furnaces, three smithing hearths, imported pottery from England and France, and a hoard of 57 silver pennies in a single pit alongside a unique carved bone handle in the shape of a small castle. Up the road on the western approach, Blackcastle still stands.
 
     [Read more about medieval Two Mile Borris →](medieval.md)
 
@@ -69,13 +69,22 @@ A lot of this story is invisible from the road, ploughed flat or buried under to
 
 ## A note on the source material
 
-A huge amount of what we now know about prehistoric, early medieval and medieval Two Mile Borris comes from a single excavation. In 2007 to 2009, archaeologists from Valerie J Keeley Ltd dug 950 metres of ground along the line of the new N75 link road for the M8/N8 Cullahill–Cashel scheme, just south of the village. The excavation was directed by Mícheál Ó Droma. He published a chapter on the findings in 2010 in the National Roads Authority's monograph series.
+A huge amount of what we now know about prehistoric, early medieval and medieval Two Mile Borris comes from a single archaeological project. Between September 2006 and October 2007, archaeologists from Valerie J. Keeley Ltd dug seven separate sites along the line of the M8/N8 Cullahill-Cashel road scheme south and east of the village, ahead of motorway construction. The seven sites are known by their excavation numbers AR 31 to AR 37 (registration numbers E2374, E2375, E2376, E2378, E2379 and E2491). Mícheál Ó Droma directed the work on the bigger sites (AR 31-33) and Gary Conboy on the others (AR 35-37).
 
-The chapter is open access and well worth a read if you're interested:
+Ó Droma published a provisional synthesis chapter in 2010 in the National Roads Authority's monograph series, but the final two-volume site reports were only released to the Digital Repository of Ireland later, and they revise the picture in important ways. Some features the 2010 chapter attributed to a single 950-metre dig actually belong to different sites along the corridor.
+
+The current heritage pages reflect the final reports. Sources:
 
 - Ó Droma, M. (2010), *Archaeological investigations at Twomileborris, Co. Tipperary*. In: J Eogan (ed.), *Roads, Rediscovery and Research*, NRA Monograph Series No. 5. [Read the chapter (PDF, 14 pages)](https://websitecms.tii.ie/media/2xrh3tkt/mon-5-ch-5-o-droma.pdf).
+- Final reports for each excavation are on the Digital Repository of Ireland:
+  [AR 31 / E2374 (Vol I)](https://repository.dri.ie/catalog/7s75st269),
+  [AR 32 / E2375](https://repository.dri.ie/catalog/8049vk941),
+  [AR 33 / E2376 (Vol 1+2)](https://repository.dri.ie/catalog/n584bm480),
+  [AR 35 / E2378](https://repository.dri.ie/catalog/8c980530t),
+  [AR 36 / E2491](https://repository.dri.ie/catalog/dr27bc267),
+  [AR 37 / E2379](https://repository.dri.ie/catalog/8k721x98k).
 
-The Ó Droma chapter is described as a "provisional interpretation" pending the full post-excavation report. We'll update these pages as more is published.
+The seven dig sites are marked on the [village map](../map.md) with a distinct hollow-pin style: nothing survives above ground at any of them.
 
 ## Further reading
 

@@ -245,40 +245,54 @@
       "name": "Borris & Blackcastle dig (AR 31)",
       "category": "Heritage",
       "color": "#795548",
+      "style": "buried",
       "coords": [52.6711, -7.7165],
-      "desc": "Multi-period dig along 300m of the N75 link road, straddling the Black River. Middle Bronze Age roundhouse, Late Bronze Age cremation, two 12th-13th century watermills, a 57-coin Edward I hoard, post-medieval surrounds of the Black Castle, and early modern limekilns. Excavated 2006-07."
+      "desc": "Multi-period dig along 300m of the N75 link road, straddling the Black River. Middle Bronze Age roundhouse, Late Bronze Age cremation, two 12th-13th century watermills, a 57-coin Edward I hoard, post-medieval surrounds of the Black Castle, and early modern limekilns. Excavated 2006-07. Nothing survives above ground."
     },
     {
       "id": "dig_ar32",
       "name": "Bronze Age cremation cemetery (AR 32)",
       "category": "Heritage",
       "color": "#795548",
+      "style": "buried",
       "coords": [52.6698, -7.7139],
-      "desc": "Middle Bronze Age flat cremation cemetery, 9 cremation pits and 11 'blind' cenotaph pits in a tight 12m x 15m cluster. Radiocarbon dates 1619-1454 BC, 1603-1427 BC, 1492-1322 BC."
+      "desc": "Middle Bronze Age flat cremation cemetery, 9 cremation pits and 11 'blind' cenotaph pits in a tight 12m x 15m cluster. Radiocarbon dates 1619-1454 BC, 1603-1427 BC, 1492-1322 BC. Excavated 2006; ploughed flat now."
     },
     {
       "id": "dig_ar33",
       "name": "Ringfort & Enclosure D (AR 33)",
       "category": "Heritage",
       "color": "#795548",
+      "style": "buried",
       "coords": [52.6687, -7.7119],
-      "desc": "The richest of the M8 sites. Late Bronze Age oval 'ritual' enclosure with the famous cattle burial, Early Iron Age iron-working, a 5-8th century D-shaped enclosure, a 7-12th century ringfort with four roundhouses, and an 11th century inhumation cemetery of 18 burials."
+      "desc": "The richest of the M8 sites. Late Bronze Age oval 'ritual' enclosure with the famous cattle burial, Early Iron Age iron-working, a 5-8th century D-shaped enclosure, a 7-12th century ringfort with four roundhouses, and an 11th century inhumation cemetery of 18 burials. Buried under the line of the N75 link."
     },
     {
-      "id": "dig_burnt_mounds",
-      "name": "Bronze Age burnt mounds (AR 35 & AR 37)",
+      "id": "dig_ar35",
+      "name": "Bronze Age burnt mound (AR 35)",
       "category": "Heritage",
       "color": "#795548",
+      "style": "buried",
       "coords": [52.6656, -7.7079],
-      "desc": "A pair of adjacent burnt mound excavations on the same low rise, spanning the late Neolithic / Early Bronze Age (2486-2299 BC) through the Middle Bronze Age (1880-1129 BC). Burnt mounds, troughs and pits."
+      "desc": "Bronze Age burnt mound site, two sub-areas about 30m apart. A late Neolithic / Early Bronze Age trough (2486-2299 BC) and a Middle Bronze Age burnt mound (1880-1660 BC). Excavated 2006. Coordinates pending verification with TII."
     },
     {
       "id": "dig_ar36",
       "name": "Cremation cemetery & smithing site (AR 36)",
       "category": "Heritage",
       "color": "#795548",
-      "coords": [52.6593, -7.6981],
-      "desc": "Early Bronze Age flat cremation cemetery with 13 burials (2204-1896 BC), reused in the early medieval period: a 7th century V-shaped ditch, a 9-10th century curvilinear enclosure, and bloom-smithing hearths producing iron. Map pin approximate (the report's published NGR contains a typo)."
+      "style": "buried",
+      "coords": [52.6660, -7.7077],
+      "desc": "Early Bronze Age flat cremation cemetery with 13 burials (2204-1896 BC), reused in the early medieval period: a 7th century V-shaped ditch, a 9-10th century curvilinear enclosure, and bloom-smithing hearths producing iron. The published NGR is a transcription error; we have placed the marker between AR 35 and AR 37 and asked TII to confirm the true location."
+    },
+    {
+      "id": "dig_ar37",
+      "name": "Bronze Age burnt mound (AR 37)",
+      "category": "Heritage",
+      "color": "#795548",
+      "style": "buried",
+      "coords": [52.6664, -7.7075],
+      "desc": "A second Bronze Age burnt mound site close to AR 35. Three feature groups: a Middle Bronze Age trough (1740-1520 BC), a trough under a separate burnt mound (1367-1129 BC), and two pit clusters. Excavated 2006. Coordinates pending verification with TII."
     }
   ],
   "bogWalk": {

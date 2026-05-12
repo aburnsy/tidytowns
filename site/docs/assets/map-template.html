@@ -130,6 +130,7 @@
         #legend b { font-size: 13px; }
         .legend-row { display: flex; align-items: center; gap: 6px; }
         .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+        .legend-dot-buried { background: white; border: 2px dashed #795548; }
         .legend-line { width: 20px; height: 0; border-top: 3px dashed; flex-shrink: 0; }
         .legend-row { cursor: pointer; padding: 2px 4px; border-radius: 4px; transition: opacity 0.2s, background 0.2s; }
         .legend-row:hover { background: rgba(0,0,0,0.05); }
@@ -155,6 +156,7 @@
         <div class="legend-row" data-category="Housing Estates"><span class="legend-dot" style="background:#00838F"></span> Housing Estates</div>
         <div class="legend-row" data-category="Other"><span class="legend-dot" style="background:#37474F"></span> Other</div>
         <div class="legend-row" data-category="Approach Roads"><span class="legend-dot" style="background:#F44336"></span> Approach Roads</div>
+        <div class="legend-row" data-category="Heritage"><span class="legend-dot legend-dot-buried" style="border-color:#795548"></span> Heritage (below ground)</div>
     </div>
 
     <div id="lightbox">
@@ -293,7 +295,22 @@
             '</div>';
         }
 
-        function createIcon(color) {
+        function createIcon(color, style) {
+            // 'buried' style = hollow pin with dashed outline, used for archaeological
+            // sites that no longer survive above ground.
+            if (style === 'buried') {
+                return L.divIcon({
+                    className: 'custom-marker buried-marker',
+                    html: '<svg width="28" height="42" viewBox="0 0 24 36">' +
+                        '<path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24C24 5.4 18.6 0 12 0z" ' +
+                            'fill="white" stroke="' + color + '" stroke-width="2.5" stroke-dasharray="3,2"/>' +
+                        '<circle cx="12" cy="12" r="4" fill="' + color + '"/>' +
+                        '</svg>',
+                    iconSize: [28, 42],
+                    iconAnchor: [14, 42],
+                    popupAnchor: [0, -42]
+                });
+            }
             return L.divIcon({
                 className: 'custom-marker',
                 html: '<svg width="28" height="42" viewBox="0 0 24 36"><path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24C24 5.4 18.6 0 12 0z" fill="' + color + '" stroke="white" stroke-width="2"/><circle cx="12" cy="12" r="5" fill="white"/></svg>',
@@ -308,7 +325,7 @@
         MAP_DATA.markers.forEach(function(m) {
             photosByName[m.name] = m.photos || [];
             var popup = buildPopup(m);
-            var marker = L.marker(m.coords, { icon: createIcon(m.color) });
+            var marker = L.marker(m.coords, { icon: createIcon(m.color, m.style) });
             marker.bindPopup(popup, { maxWidth: 320, minWidth: 280 });
             marker.bindTooltip(m.name, { permanent: false, direction: 'top', offset: [0, -42] });
 

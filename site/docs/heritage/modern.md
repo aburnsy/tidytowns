@@ -12,6 +12,26 @@ By the early modern period the chartered borough of Buiríos Léith had faded ba
 
 This page is shorter than the others. We have less from a single archaeological source for the modern period, so we're building it up from local memory, parish records, and what we can find. If you have anything to add, [get in touch](mailto:info@tmbvillage.ie).
 
+## The post-medieval surroundings of the Black Castle
+
+Even after the medieval borough had faded, people kept working the land in the immediate shadow of the Black Castle tower house. The 2006-07 dig at [Site AR 31](../places/dig_ar31.md) found a 16th to 17th century scatter of features in Blackcastle townland, directly south of the upstanding tower:
+
+- A stone-built corn-drying kiln dating to roughly the 15th-17th century (cal AD 1447-1629)
+- Two adjacent stone-built circular buildings, probably grain or fodder stores (cal AD 1495-1648 and 1521-1951)
+- Several smithing features, dated cal AD 1452-1634, doing iron-working much like the medieval phase had done a couple of centuries earlier
+- A scatter of field ditches
+
+So even as the borough name and its market function disappeared, the Black Castle continued to be a working farm and craft centre for the new wave of land-holders.
+
+## The 19th-century limekilns
+
+![19th-century stone limekiln at AR 31](../assets/map-data/photos/dig_ar31/plate36-limekiln.jpg)
+*One of the 19th-century stone limekilns excavated in Blackcastle townland, looking west. Photo: Valerie J. Keeley Ltd / TII (placeholder).*
+
+A little further west, in the open fields of Blackcastle townland, the dig also uncovered a cluster of 19th-century stone-built limekilns. Lime-burning was a foundational rural industry across 19th-century Tipperary. Quarried limestone, heaped with peat or coal in a kiln, was burned at high temperature to drive off carbon dioxide and produce *quicklime* (calcium oxide). Quicklime was then slaked with water and spread on fields to sweeten the soil for tillage, used as a binding agent in mortar for buildings, or whitewashed onto interior walls. Most townlands in this part of Tipperary had at least one limekiln in the period 1840-1913, and Blackcastle was no exception.
+
+The kilns are gone now, ploughed flat or built over, but their presence is one of the threads that connects the medieval Norman tower house, the early modern stores around it, and the 19th-century landscape of agricultural improvement that shaped the village we recognise today.
+
 ## The 1900 All-Ireland
 
 The headline event of modern Two Mile Borris is the [1900 All-Ireland Hurling Final](https://en.wikipedia.org/wiki/1900_All-Ireland_Senior_Hurling_Championship_final). The Two Mile Borris hurling club represented Tipperary that year, and on 26 October 1902 (the final was played late) we beat London 2-5 to 0-6 at Jones' Road in Dublin, the ground that became Croke Park. The men of the village won an All-Ireland.
