@@ -239,6 +239,46 @@
       "color": "#2196F3",
       "coords": [52.6724, -7.7162],
       "desc": "The Black River (tributary of the River Drish) flows alongside Blackcastle and under the road. Wildlife includes coots and ducks."
+    },
+    {
+      "id": "dig_ar31",
+      "name": "Borris & Blackcastle dig (AR 31)",
+      "category": "Heritage",
+      "color": "#795548",
+      "coords": [52.6711, -7.7165],
+      "desc": "Multi-period dig along 300m of the N75 link road, straddling the Black River. Middle Bronze Age roundhouse, Late Bronze Age cremation, two 12th-13th century watermills, a 57-coin Edward I hoard, post-medieval surrounds of the Black Castle, and early modern limekilns. Excavated 2006-07."
+    },
+    {
+      "id": "dig_ar32",
+      "name": "Bronze Age cremation cemetery (AR 32)",
+      "category": "Heritage",
+      "color": "#795548",
+      "coords": [52.6698, -7.7139],
+      "desc": "Middle Bronze Age flat cremation cemetery, 9 cremation pits and 11 'blind' cenotaph pits in a tight 12m x 15m cluster. Radiocarbon dates 1619-1454 BC, 1603-1427 BC, 1492-1322 BC."
+    },
+    {
+      "id": "dig_ar33",
+      "name": "Ringfort & Enclosure D (AR 33)",
+      "category": "Heritage",
+      "color": "#795548",
+      "coords": [52.6687, -7.7119],
+      "desc": "The richest of the M8 sites. Late Bronze Age oval 'ritual' enclosure with the famous cattle burial, Early Iron Age iron-working, a 5-8th century D-shaped enclosure, a 7-12th century ringfort with four roundhouses, and an 11th century inhumation cemetery of 18 burials."
+    },
+    {
+      "id": "dig_burnt_mounds",
+      "name": "Bronze Age burnt mounds (AR 35 & AR 37)",
+      "category": "Heritage",
+      "color": "#795548",
+      "coords": [52.6656, -7.7079],
+      "desc": "A pair of adjacent burnt mound excavations on the same low rise, spanning the late Neolithic / Early Bronze Age (2486-2299 BC) through the Middle Bronze Age (1880-1129 BC). Burnt mounds, troughs and pits."
+    },
+    {
+      "id": "dig_ar36",
+      "name": "Cremation cemetery & smithing site (AR 36)",
+      "category": "Heritage",
+      "color": "#795548",
+      "coords": [52.6593, -7.6981],
+      "desc": "Early Bronze Age flat cremation cemetery with 13 burials (2204-1896 BC), reused in the early medieval period: a 7th century V-shaped ditch, a 9-10th century curvilinear enclosure, and bloom-smithing hearths producing iron. Map pin approximate (the report's published NGR contains a typo)."
     }
   ],
   "bogWalk": {
